@@ -8,7 +8,7 @@
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start -H 0.0.0.0",
-    "clean": "rm -rf .next out node_modules coverage .swc yarn.lock next-env.d.ts",
+    "clean": "rm -rf .next out node_modules coverage .swc yarn.lock next-env.d.ts yarn-error.log",
     "lint": "next lint",
     "prettier:check": "prettier . --check",
     "prettier:format": "prettier . --write",
@@ -48,6 +48,10 @@
     "@reduxjs/toolkit": "^2.0.1",
     "react-redux": "^9.0.4",
     "redux-logger": "^3.0.6"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown",
+    "*.js": "eslint --cache --fix"
   },
   "browserslist": [
     "chrome 64",
