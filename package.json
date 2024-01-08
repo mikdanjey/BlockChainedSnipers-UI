@@ -49,10 +49,6 @@
     "react-redux": "^9.0.4",
     "redux-logger": "^3.0.6"
   },
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown",
-    "*.js": "eslint --cache --fix"
-  },
   "browserslist": [
     "chrome 64",
     "edge 79",
