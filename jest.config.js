@@ -166,15 +166,7 @@ const customJestConfig = {
   // ],
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
-  testPathIgnorePatterns: [
-    // TODO: To be fixed
-    "core.test.js",
-    "app/__tests__/Home.test.js",
-    "components/ui/__tests__/copy-button.test.js",
-    "components/ui/__tests__/dialog.test.js",
-    "components/ui/__tests__/form.test.js",
-    "components/ui/__tests__/badge.test.js",
-  ],
+  testPathIgnorePatterns: [],
 
   // The regexp pattern or array of patterns that Jest uses to detect test files
   // testRegex: [],
