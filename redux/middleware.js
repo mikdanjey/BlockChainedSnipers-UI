@@ -1,6 +1,5 @@
 import { createLogger } from "redux-logger";
 
-const { NEXT_PUBLIC_NODE_ENV } = process.env;
 const middleware = [
   createLogger({
     duration: true,
