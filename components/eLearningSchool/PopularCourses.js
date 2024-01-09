@@ -24,12 +24,11 @@ const PopularCourses = ({ courses = [] }) => {
                       href="/courses/[id]"
                       as={`/courses/${course.id}`}
                       className="d-block image"
-                      legacyBehavior
                     >
                       <img src={course.profilePhoto} alt={course.title} />
                     </Link>
 
-                    <Link href="#" className="fav" legacyBehavior>
+                    <Link href="#" className="fav">
                       <i className="flaticon-heart"></i>
                     </Link>
 
@@ -51,11 +50,7 @@ const PopularCourses = ({ courses = [] }) => {
                     </div>
 
                     <h3>
-                      <Link
-                        href="/courses/[id]"
-                        as={`/courses/${course.id}`}
-                        legacyBehavior
-                      >
+                      <Link href="/courses/[id]" as={`/courses/${course.id}`}>
                         {course.title}
                       </Link>
                     </h3>

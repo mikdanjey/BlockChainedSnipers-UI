@@ -11,9 +11,8 @@ const TopSellingCourses = () => {
           <span className="sub-title">Learn At Your Own Pace</span>
           <h2 className="font-weight-black">Top Selling Courses</h2>
           <p>
-            Explore all of our courses and pick your suitable ones to enroll
-            and start learning with us! We ensure that you will never regret
-            it!
+            Explore all of our courses and pick your suitable ones to enroll and
+            start learning with us! We ensure that you will never regret it!
           </p>
         </div>
 
@@ -52,7 +51,7 @@ const TopSellingCourses = () => {
                   <img src="/images/price-bg.png" alt="image" />
                   <span>$39</span>
                 </div>
-                <Link href="#" className="link-btn" legacyBehavior></Link>
+                <Link href="#" className="link-btn"></Link>
               </div>
 
               <div className="courses-content">
@@ -90,7 +89,7 @@ const TopSellingCourses = () => {
                   <img src="/images/price-bg.png" alt="image" />
                   <span>$49</span>
                 </div>
-                <Link href="#" className="link-btn" legacyBehavior></Link>
+                <Link href="#" className="link-btn"></Link>
               </div>
 
               <div className="courses-content">
@@ -128,7 +127,7 @@ const TopSellingCourses = () => {
                   <img src="/images/price-bg.png" alt="image" />
                   <span>$59</span>
                 </div>
-                <Link href="#" className="link-btn" legacyBehavior></Link>
+                <Link href="#" className="link-btn"></Link>
               </div>
 
               <div className="courses-content">
@@ -166,7 +165,7 @@ const TopSellingCourses = () => {
                   <img src="/images/price-bg.png" alt="image" />
                   <span>$69</span>
                 </div>
-                <Link href="#" className="link-btn" legacyBehavior></Link>
+                <Link href="#" className="link-btn"></Link>
               </div>
 
               <div className="courses-content">

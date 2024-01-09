@@ -18,14 +18,10 @@ const PopularCoursesTwo = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box bg-color">
               <div className="courses-image">
-                <Link
-                  href="/single-courses-2"
-                  className="d-block image"
-                  legacyBehavior
-                >
+                <Link href="/single-courses-2" className="d-block image">
                   <img src="/images/courses/courses6.jpg" alt="image" />
                 </Link>
-                <Link href="#" className="fav" legacyBehavior>
+                <Link href="#" className="fav">
                   <i className="flaticon-heart"></i>
                 </Link>
                 <div className="price shadow">$39</div>
@@ -53,14 +49,10 @@ const PopularCoursesTwo = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box bg-color">
               <div className="courses-image">
-                <Link
-                  href="/single-courses-2"
-                  className="d-block image"
-                  legacyBehavior
-                >
+                <Link href="/single-courses-2" className="d-block image">
                   <img src="/images/courses/courses7.jpg" alt="image" />
                 </Link>
-                <Link href="#" className="fav" legacyBehavior>
+                <Link href="#" className="fav">
                   <i className="flaticon-heart"></i>
                 </Link>
                 <div className="price shadow">$49</div>
@@ -88,14 +80,10 @@ const PopularCoursesTwo = () => {
           <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
             <div className="single-courses-box bg-color">
               <div className="courses-image">
-                <Link
-                  href="/single-courses-2"
-                  className="d-block image"
-                  legacyBehavior
-                >
+                <Link href="/single-courses-2" className="d-block image">
                   <img src="/images/courses/courses8.jpg" alt="image" />
                 </Link>
-                <Link href="#" className="fav" legacyBehavior>
+                <Link href="#" className="fav">
                   <i className="flaticon-heart"></i>
                 </Link>
                 <div className="price shadow">$59</div>

@@ -9,11 +9,7 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link
-                href="/single-courses-1"
-                className="d-block image"
-                legacyBehavior
-              >
+              <Link href="/single-courses-1" className="d-block image">
                 <img src="/images/courses/courses1.jpg" alt="image" />
               </Link>
               <a href="#" className="fav">
@@ -57,11 +53,7 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link
-                href="/single-courses-1"
-                className="d-block image"
-                legacyBehavior
-              >
+              <Link href="/single-courses-1" className="d-block image">
                 <img src="/images/courses/courses2.jpg" alt="image" />
               </Link>
               <a href="#" className="fav">
@@ -104,11 +96,7 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link
-                href="/single-courses-1"
-                className="d-block image"
-                legacyBehavior
-              >
+              <Link href="/single-courses-1" className="d-block image">
                 <img src="/images/courses/courses3.jpg" alt="image" />
               </Link>
               <a href="#" className="fav">
@@ -151,11 +139,7 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link
-                href="/single-courses-1"
-                className="d-block image"
-                legacyBehavior
-              >
+              <Link href="/single-courses-1" className="d-block image">
                 <img src="/images/courses/courses4.jpg" alt="image" />
               </Link>
               <a href="#" className="fav">
@@ -198,11 +182,7 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link
-                href="/single-courses-1"
-                className="d-block image"
-                legacyBehavior
-              >
+              <Link href="/single-courses-1" className="d-block image">
                 <img src="/images/courses/courses5.jpg" alt="image" />
               </Link>
               <a href="#" className="fav">
@@ -245,11 +225,7 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link
-                href="/single-courses-1"
-                className="d-block image"
-                legacyBehavior
-              >
+              <Link href="/single-courses-1" className="d-block image">
                 <img src="/images/courses/courses6.jpg" alt="image" />
               </Link>
               <a href="#" className="fav">
@@ -292,11 +268,7 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link
-                href="/single-courses-1"
-                className="d-block image"
-                legacyBehavior
-              >
+              <Link href="/single-courses-1" className="d-block image">
                 <img src="/images/courses/courses10.jpg" alt="image" />
               </Link>
               <a href="#" className="fav">
@@ -339,11 +311,7 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link
-                href="/single-courses-1"
-                className="d-block image"
-                legacyBehavior
-              >
+              <Link href="/single-courses-1" className="d-block image">
                 <img src="/images/courses/courses11.jpg" alt="image" />
               </Link>
               <a href="#" className="fav">
@@ -386,11 +354,7 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link
-                href="/single-courses-1"
-                className="d-block image"
-                legacyBehavior
-              >
+              <Link href="/single-courses-1" className="d-block image">
                 <img src="/images/courses/courses12.jpg" alt="image" />
               </Link>
               <a href="#" className="fav">
@@ -433,11 +397,7 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link
-                href="/single-courses-1"
-                className="d-block image"
-                legacyBehavior
-              >
+              <Link href="/single-courses-1" className="d-block image">
                 <img src="/images/courses/courses13.jpg" alt="image" />
               </Link>
               <a href="#" className="fav">
@@ -480,11 +440,7 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link
-                href="/single-courses-1"
-                className="d-block image"
-                legacyBehavior
-              >
+              <Link href="/single-courses-1" className="d-block image">
                 <img src="/images/courses/courses14.jpg" alt="image" />
               </Link>
               <a href="#" className="fav">
@@ -527,11 +483,7 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link
-                href="/single-courses-1"
-                className="d-block image"
-                legacyBehavior
-              >
+              <Link href="/single-courses-1" className="d-block image">
                 <img src="/images/courses/courses15.jpg" alt="image" />
               </Link>
               <a href="#" className="fav">

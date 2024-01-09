@@ -21,7 +21,7 @@ const SuccessfulStudents = () => {
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="start-with-success-box">
               <div className="image">
-                <Link href="#" legacyBehavior>
+                <Link href="#">
                   <img
                     src="/images/success-people/success-people1.jpg"
                     alt="image"
@@ -30,7 +30,7 @@ const SuccessfulStudents = () => {
               </div>
 
               <div className="content">
-                <Link href="#" className="link-btn" legacyBehavior>
+                <Link href="#" className="link-btn">
                   <i className="flaticon-right"></i>
                 </Link>
                 <h3>Sarah Taylor</h3>
@@ -42,7 +42,7 @@ const SuccessfulStudents = () => {
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="start-with-success-box">
               <div className="image">
-                <Link href="#" legacyBehavior>
+                <Link href="#">
                   <img
                     src="/images/success-people/success-people2.jpg"
                     alt="image"
@@ -51,7 +51,7 @@ const SuccessfulStudents = () => {
               </div>
 
               <div className="content">
-                <Link href="#" className="link-btn" legacyBehavior>
+                <Link href="#" className="link-btn">
                   <i className="flaticon-right"></i>
                 </Link>
                 <h3>Alex Maxwell</h3>
@@ -63,7 +63,7 @@ const SuccessfulStudents = () => {
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="start-with-success-box">
               <div className="image">
-                <Link href="#" legacyBehavior>
+                <Link href="#">
                   <img
                     src="/images/success-people/success-people3.jpg"
                     alt="image"
@@ -72,7 +72,7 @@ const SuccessfulStudents = () => {
               </div>
 
               <div className="content">
-                <Link href="#" className="link-btn" legacyBehavior>
+                <Link href="#" className="link-btn">
                   <i className="flaticon-right"></i>
                 </Link>
                 <h3>Eva Lucy</h3>
@@ -84,7 +84,7 @@ const SuccessfulStudents = () => {
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="start-with-success-box">
               <div className="image">
-                <Link href="#" legacyBehavior>
+                <Link href="#">
                   <img
                     src="/images/success-people/success-people4.jpg"
                     alt="image"
@@ -93,7 +93,7 @@ const SuccessfulStudents = () => {
               </div>
 
               <div className="content">
-                <Link href="#" className="link-btn" legacyBehavior>
+                <Link href="#" className="link-btn">
                   <i className="flaticon-right"></i>
                 </Link>
                 <h3>Alina Smith</h3>
@@ -105,7 +105,7 @@ const SuccessfulStudents = () => {
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="start-with-success-box">
               <div className="image">
-                <Link href="#" legacyBehavior>
+                <Link href="#">
                   <img
                     src="/images/success-people/success-people5.jpg"
                     alt="image"
@@ -114,7 +114,7 @@ const SuccessfulStudents = () => {
               </div>
 
               <div className="content">
-                <Link href="#" className="link-btn" legacyBehavior>
+                <Link href="#" className="link-btn">
                   <i className="flaticon-right"></i>
                 </Link>
                 <h3>James Anderson</h3>
@@ -126,7 +126,7 @@ const SuccessfulStudents = () => {
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="start-with-success-box">
               <div className="image">
-                <Link href="#" legacyBehavior>
+                <Link href="#">
                   <img
                     src="/images/success-people/success-people6.jpg"
                     alt="image"
@@ -135,7 +135,7 @@ const SuccessfulStudents = () => {
               </div>
 
               <div className="content">
-                <Link href="#" className="link-btn" legacyBehavior>
+                <Link href="#" className="link-btn">
                   <i className="flaticon-right"></i>
                 </Link>
                 <h3>Meg Lanning</h3>

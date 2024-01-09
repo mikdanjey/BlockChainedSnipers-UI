@@ -27,7 +27,7 @@ const LanguageCourses = () => {
                 eiusmod tempor incididunt ut labore et dolore.
               </p>
 
-              <Link href="/courses-1" className="default-btn" legacyBehavior>
+              <Link href="/courses-1" className="default-btn">
                 <i className="flaticon-right"></i>View More<span></span>
               </Link>
             </div>
@@ -45,7 +45,7 @@ const LanguageCourses = () => {
                 eiusmod tempor incididunt ut labore et dolore.
               </p>
 
-              <Link href="/courses-1" className="default-btn" legacyBehavior>
+              <Link href="/courses-1" className="default-btn">
                 <i className="flaticon-right"></i>View More<span></span>
               </Link>
             </div>
@@ -63,7 +63,7 @@ const LanguageCourses = () => {
                 eiusmod tempor incididunt ut labore et dolore.
               </p>
 
-              <Link href="/courses-1" className="default-btn" legacyBehavior>
+              <Link href="/courses-1" className="default-btn">
                 <i className="flaticon-right"></i>View More<span></span>
               </Link>
             </div>

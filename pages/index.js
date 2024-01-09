@@ -1,4 +1,5 @@
 import React from "react";
+
 import useTranslation from "next-translate/useTranslation";
 import MainBanner from "@/components/Index/MainBanner";
 import Features from "@/components/Index/Features";
@@ -11,7 +12,6 @@ import Ad from "@/components/Index/Ad";
 import Funfacts from "@/components/Index/Funfacts";
 import Blog from "@/components/Index/Blog";
 import EdemyPremium from "@/components/Index/EdemyPremium";
-import baseUrl from "@/utils/baseUrl";
 import SEO from "@/components/SEO";
 
 const index = ({ courses = [] }) => {

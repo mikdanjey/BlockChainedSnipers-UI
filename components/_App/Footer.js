@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="single-footer-widget">
-              <Link href="/" className="logo" legacyBehavior>
+              <Link href="/" className="logo">
                 <img src="/images/logo2.png" alt="logo" />
               </Link>
 

@@ -16,11 +16,7 @@ const MainBanner = ({ courses = [] }) => {
                 can offer you to enjoy the beauty of eLearning!
               </p>
 
-              <Link
-                href="/profile-authentication"
-                className="default-btn"
-                legacyBehavior
-              >
+              <Link href="/profile-authentication" className="default-btn">
                 <i className="flaticon-user"></i>Join For Free<span></span>
               </Link>
             </div>
@@ -37,12 +33,11 @@ const MainBanner = ({ courses = [] }) => {
                           href="/courses/[id]"
                           as={`/courses/${course.id}`}
                           className="d-block image"
-                          legacyBehavior
                         >
                           <img src={course.profilePhoto} alt={course.title} />
                         </Link>
 
-                        <Link href="#" className="fav" legacyBehavior>
+                        <Link href="#" className="fav">
                           <i className="flaticon-heart"></i>
                         </Link>
 
@@ -67,7 +62,6 @@ const MainBanner = ({ courses = [] }) => {
                           <Link
                             href="/courses/[id]"
                             as={`/courses/${course.id}`}
-                            legacyBehavior
                           >
                             {course.title}
                           </Link>

@@ -23,7 +23,6 @@ const MainBanner = () => {
               <Link
                 href="/profile-authentication"
                 className="default-btn-style-two"
-                legacyBehavior
               >
                 <i className="flaticon-user"></i>Join For Free
               </Link>

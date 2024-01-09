@@ -12,11 +12,7 @@ const MainBanner = () => {
             <div className="main-banner-content-style-two">
               <h1>{t("bannertitle")}</h1>
               <p>{t("bannersubtitle")}</p>
-              <Link
-                href="/authentication"
-                className="default-btn"
-                legacyBehavior
-              >
+              <Link href="/authentication" className="default-btn">
                 <i className="flaticon-user"></i>
                 {t("button")}
                 <span></span>

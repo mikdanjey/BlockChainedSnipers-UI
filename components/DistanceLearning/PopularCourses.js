@@ -44,11 +44,7 @@ const PopularCourses = () => {
             <SwiperSlide>
               <div className="single-courses-box">
                 <div className="courses-image">
-                  <Link
-                    href="/single-courses-2"
-                    className="d-block image"
-                    legacyBehavior
-                  >
+                  <Link href="/single-courses-2" className="d-block image">
                     <img src="/images/courses/courses1.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
@@ -90,11 +86,7 @@ const PopularCourses = () => {
             <SwiperSlide>
               <div className="single-courses-box">
                 <div className="courses-image">
-                  <Link
-                    href="/single-courses-2"
-                    className="d-block image"
-                    legacyBehavior
-                  >
+                  <Link href="/single-courses-2" className="d-block image">
                     <img src="/images/courses/courses2.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
@@ -135,11 +127,7 @@ const PopularCourses = () => {
             <SwiperSlide>
               <div className="single-courses-box">
                 <div className="courses-image">
-                  <Link
-                    href="/single-courses-2"
-                    className="d-block image"
-                    legacyBehavior
-                  >
+                  <Link href="/single-courses-2" className="d-block image">
                     <img src="/images/courses/courses3.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
@@ -180,11 +168,7 @@ const PopularCourses = () => {
             <SwiperSlide>
               <div className="single-courses-box">
                 <div className="courses-image">
-                  <Link
-                    href="/single-courses-2"
-                    className="d-block image"
-                    legacyBehavior
-                  >
+                  <Link href="/single-courses-2" className="d-block image">
                     <img src="/images/courses/courses4.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">

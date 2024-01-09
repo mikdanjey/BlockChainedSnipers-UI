@@ -20,7 +20,6 @@ const CourseCard = ({
             href="/courses/[id]"
             as={`/courses/${id}`}
             className="d-block image"
-            legacyBehavior
           >
             <img src={profilePhoto} alt={title} />
           </Link>
@@ -42,7 +41,7 @@ const CourseCard = ({
           </div>
 
           <h3>
-            <Link href="/courses/[id]" as={`/courses/${id}`} legacyBehavior>
+            <Link href="/courses/[id]" as={`/courses/${id}`}>
               {title}
             </Link>
           </h3>

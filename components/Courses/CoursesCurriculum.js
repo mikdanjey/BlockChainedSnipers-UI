@@ -13,7 +13,6 @@ const CoursesCurriculum = ({ videos }) => {
                 href="/courses"
                 className="d-flex justify-content-between align-items-center"
                 onClick={(e) => e.preventDefault()}
-                legacyBehavior
               >
                 <span className="courses-name">{video.name}</span>
                 <div className="courses-meta">
