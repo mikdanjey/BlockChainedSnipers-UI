@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
     ogImage: "/images/logo.png",
     ogUrl: "https://developers.city",
     twitterHandle: "@YourDevToolsSite",
-    favicon: "/favicon.ico",
+    favicon: "/images/favicon.png",
     siteName: "YourSite - Developers Tools",
     keywords: "development tools, software development, coding resources",
     author: "Mikdan Tech Solutions",

@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
           name="twitter:card"
           content="eDemy - React Next.js Education LMS Template"
         ></meta>
-        <link rel="canonical" href="https://edemy-react.envytheme.com/"></link>
+        <link rel="canonical" href="https://mikdantech.local"></link>
       </Head>
 
       {children}

@@ -8,7 +8,7 @@
   "background_color": "#3056de",
   "intent_filters": {
     "scope_url_scheme": "https",
-    "scope_url_host": "edemy-react.envytheme.com",
+    "scope_url_host": "mikdantech.local",
     "scope_url_path": "/"
   },
   "scope": "/",
