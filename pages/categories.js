@@ -29,9 +29,7 @@ const Categories = () => {
                   <span>10 Courses</span>
                 </div>
 
-                <Link href="/courses-1">
-                  <a className="link-btn"></a>
-                </Link>
+                <Link href="/courses-1" className="link-btn"></Link>
               </div>
             </div>
 
@@ -44,9 +42,7 @@ const Categories = () => {
                   <span>20 Courses</span>
                 </div>
 
-                <Link href="/courses-1">
-                  <a className="link-btn"></a>
-                </Link>
+                <Link href="/courses-1" className="link-btn"></Link>
               </div>
             </div>
 
@@ -59,9 +55,7 @@ const Categories = () => {
                   <span>15 Courses</span>
                 </div>
 
-                <Link href="/courses-1">
-                  <a className="link-btn"></a>
-                </Link>
+                <Link href="/courses-1" className="link-btn"></Link>
               </div>
             </div>
 
@@ -74,9 +68,7 @@ const Categories = () => {
                   <span>11 Courses</span>
                 </div>
 
-                <Link href="/courses-1">
-                  <a className="link-btn"></a>
-                </Link>
+                <Link href="/courses-1" className="link-btn"></Link>
               </div>
             </div>
 
@@ -89,9 +81,7 @@ const Categories = () => {
                   <span>10 Courses</span>
                 </div>
 
-                <Link href="/courses-1">
-                  <a className="link-btn"></a>
-                </Link>
+                <Link href="/courses-1" className="link-btn"></Link>
               </div>
             </div>
 
@@ -104,9 +94,7 @@ const Categories = () => {
                   <span>12 Courses</span>
                 </div>
 
-                <Link href="/courses-1">
-                  <a className="link-btn"></a>
-                </Link>
+                <Link href="/courses-1" className="link-btn"></Link>
               </div>
             </div>
 
@@ -119,9 +107,7 @@ const Categories = () => {
                   <span>05 Courses</span>
                 </div>
 
-                <Link href="/courses-1">
-                  <a className="link-btn"></a>
-                </Link>
+                <Link href="/courses-1" className="link-btn"></Link>
               </div>
             </div>
 
@@ -134,9 +120,7 @@ const Categories = () => {
                   <span>20 Courses</span>
                 </div>
 
-                <Link href="/courses-1">
-                  <a className="link-btn"></a>
-                </Link>
+                <Link href="/courses-1" className="link-btn"></Link>
               </div>
             </div>
 

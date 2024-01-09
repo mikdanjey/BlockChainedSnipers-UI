@@ -54,7 +54,7 @@ const CoursesGrid04 = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-1">
-                      <a>Agile Crash Course: Agile Project Management</a>
+                      Agile Crash Course: Agile Project Management
                     </Link>
                   </h3>
                   <div className="rating">
@@ -83,9 +83,7 @@ const CoursesGrid04 = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-1">
-                      <a>
-                        Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)
-                      </a>
+                      Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)
                     </Link>
                   </h3>
                   <div className="rating">
@@ -114,10 +112,8 @@ const CoursesGrid04 = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-1">
-                      <a>
-                        The Python Bible™ | Everything You Need to Program in
-                        Python
-                      </a>
+                      The Python Bible™ | Everything You Need to Program in
+                      Python
                     </Link>
                   </h3>
                   <div className="rating">
@@ -146,7 +142,7 @@ const CoursesGrid04 = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-1">
-                      <a>Mathematical Foundation For Machine Learning and AI</a>
+                      Mathematical Foundation For Machine Learning and AI
                     </Link>
                   </h3>
                   <div className="rating">
@@ -175,7 +171,7 @@ const CoursesGrid04 = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-1">
-                      <a>The Ultimate Drawing Course - Beginner to Advanced</a>
+                      The Ultimate Drawing Course - Beginner to Advanced
                     </Link>
                   </h3>
                   <div className="rating">
@@ -204,7 +200,7 @@ const CoursesGrid04 = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-1">
-                      <a>PyTorch: Deep Learning and Artificial Intelligence</a>
+                      PyTorch: Deep Learning and Artificial Intelligence
                     </Link>
                   </h3>
                   <div className="rating">
@@ -233,7 +229,7 @@ const CoursesGrid04 = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-1">
-                      <a>Azure Machine Learning Certification- AZ AI100</a>
+                      Azure Machine Learning Certification- AZ AI100
                     </Link>
                   </h3>
                   <div className="rating">
@@ -262,7 +258,7 @@ const CoursesGrid04 = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-1">
-                      <a>Statistics for Data Science and Business Analysis</a>
+                      Statistics for Data Science and Business Analysis
                     </Link>
                   </h3>
                   <div className="rating">
@@ -291,10 +287,8 @@ const CoursesGrid04 = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-1">
-                      <a>
-                        Data Science & Deep Learning for Business™ 20 Case
-                        Studies
-                      </a>
+                      Data Science & Deep Learning for Business™ 20 Case
+                      Studies
                     </Link>
                   </h3>
                   <div className="rating">
@@ -323,7 +317,7 @@ const CoursesGrid04 = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-1">
-                      <a>Introduction to Machine Learning for Data Science</a>
+                      Introduction to Machine Learning for Data Science
                     </Link>
                   </h3>
                   <div className="rating">
@@ -352,7 +346,7 @@ const CoursesGrid04 = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-1">
-                      <a>Microsoft Excel - Excel from Beginner to Advanced</a>
+                      Microsoft Excel - Excel from Beginner to Advanced
                     </Link>
                   </h3>
                   <div className="rating">
@@ -381,7 +375,7 @@ const CoursesGrid04 = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-1">
-                      <a>Python Django Web Development: To-Do App</a>
+                      Python Django Web Development: To-Do App
                     </Link>
                   </h3>
                   <div className="rating">

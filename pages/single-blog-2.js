@@ -34,25 +34,19 @@ const BlogDetails = () => {
                         <i className="bx bx-folder-open"></i>
                         <span>Category</span>
 
-                        <Link href="#">
-                          <a>Fashion</a>
-                        </Link>
+                        <Link href="#">Fashion</Link>
                       </li>
                       <li>
                         <i className="bx bx-group"></i>
                         <span>View</span>
 
-                        <Link href="#">
-                          <a>813,454</a>
-                        </Link>
+                        <Link href="#">813,454</Link>
                       </li>
                       <li>
                         <i className="bx bx-calendar"></i>
                         <span>Last Updated</span>
 
-                        <Link href="#">
-                          <a>25/04/2020</a>
-                        </Link>
+                        <Link href="#">25/04/2020</Link>
                       </li>
                     </ul>
                   </div>

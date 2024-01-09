@@ -47,13 +47,11 @@ const Shop = () => {
                   <div className="single-products-box">
                     <div className="products-image">
                       <Link href="/single-products">
-                        <a>
-                          <img
-                            src="/images/products/product1.jpg"
-                            className="main-image"
-                            alt="image"
-                          />
-                        </a>
+                        <img
+                          src="/images/products/product1.jpg"
+                          className="main-image"
+                          alt="image"
+                        />
                       </Link>
 
                       <div className="products-button">
@@ -74,9 +72,7 @@ const Shop = () => {
 
                     <div className="products-content">
                       <h3>
-                        <Link href="/single-products">
-                          <a>Note Book Mockup</a>
-                        </Link>
+                        <Link href="/single-products">Note Book Mockup</Link>
                       </h3>
                       <div className="price">
                         <span className="old-price">$321</span>
@@ -100,13 +96,11 @@ const Shop = () => {
                   <div className="single-products-box">
                     <div className="products-image">
                       <Link href="/single-products">
-                        <a>
-                          <img
-                            src="/images/products/product2.jpg"
-                            className="main-image"
-                            alt="image"
-                          />
-                        </a>
+                        <img
+                          src="/images/products/product2.jpg"
+                          className="main-image"
+                          alt="image"
+                        />
                       </Link>
 
                       <div className="products-button">
@@ -130,7 +124,7 @@ const Shop = () => {
                     <div className="products-content">
                       <h3>
                         <Link href="/single-products">
-                          <a>Motivational Book Cover</a>
+                          Motivational Book Cover
                         </Link>
                       </h3>
                       <div className="price">
@@ -155,13 +149,11 @@ const Shop = () => {
                   <div className="single-products-box">
                     <div className="products-image">
                       <Link href="/single-products">
-                        <a>
-                          <img
-                            src="/images/products/product3.jpg"
-                            className="main-image"
-                            alt="image"
-                          />
-                        </a>
+                        <img
+                          src="/images/products/product3.jpg"
+                          className="main-image"
+                          alt="image"
+                        />
                       </Link>
 
                       <div className="products-button">
@@ -183,7 +175,7 @@ const Shop = () => {
                     <div className="products-content">
                       <h3>
                         <Link href="/single-products">
-                          <a>Book Cover Softcover</a>
+                          Book Cover Softcover
                         </Link>
                       </h3>
                       <div className="price">
@@ -208,13 +200,11 @@ const Shop = () => {
                   <div className="single-products-box">
                     <div className="products-image">
                       <Link href="/single-products">
-                        <a>
-                          <img
-                            src="/images/products/product4.jpg"
-                            className="main-image"
-                            alt="image"
-                          />
-                        </a>
+                        <img
+                          src="/images/products/product4.jpg"
+                          className="main-image"
+                          alt="image"
+                        />
                       </Link>
 
                       <div className="products-button">
@@ -236,7 +226,7 @@ const Shop = () => {
                     <div className="products-content">
                       <h3>
                         <Link href="/single-products">
-                          <a>Stop and Take a Second</a>
+                          Stop and Take a Second
                         </Link>
                       </h3>
                       <div className="price">
@@ -260,13 +250,11 @@ const Shop = () => {
                   <div className="single-products-box">
                     <div className="products-image">
                       <Link href="/single-products">
-                        <a>
-                          <img
-                            src="/images/products/product5.jpg"
-                            className="main-image"
-                            alt="image"
-                          />
-                        </a>
+                        <img
+                          src="/images/products/product5.jpg"
+                          className="main-image"
+                          alt="image"
+                        />
                       </Link>
 
                       <div className="products-button">
@@ -287,9 +275,7 @@ const Shop = () => {
 
                     <div className="products-content">
                       <h3>
-                        <Link href="/single-products">
-                          <a>Real Life Fairytale</a>
-                        </Link>
+                        <Link href="/single-products">Real Life Fairytale</Link>
                       </h3>
                       <div className="price">
                         <span className="new-price">$240</span>
@@ -312,13 +298,11 @@ const Shop = () => {
                   <div className="single-products-box">
                     <div className="products-image">
                       <Link href="/single-products">
-                        <a>
-                          <img
-                            src="/images/products/product6.jpg"
-                            className="main-image"
-                            alt="image"
-                          />
-                        </a>
+                        <img
+                          src="/images/products/product6.jpg"
+                          className="main-image"
+                          alt="image"
+                        />
                       </Link>
 
                       <div className="products-button">
@@ -341,9 +325,7 @@ const Shop = () => {
 
                     <div className="products-content">
                       <h3>
-                        <Link href="/single-products">
-                          <a>Running From Me</a>
-                        </Link>
+                        <Link href="/single-products">Running From Me</Link>
                       </h3>
                       <div className="price">
                         <span className="old-price">$150</span>

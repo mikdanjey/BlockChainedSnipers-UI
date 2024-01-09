@@ -37,23 +37,17 @@ const SingleCourses = () => {
                     <li>
                       <i className="bx bx-folder-open"></i>
                       <span>Category</span>
-                      <Link href="#">
-                        <a>Photography</a>
-                      </Link>
+                      <Link href="#">Photography</Link>
                     </li>
                     <li>
                       <i className="bx bx-group"></i>
                       <span>Students Enrolled</span>
-                      <Link href="#">
-                        <a>541,214</a>
-                      </Link>
+                      <Link href="#">541,214</Link>
                     </li>
                     <li>
                       <i className="bx bx-calendar"></i>
                       <span>Last Updated</span>
-                      <Link href="#">
-                        <a>01/14/2020</a>
-                      </Link>
+                      <Link href="#">01/14/2020</Link>
                     </li>
                   </ul>
                 </div>
@@ -76,10 +70,8 @@ const SingleCourses = () => {
 
                   <div className="price">$150</div>
 
-                  <Link href="#">
-                    <a className="default-btn">
-                      <i className="flaticon-user"></i> Buy Course <span></span>
-                    </a>
+                  <Link href="#" className="default-btn">
+                    <i className="flaticon-user"></i>Buy Course<span></span>
                   </Link>
                 </div>
               </div>

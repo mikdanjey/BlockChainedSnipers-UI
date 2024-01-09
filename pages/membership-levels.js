@@ -51,7 +51,7 @@ const MembershipLevels = () => {
                 <tr>
                   <td>
                     <Link href="#">
-                      <a>Investment Fundamentals & Data Analytics</a>
+                      Investment Fundamentals & Data Analytics
                     </Link>
                   </td>
                   <td className="item-check">
@@ -66,9 +66,21 @@ const MembershipLevels = () => {
                 </tr>
                 <tr>
                   <td>
-                    <Link href="#">
-                      <a>Hands-On Python & R In Data Science</a>
-                    </Link>
+                    <Link href="#">Hands-On Python & R In Data Science</Link>
+                  </td>
+                  <td className="item-check">
+                    <i className="bx bx-check"></i>
+                  </td>
+                  <td className="item-check">
+                    <i className="bx bx-check"></i>
+                  </td>
+                  <td className="item-check">
+                    <i className="bx bx-check"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <Link href="#">Complete Data Science Bootcamp</Link>
                   </td>
                   <td className="item-check">
                     <i className="bx bx-check"></i>
@@ -83,23 +95,7 @@ const MembershipLevels = () => {
                 <tr>
                   <td>
                     <Link href="#">
-                      <a>Complete Data Science Bootcamp</a>
-                    </Link>
-                  </td>
-                  <td className="item-check">
-                    <i className="bx bx-check"></i>
-                  </td>
-                  <td className="item-check">
-                    <i className="bx bx-check"></i>
-                  </td>
-                  <td className="item-check">
-                    <i className="bx bx-check"></i>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <Link href="#">
-                      <a>Programming MasterclassName for Developers</a>
+                      Programming MasterclassName for Developers
                     </Link>
                   </td>
                   <td className="item-none">
@@ -114,9 +110,7 @@ const MembershipLevels = () => {
                 </tr>
                 <tr>
                   <td>
-                    <Link href="#">
-                      <a>Hands-On Artificial Neural Networks</a>
-                    </Link>
+                    <Link href="#">Hands-On Artificial Neural Networks</Link>
                   </td>
                   <td className="item-none">
                     <i className="bx bx-x"></i>
@@ -131,7 +125,7 @@ const MembershipLevels = () => {
                 <tr>
                   <td>
                     <Link href="#">
-                      <a>PRINCE2® Practitioner Certification Training</a>
+                      PRINCE2® Practitioner Certification Training
                     </Link>
                   </td>
                   <td className="item-none">
@@ -146,9 +140,7 @@ const MembershipLevels = () => {
                 </tr>
                 <tr>
                   <td>
-                    <Link href="#">
-                      <a>PMI-RMP® Certification Training</a>
-                    </Link>
+                    <Link href="#">PMI-RMP® Certification Training</Link>
                   </td>
                   <td className="item-none">
                     <i className="bx bx-x"></i>
@@ -163,7 +155,7 @@ const MembershipLevels = () => {
                 <tr>
                   <td>
                     <Link href="#">
-                      <a>PRINCE2® Foundation Certification Training</a>
+                      PRINCE2® Foundation Certification Training
                     </Link>
                   </td>
                   <td className="item-none">
@@ -178,9 +170,35 @@ const MembershipLevels = () => {
                 </tr>
                 <tr>
                   <td>
-                    <Link href="#">
-                      <a>PMP® Plus</a>
-                    </Link>
+                    <Link href="#">PMP® Plus</Link>
+                  </td>
+                  <td className="item-none">
+                    <i className="bx bx-x"></i>
+                  </td>
+                  <td className="item-none">
+                    <i className="bx bx-x"></i>
+                  </td>
+                  <td className="item-check">
+                    <i className="bx bx-check"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <Link href="#">PMP® Renewal Pack</Link>
+                  </td>
+                  <td className="item-none">
+                    <i className="bx bx-x"></i>
+                  </td>
+                  <td className="item-check">
+                    <i className="bx bx-check"></i>
+                  </td>
+                  <td className="item-check">
+                    <i className="bx bx-check"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <Link href="#">Digital Project Manager</Link>
                   </td>
                   <td className="item-none">
                     <i className="bx bx-x"></i>
@@ -195,23 +213,7 @@ const MembershipLevels = () => {
                 <tr>
                   <td>
                     <Link href="#">
-                      <a>PMP® Renewal Pack</a>
-                    </Link>
-                  </td>
-                  <td className="item-none">
-                    <i className="bx bx-x"></i>
-                  </td>
-                  <td className="item-check">
-                    <i className="bx bx-check"></i>
-                  </td>
-                  <td className="item-check">
-                    <i className="bx bx-check"></i>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <Link href="#">
-                      <a>Digital Project Manager</a>
+                      Agile Project Management; Agile Delivery
                     </Link>
                   </td>
                   <td className="item-none">
@@ -226,9 +228,7 @@ const MembershipLevels = () => {
                 </tr>
                 <tr>
                   <td>
-                    <Link href="#">
-                      <a>Agile Project Management; Agile Delivery</a>
-                    </Link>
+                    <Link href="#">Vue JS 2 - The Complete Guide</Link>
                   </td>
                   <td className="item-none">
                     <i className="bx bx-x"></i>
@@ -243,23 +243,7 @@ const MembershipLevels = () => {
                 <tr>
                   <td>
                     <Link href="#">
-                      <a>Vue JS 2 - The Complete Guide</a>
-                    </Link>
-                  </td>
-                  <td className="item-none">
-                    <i className="bx bx-x"></i>
-                  </td>
-                  <td className="item-none">
-                    <i className="bx bx-x"></i>
-                  </td>
-                  <td className="item-check">
-                    <i className="bx bx-check"></i>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <Link href="#">
-                      <a>Everything You Need to Program in Python</a>
+                      Everything You Need to Program in Python
                     </Link>
                   </td>
                   <td className="item-none">
@@ -275,7 +259,7 @@ const MembershipLevels = () => {
                 <tr>
                   <td>
                     <Link href="#">
-                      <a>Mathematical Foundation For Machine Learning</a>
+                      Mathematical Foundation For Machine Learning
                     </Link>
                   </td>
                   <td className="item-none">
@@ -290,9 +274,7 @@ const MembershipLevels = () => {
                 </tr>
                 <tr>
                   <td>
-                    <Link href="#">
-                      <a>Drawing Course - Beginner to Advanced</a>
-                    </Link>
+                    <Link href="#">Drawing Course - Beginner to Advanced</Link>
                   </td>
                   <td className="item-none">
                     <i className="bx bx-x"></i>
@@ -307,7 +289,7 @@ const MembershipLevels = () => {
                 <tr>
                   <td>
                     <Link href="#">
-                      <a>Deep Learning and Artificial Intelligence</a>
+                      Deep Learning and Artificial Intelligence
                     </Link>
                   </td>
                   <td className="item-none">
@@ -322,9 +304,7 @@ const MembershipLevels = () => {
                 </tr>
                 <tr>
                   <td>
-                    <Link href="#">
-                      <a>Information About UI/UX Design Degree</a>
-                    </Link>
+                    <Link href="#">Information About UI/UX Design Degree</Link>
                   </td>
                   <td className="item-check">
                     <i className="bx bx-check"></i>
@@ -338,9 +318,7 @@ const MembershipLevels = () => {
                 </tr>
                 <tr>
                   <td>
-                    <Link href="#">
-                      <a>Photography Photo modify and Beautiful</a>
-                    </Link>
+                    <Link href="#">Photography Photo modify and Beautiful</Link>
                   </td>
                   <td className="item-none">
                     <i className="bx bx-x"></i>
@@ -355,7 +333,7 @@ const MembershipLevels = () => {
                 <tr>
                   <td>
                     <Link href="#">
-                      <a>Professional IT Expert Certificate Course</a>
+                      Professional IT Expert Certificate Course
                     </Link>
                   </td>
                   <td className="item-none">
@@ -371,18 +349,18 @@ const MembershipLevels = () => {
                 <tr>
                   <td></td>
                   <td>
-                    <Link href="#">
-                      <a className="select-btn">Get it now</a>
+                    <Link href="#" className="select-btn">
+                      Get it now
                     </Link>
                   </td>
                   <td>
-                    <Link href="#">
-                      <a className="select-btn">Get it now</a>
+                    <Link href="#" className="select-btn">
+                      Get it now
                     </Link>
                   </td>
                   <td>
-                    <Link href="#">
-                      <a className="select-btn">Get it now</a>
+                    <Link href="#" className="select-btn">
+                      Get it now
                     </Link>
                   </td>
                 </tr>

@@ -51,9 +51,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#">
-                        <a className="link-btn"></a>
-                      </Link>
+                      <Link href="#" className="link-btn"></Link>
                     </div>
                   </div>
 
@@ -65,7 +63,7 @@ const CoursesList01 = () => {
                       <span className="price">$39</span>
                       <h3>
                         <Link href="#">
-                          <a>Agile Crash Course: Agile Project Management</a>
+                          Agile Crash Course: Agile Project Management
                         </Link>
                       </h3>
                       <ul className="courses-content-footer d-flex justify-content-between align-items-center">
@@ -92,9 +90,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#">
-                        <a className="link-btn"></a>
-                      </Link>
+                      <Link href="#" className="link-btn"></Link>
                     </div>
                   </div>
 
@@ -106,10 +102,8 @@ const CoursesList01 = () => {
                       <span className="price">$99</span>
                       <h3>
                         <Link href="#">
-                          <a>
-                            Vue JS 2 - The Complete Guide (incl. Vue Router &
-                            Vuex)
-                          </a>
+                          Vue JS 2 - The Complete Guide (incl. Vue Router &
+                          Vuex)
                         </Link>
                       </h3>
                       <ul className="courses-content-footer d-flex justify-content-between align-items-center">
@@ -136,9 +130,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#">
-                        <a className="link-btn"></a>
-                      </Link>
+                      <Link href="#" className="link-btn"></Link>
                     </div>
                   </div>
 
@@ -150,10 +142,8 @@ const CoursesList01 = () => {
                       <span className="price">$49</span>
                       <h3>
                         <Link href="#">
-                          <a>
-                            The Python Bible™ | Everything You Need to Program
-                            in Python
-                          </a>
+                          The Python Bible™ | Everything You Need to Program in
+                          Python
                         </Link>
                       </h3>
                       <ul className="courses-content-footer d-flex justify-content-between align-items-center">
@@ -180,9 +170,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#">
-                        <a className="link-btn"></a>
-                      </Link>
+                      <Link href="#" className="link-btn"></Link>
                     </div>
                   </div>
 
@@ -194,9 +182,7 @@ const CoursesList01 = () => {
                       <span className="price">$79</span>
                       <h3>
                         <Link href="#">
-                          <a>
-                            Mathematical Foundation For Machine Learning and AI
-                          </a>
+                          Mathematical Foundation For Machine Learning and AI
                         </Link>
                       </h3>
                       <ul className="courses-content-footer d-flex justify-content-between align-items-center">
@@ -223,9 +209,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#">
-                        <a className="link-btn"></a>
-                      </Link>
+                      <Link href="#" className="link-btn"></Link>
                     </div>
                   </div>
 
@@ -264,9 +248,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#">
-                        <a className="link-btn"></a>
-                      </Link>
+                      <Link href="#" className="link-btn"></Link>
                     </div>
                   </div>
 
@@ -305,9 +287,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#">
-                        <a className="link-btn"></a>
-                      </Link>
+                      <Link href="#" className="link-btn"></Link>
                     </div>
                   </div>
 
@@ -346,9 +326,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#">
-                        <a className="link-btn"></a>
-                      </Link>
+                      <Link href="#" className="link-btn"></Link>
                     </div>
                   </div>
 
@@ -387,9 +365,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#">
-                        <a className="link-btn"></a>
-                      </Link>
+                      <Link href="#" className="link-btn"></Link>
                     </div>
                   </div>
 
@@ -428,9 +404,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#">
-                        <a className="link-btn"></a>
-                      </Link>
+                      <Link href="#" className="link-btn"></Link>
                     </div>
                   </div>
 
@@ -469,9 +443,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#">
-                        <a className="link-btn"></a>
-                      </Link>
+                      <Link href="#" className="link-btn"></Link>
                     </div>
                   </div>
 
@@ -508,9 +480,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#">
-                        <a className="link-btn"></a>
-                      </Link>
+                      <Link href="#" className="link-btn"></Link>
                     </div>
                   </div>
 

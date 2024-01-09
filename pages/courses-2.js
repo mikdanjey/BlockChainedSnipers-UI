@@ -43,10 +43,8 @@ const CoursesGrid02 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-box without-boxshadow">
                 <div className="courses-image">
-                  <Link href="#">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses10.jpg" alt="image" />
-                    </a>
+                  <Link href="#" className="d-block image">
+                    <img src="/images/courses/courses10.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
                     <i className="flaticon-heart"></i>
@@ -65,7 +63,7 @@ const CoursesGrid02 = () => {
 
                   <h3>
                     <Link href="#">
-                      <a>Deep Learning The Numpy Stack in Python</a>
+                      Deep Learning The Numpy Stack in Python
                     </Link>
                   </h3>
 
@@ -88,10 +86,8 @@ const CoursesGrid02 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-box without-boxshadow">
                 <div className="courses-image">
-                  <Link href="#">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses11.jpg" alt="image" />
-                    </a>
+                  <Link href="#" className="d-block image">
+                    <img src="/images/courses/courses11.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
                     <i className="flaticon-heart"></i>
@@ -110,7 +106,7 @@ const CoursesGrid02 = () => {
 
                   <h3>
                     <Link href="#">
-                      <a>Statistics for Data Science and Business Analysis</a>
+                      Statistics for Data Science and Business Analysis
                     </Link>
                   </h3>
 
@@ -133,10 +129,8 @@ const CoursesGrid02 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-box without-boxshadow">
                 <div className="courses-image">
-                  <Link href="#">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses12.jpg" alt="image" />
-                    </a>
+                  <Link href="#" className="d-block image">
+                    <img src="/images/courses/courses12.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
                     <i className="flaticon-heart"></i>
@@ -155,7 +149,7 @@ const CoursesGrid02 = () => {
 
                   <h3>
                     <Link href="#">
-                      <a>Microsoft Excel - Excel from Beginner to Advanced</a>
+                      Microsoft Excel - Excel from Beginner to Advanced
                     </Link>
                   </h3>
 
@@ -178,10 +172,8 @@ const CoursesGrid02 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-box without-boxshadow">
                 <div className="courses-image">
-                  <Link href="#">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses13.jpg" alt="image" />
-                    </a>
+                  <Link href="#" className="d-block image">
+                    <img src="/images/courses/courses13.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
                     <i className="flaticon-heart"></i>
@@ -200,7 +192,7 @@ const CoursesGrid02 = () => {
 
                   <h3>
                     <Link href="#">
-                      <a>Python Django Web Development: To-Do App</a>
+                      Python Django Web Development: To-Do App
                     </Link>
                   </h3>
 
@@ -223,10 +215,8 @@ const CoursesGrid02 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-box without-boxshadow">
                 <div className="courses-image">
-                  <Link href="#">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses14.jpg" alt="image" />
-                    </a>
+                  <Link href="#" className="d-block image">
+                    <img src="/images/courses/courses14.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
                     <i className="flaticon-heart"></i>
@@ -245,7 +235,7 @@ const CoursesGrid02 = () => {
 
                   <h3>
                     <Link href="#">
-                      <a>Oracle SQL Developer : Essentials, Tips and Tricks</a>
+                      Oracle SQL Developer : Essentials, Tips and Tricks
                     </Link>
                   </h3>
 
@@ -268,10 +258,8 @@ const CoursesGrid02 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-box without-boxshadow">
                 <div className="courses-image">
-                  <Link href="#">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses15.jpg" alt="image" />
-                    </a>
+                  <Link href="#" className="d-block image">
+                    <img src="/images/courses/courses15.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
                     <i className="flaticon-heart"></i>
@@ -290,7 +278,7 @@ const CoursesGrid02 = () => {
 
                   <h3>
                     <Link href="#">
-                      <a>Learning A-Z™: Hands-On Python In Data Science</a>
+                      Learning A-Z™: Hands-On Python In Data Science
                     </Link>
                   </h3>
 
@@ -313,10 +301,8 @@ const CoursesGrid02 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-box without-boxshadow">
                 <div className="courses-image">
-                  <Link href="#">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses1.jpg" alt="image" />
-                    </a>
+                  <Link href="#" className="d-block image">
+                    <img src="/images/courses/courses1.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
                     <i className="flaticon-heart"></i>
@@ -335,10 +321,8 @@ const CoursesGrid02 = () => {
 
                   <h3>
                     <Link href="#">
-                      <a>
-                        The Data Science Course 2020: Complete Data Science
-                        Bootcamp
-                      </a>
+                      The Data Science Course 2020: Complete Data Science
+                      Bootcamp
                     </Link>
                   </h3>
 
@@ -361,10 +345,8 @@ const CoursesGrid02 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-box without-boxshadow">
                 <div className="courses-image">
-                  <Link href="#">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses2.jpg" alt="image" />
-                    </a>
+                  <Link href="#" className="d-block image">
+                    <img src="/images/courses/courses2.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
                     <i className="flaticon-heart"></i>
@@ -383,9 +365,7 @@ const CoursesGrid02 = () => {
 
                   <h3>
                     <Link href="#">
-                      <a>
-                        Java Programming MasterclassName for Software Developers
-                      </a>
+                      Java Programming MasterclassName for Software Developers
                     </Link>
                   </h3>
 
@@ -408,10 +388,8 @@ const CoursesGrid02 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-box without-boxshadow">
                 <div className="courses-image">
-                  <Link href="#">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses3.jpg" alt="image" />
-                    </a>
+                  <Link href="#" className="d-block image">
+                    <img src="/images/courses/courses3.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
                     <i className="flaticon-heart"></i>
@@ -430,9 +408,7 @@ const CoursesGrid02 = () => {
 
                   <h3>
                     <Link href="#">
-                      <a>
-                        Deep Learning A-Z™: Hands-On Artificial Neural Networks
-                      </a>
+                      Deep Learning A-Z™: Hands-On Artificial Neural Networks
                     </Link>
                   </h3>
 
@@ -455,10 +431,8 @@ const CoursesGrid02 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-box without-boxshadow">
                 <div className="courses-image">
-                  <Link href="#">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses4.jpg" alt="image" />
-                    </a>
+                  <Link href="#" className="d-block image">
+                    <img src="/images/courses/courses4.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
                     <i className="flaticon-heart"></i>
@@ -477,10 +451,8 @@ const CoursesGrid02 = () => {
 
                   <h3>
                     <Link href="#">
-                      <a>
-                        Python for Finance: Investment Fundamentals & Data
-                        Analytics
-                      </a>
+                      Python for Finance: Investment Fundamentals & Data
+                      Analytics
                     </Link>
                   </h3>
 
@@ -503,10 +475,8 @@ const CoursesGrid02 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-box without-boxshadow">
                 <div className="courses-image">
-                  <Link href="#">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses5.jpg" alt="image" />
-                    </a>
+                  <Link href="#" className="d-block image">
+                    <img src="/images/courses/courses5.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
                     <i className="flaticon-heart"></i>
@@ -525,10 +495,8 @@ const CoursesGrid02 = () => {
 
                   <h3>
                     <Link href="#">
-                      <a>
-                        Machine Learning A-Z™: Hands-On Python & R In Data
-                        Science
-                      </a>
+                      Machine Learning A-Z™: Hands-On Python & R In Data
+                      Science
                     </Link>
                   </h3>
 
@@ -551,10 +519,8 @@ const CoursesGrid02 = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-box without-boxshadow">
                 <div className="courses-image">
-                  <Link href="#">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses6.jpg" alt="image" />
-                    </a>
+                  <Link href="#" className="d-block image">
+                    <img src="/images/courses/courses6.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
                     <i className="flaticon-heart"></i>
@@ -573,10 +539,8 @@ const CoursesGrid02 = () => {
 
                   <h3>
                     <Link href="#">
-                      <a>
-                        R Programming A-Z™: R For Data Science With Real
-                        Exercises!
-                      </a>
+                      R Programming A-Z™: R For Data Science With Real
+                      Exercises!
                     </Link>
                   </h3>
 

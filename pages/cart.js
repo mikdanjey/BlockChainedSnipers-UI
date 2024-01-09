@@ -34,7 +34,7 @@ const Cart = () => {
                 <tbody>
                   <tr>
                     <td className="product-thumbnail">
-                      <Link href="#" legacyBehavior>
+                      <Link href="#">
                         <a>
                           <img src="/images/products/product1.jpg" alt="item" />
                         </a>
@@ -42,7 +42,7 @@ const Cart = () => {
                     </td>
 
                     <td className="product-name">
-                      <Link href="#" legacyBehavior>
+                      <Link href="#">
                         <a>Note Book Mockup</a>
                       </Link>
                     </td>
@@ -74,7 +74,7 @@ const Cart = () => {
 
                   <tr>
                     <td className="product-thumbnail">
-                      <Link href="#" legacyBehavior>
+                      <Link href="#">
                         <a>
                           <img src="/images/products/product2.jpg" alt="item" />
                         </a>
@@ -82,7 +82,7 @@ const Cart = () => {
                     </td>
 
                     <td className="product-name">
-                      <Link href="#" legacyBehavior>
+                      <Link href="#">
                         <a>Motivational Book Cover</a>
                       </Link>
                     </td>
@@ -114,7 +114,7 @@ const Cart = () => {
 
                   <tr>
                     <td className="product-thumbnail">
-                      <Link href="#" legacyBehavior>
+                      <Link href="#">
                         <a>
                           <img src="/images/products/product3.jpg" alt="item" />
                         </a>
@@ -122,7 +122,7 @@ const Cart = () => {
                     </td>
 
                     <td className="product-name">
-                      <Link href="#" legacyBehavior>
+                      <Link href="#">
                         <a>Book Cover Softcover</a>
                       </Link>
                     </td>
@@ -154,7 +154,7 @@ const Cart = () => {
 
                   <tr>
                     <td className="product-thumbnail">
-                      <Link href="#" legacyBehavior>
+                      <Link href="#">
                         <a>
                           <img src="/images/products/product4.jpg" alt="item" />
                         </a>
@@ -162,7 +162,7 @@ const Cart = () => {
                     </td>
 
                     <td className="product-name">
-                      <Link href="#" legacyBehavior>
+                      <Link href="#">
                         <a>Stop and Take a Second</a>
                       </Link>
                     </td>
@@ -210,7 +210,7 @@ const Cart = () => {
                 </div>
 
                 <div className="col-lg-5 col-sm-5 col-md-5 text-right">
-                  <Link href="#" legacyBehavior>
+                  <Link href="#">
                     <a className="default-btn">
                       <i className="flaticon-history"></i> Update Cart{" "}
                       <span></span>
@@ -235,7 +235,7 @@ const Cart = () => {
                 </li>
               </ul>
 
-              <Link href="#" legacyBehavior>
+              <Link href="#">
                 <a className="default-btn">
                   <i className="flaticon-shopping-cart"></i> Proceed to Checkout{" "}
                   <span></span>

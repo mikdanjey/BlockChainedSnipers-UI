@@ -22,19 +22,17 @@ const Blog1 = () => {
             <div className="col-lg-6 col-md-6">
               <div className="single-blog-post">
                 <div className="post-image">
-                  <Link href="/single-blog-1">
-                    <a className="d-block">
-                      <img src="/images/blog/blog1.jpg" alt="image" />
-                    </a>
+                  <Link href="/single-blog-1" className="d-block">
+                    <img src="/images/blog/blog1.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="post-content">
-                  <Link href="#">
-                    <a className="category">Education</a>
+                  <Link href="#" className="category">
+                    Education
                   </Link>
                   <h3>
                     <Link href="/single-blog-1">
-                      <a>It’s Time To Think Differently About Homeschooling</a>
+                      It’s Time To Think Differently About Homeschooling
                     </Link>
                   </h3>
                   <ul className="post-content-footer d-flex justify-content-between align-items-center">
@@ -59,21 +57,17 @@ const Blog1 = () => {
             <div className="col-lg-6 col-md-6">
               <div className="single-blog-post">
                 <div className="post-image">
-                  <Link href="/single-blog-1">
-                    <a className="d-block">
-                      <img src="/images/blog/blog2.jpg" alt="image" />
-                    </a>
+                  <Link href="/single-blog-1" className="d-block">
+                    <img src="/images/blog/blog2.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="post-content">
-                  <Link href="#">
-                    <a className="category">Online</a>
+                  <Link href="#" className="category">
+                    Online
                   </Link>
                   <h3>
                     <Link href="/single-blog-1">
-                      <a>
-                        Online Learning Can Prepare Students For A Fast-Changing
-                      </a>
+                      Online Learning Can Prepare Students For A Fast-Changing
                     </Link>
                   </h3>
                   <ul className="post-content-footer d-flex justify-content-between align-items-center">
@@ -98,19 +92,17 @@ const Blog1 = () => {
             <div className="col-lg-6 col-md-6">
               <div className="single-blog-post">
                 <div className="post-image">
-                  <Link href="/single-blog-1">
-                    <a className="d-block">
-                      <img src="/images/blog/blog3.jpg" alt="image" />
-                    </a>
+                  <Link href="/single-blog-1" className="d-block">
+                    <img src="/images/blog/blog3.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="post-content">
-                  <Link href="#">
-                    <a className="category">Learning</a>
+                  <Link href="#" className="category">
+                    Learning
                   </Link>
                   <h3>
                     <Link href="/single-blog-1">
-                      <a>28 Student-Centered Instructional Strategies</a>
+                      28 Student-Centered Instructional Strategies
                     </Link>
                   </h3>
                   <ul className="post-content-footer d-flex justify-content-between align-items-center">
@@ -135,19 +127,17 @@ const Blog1 = () => {
             <div className="col-lg-6 col-md-6">
               <div className="single-blog-post">
                 <div className="post-image">
-                  <Link href="/single-blog-1">
-                    <a className="d-block">
-                      <img src="/images/blog/blog7.jpg" alt="image" />
-                    </a>
+                  <Link href="/single-blog-1" className="d-block">
+                    <img src="/images/blog/blog7.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="post-content">
-                  <Link href="#">
-                    <a className="category">Learning</a>
+                  <Link href="#" className="category">
+                    Learning
                   </Link>
                   <h3>
                     <Link href="/single-blog-1">
-                      <a>4 Steps To Quality Training In Times Of Urgency</a>
+                      4 Steps To Quality Training In Times Of Urgency
                     </Link>
                   </h3>
                   <ul className="post-content-footer d-flex justify-content-between align-items-center">
@@ -172,19 +162,17 @@ const Blog1 = () => {
             <div className="col-lg-6 col-md-6">
               <div className="single-blog-post">
                 <div className="post-image">
-                  <Link href="/single-blog-1">
-                    <a className="d-block">
-                      <img src="/images/blog/blog8.jpg" alt="image" />
-                    </a>
+                  <Link href="/single-blog-1" className="d-block">
+                    <img src="/images/blog/blog8.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="post-content">
-                  <Link href="#">
-                    <a className="category">Online</a>
+                  <Link href="#" className="category">
+                    Online
                   </Link>
                   <h3>
                     <Link href="/single-blog-1">
-                      <a>100 Blended Learning Resources For Teachers</a>
+                      100 Blended Learning Resources For Teachers
                     </Link>
                   </h3>
                   <ul className="post-content-footer d-flex justify-content-between align-items-center">
@@ -209,19 +197,17 @@ const Blog1 = () => {
             <div className="col-lg-6 col-md-6">
               <div className="single-blog-post">
                 <div className="post-image">
-                  <Link href="/single-blog-1">
-                    <a className="d-block">
-                      <img src="/images/blog/blog9.jpg" alt="image" />
-                    </a>
+                  <Link href="/single-blog-1" className="d-block">
+                    <img src="/images/blog/blog9.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="post-content">
-                  <Link href="#">
-                    <a className="category">Learning</a>
+                  <Link href="#" className="category">
+                    Learning
                   </Link>
                   <h3>
                     <Link href="/single-blog-1">
-                      <a>20 Examples Of Project-Based Learning</a>
+                      20 Examples Of Project-Based Learning
                     </Link>
                   </h3>
                   <ul className="post-content-footer d-flex justify-content-between align-items-center">

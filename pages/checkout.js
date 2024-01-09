@@ -22,9 +22,7 @@ const Checkout = () => {
             <i className="bx bx-log-in"></i>
             <span>
               Returning customer?{" "}
-              <Link href="/profile-authentication">
-                <a>Click here to login</a>
-              </Link>
+              <Link href="/profile-authentication">Click here to login</Link>
             </span>
           </div>
 

@@ -51,9 +51,7 @@ const Advisor = () => {
 
                 <div className="advisor-content">
                   <h3>
-                    <Link href="#">
-                      <a>James Andy</a>
-                    </Link>
+                    <Link href="#">James Andy</Link>
                   </h3>
                   <span>Project Management Expert</span>
                 </div>
@@ -91,9 +89,7 @@ const Advisor = () => {
 
                 <div className="advisor-content">
                   <h3>
-                    <Link href="#">
-                      <a>Jassica Hische</a>
-                    </Link>
+                    <Link href="#">Jassica Hische</Link>
                   </h3>
                   <span>Illustrator Expert</span>
                 </div>
@@ -131,9 +127,7 @@ const Advisor = () => {
 
                 <div className="advisor-content">
                   <h3>
-                    <Link href="#">
-                      <a>Alister Cock</a>
-                    </Link>
+                    <Link href="#">Alister Cock</Link>
                   </h3>
                   <span>QA Project Expert</span>
                 </div>
@@ -171,9 +165,7 @@ const Advisor = () => {
 
                 <div className="advisor-content">
                   <h3>
-                    <Link href="#">
-                      <a>Lina Ninja</a>
-                    </Link>
+                    <Link href="#">Lina Ninja</Link>
                   </h3>
                   <span>QA Project Expert</span>
                 </div>
@@ -211,9 +203,7 @@ const Advisor = () => {
 
                 <div className="advisor-content">
                   <h3>
-                    <Link href="#">
-                      <a>Chris Evans</a>
-                    </Link>
+                    <Link href="#">Chris Evans</Link>
                   </h3>
                   <span>Python Expert</span>
                 </div>
@@ -251,9 +241,7 @@ const Advisor = () => {
 
                 <div className="advisor-content">
                   <h3>
-                    <Link href="#">
-                      <a>Scarlett Johansson</a>
-                    </Link>
+                    <Link href="#">Scarlett Johansson</Link>
                   </h3>
                   <span>Photoshop Expert</span>
                 </div>

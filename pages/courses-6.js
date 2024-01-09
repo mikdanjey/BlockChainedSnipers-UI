@@ -46,10 +46,8 @@ const CoursesRightSidebar = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="single-courses-box">
                     <div className="courses-image">
-                      <Link href="/single-courses-1">
-                        <a className="d-block image">
-                          <img src="/images/courses/courses1.jpg" alt="image" />
-                        </a>
+                      <Link href="/single-courses-1" className="d-block image">
+                        <img src="/images/courses/courses1.jpg" alt="image" />
                       </Link>
                       <a href="#" className="fav">
                         <i className="flaticon-heart"></i>
@@ -68,10 +66,8 @@ const CoursesRightSidebar = () => {
 
                       <h3>
                         <Link href="/single-courses-1">
-                          <a>
-                            The Data Science Course 2020: Complete Data Science
-                            Bootcamp
-                          </a>
+                          The Data Science Course 2020: Complete Data Science
+                          Bootcamp
                         </Link>
                       </h3>
 
@@ -94,10 +90,8 @@ const CoursesRightSidebar = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="single-courses-box">
                     <div className="courses-image">
-                      <Link href="/single-courses-1">
-                        <a className="d-block image">
-                          <img src="/images/courses/courses2.jpg" alt="image" />
-                        </a>
+                      <Link href="/single-courses-1" className="d-block image">
+                        <img src="/images/courses/courses2.jpg" alt="image" />
                       </Link>
                       <a href="#" className="fav">
                         <i className="flaticon-heart"></i>
@@ -116,10 +110,8 @@ const CoursesRightSidebar = () => {
 
                       <h3>
                         <Link href="/single-courses-1">
-                          <a>
-                            Java Programming MasterclassName for Software
-                            Developers
-                          </a>
+                          Java Programming MasterclassName for Software
+                          Developers
                         </Link>
                       </h3>
 
@@ -142,10 +134,8 @@ const CoursesRightSidebar = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="single-courses-box">
                     <div className="courses-image">
-                      <Link href="/single-courses-1">
-                        <a className="d-block image">
-                          <img src="/images/courses/courses3.jpg" alt="image" />
-                        </a>
+                      <Link href="/single-courses-1" className="d-block image">
+                        <img src="/images/courses/courses3.jpg" alt="image" />
                       </Link>
                       <a href="#" className="fav">
                         <i className="flaticon-heart"></i>
@@ -164,10 +154,8 @@ const CoursesRightSidebar = () => {
 
                       <h3>
                         <Link href="/single-courses-1">
-                          <a>
-                            Deep Learning A-Z™: Hands-On Artificial Neural
-                            Networks
-                          </a>
+                          Deep Learning A-Z™: Hands-On Artificial Neural
+                          Networks
                         </Link>
                       </h3>
 
@@ -190,10 +178,8 @@ const CoursesRightSidebar = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="single-courses-box">
                     <div className="courses-image">
-                      <Link href="/single-courses-1">
-                        <a className="d-block image">
-                          <img src="/images/courses/courses4.jpg" alt="image" />
-                        </a>
+                      <Link href="/single-courses-1" className="d-block image">
+                        <img src="/images/courses/courses4.jpg" alt="image" />
                       </Link>
                       <a href="#" className="fav">
                         <i className="flaticon-heart"></i>
@@ -212,10 +198,8 @@ const CoursesRightSidebar = () => {
 
                       <h3>
                         <Link href="/single-courses-1">
-                          <a>
-                            Python for Finance: Investment Fundamentals & Data
-                            Analytics
-                          </a>
+                          Python for Finance: Investment Fundamentals & Data
+                          Analytics
                         </Link>
                       </h3>
 
@@ -238,10 +222,8 @@ const CoursesRightSidebar = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="single-courses-box">
                     <div className="courses-image">
-                      <Link href="/single-courses-1">
-                        <a className="d-block image">
-                          <img src="/images/courses/courses5.jpg" alt="image" />
-                        </a>
+                      <Link href="/single-courses-1" className="d-block image">
+                        <img src="/images/courses/courses5.jpg" alt="image" />
                       </Link>
                       <a href="#" className="fav">
                         <i className="flaticon-heart"></i>
@@ -260,10 +242,8 @@ const CoursesRightSidebar = () => {
 
                       <h3>
                         <Link href="/single-courses-1">
-                          <a>
-                            Machine Learning A-Z™: Hands-On Python & R In Data
-                            Science
-                          </a>
+                          Machine Learning A-Z™: Hands-On Python & R In Data
+                          Science
                         </Link>
                       </h3>
 
@@ -286,10 +266,8 @@ const CoursesRightSidebar = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="single-courses-box">
                     <div className="courses-image">
-                      <Link href="/single-courses-1">
-                        <a className="d-block image">
-                          <img src="/images/courses/courses6.jpg" alt="image" />
-                        </a>
+                      <Link href="/single-courses-1" className="d-block image">
+                        <img src="/images/courses/courses6.jpg" alt="image" />
                       </Link>
                       <a href="#" className="fav">
                         <i className="flaticon-heart"></i>
@@ -308,10 +286,8 @@ const CoursesRightSidebar = () => {
 
                       <h3>
                         <Link href="/single-courses-1">
-                          <a>
-                            R Programming A-Z™: R For Data Science With Real
-                            Exercises!
-                          </a>
+                          R Programming A-Z™: R For Data Science With Real
+                          Exercises!
                         </Link>
                       </h3>
 
