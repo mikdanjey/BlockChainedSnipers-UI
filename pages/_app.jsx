@@ -1,7 +1,27 @@
 import React from "react";
 import Head from "next/head";
+import Layout from "../components/_App/Layout";
 
-export default function MyApp({
+import "../styles/bootstrap.min.css";
+import "../styles/animate.min.css";
+import "../styles/boxicons.min.css";
+import "../styles/meanmenu.min.css";
+import "../styles/flaticon.css";
+import "../node_modules/react-modal-video/css/modal-video.min.css";
+import "react-accessible-accordion/dist/fancy-example.css";
+import "react-tabs/style/react-tabs.css";
+import "react-18-image-lightbox/style.css";
+import "swiper/css";
+import "swiper/css/bundle";
+
+// Global Styles
+import "../styles/style.css";
+// Global Responsive Styles
+import "../styles/responsive.css";
+// Global RTL Styles
+import "../styles/rtl.css";
+
+function MyApp({
   Component,
   pageProps: { session, ...pageProps },
 }) {
@@ -72,7 +92,11 @@ export default function MyApp({
         <meta name="author" content={seoData.author} />
         <meta name="keywords" content={seoData.keywords} />
       </Head>
-      <Component {...pageProps} />
+      <Layout {...pageProps}>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }
+
+export default MyApp;

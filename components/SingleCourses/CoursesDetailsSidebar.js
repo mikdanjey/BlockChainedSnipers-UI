@@ -16,7 +16,8 @@ const CoursesDetailsSidebar = ({
   title,
   loggedInUser,
 }) => {
-  const cartItems = useSelector((state) => state.cart.cartItems);
+  // const cartItems = useSelector((state) => state.cart.cartItems);
+  const cartItems = [];
   const [display, setDisplay] = useState(false);
   const dispatch = useDispatch();
   const [add, setAdd] = useState(false);

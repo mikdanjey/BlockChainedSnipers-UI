@@ -5,7 +5,8 @@ import { handleLogout } from "@/utils/auth";
 import SearchForm from "./SearchForm";
 
 const Navbar = ({ user }) => {
-  const cartItems = useSelector((state) => state.cart.cartItems);
+  // const cartItems = useSelector((state) => state.cart.cartItems);
+  const cartItems = [];
   const [menu, setMenu] = useState(true);
 
   const toggleNavbar = () => {
