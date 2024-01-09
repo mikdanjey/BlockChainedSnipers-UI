@@ -58,10 +58,9 @@ const AboutUs = () => {
                 </li>
               </ul>
 
-              <Link href="/about-5">
-                <a className="default-btn-style-two">
-                  <i className="flaticon-user"></i> More About Us
-                </a>
+              <Link href="/about-5" className="default-btn-style-two">
+
+                <i className="flaticon-user"></i>More About Us
               </Link>
             </div>
           </div>

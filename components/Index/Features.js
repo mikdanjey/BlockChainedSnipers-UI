@@ -20,8 +20,8 @@ const Features = () => {
               </div>
               <h3>{t("learn-latest-skills")}</h3>
               <p>{t("skills-description")} </p>
-              <Link href="/authentication">
-                <a className="link-btn">{t("start-now")}</a>
+              <Link href="/authentication" className="link-btn">
+                {t("start-now")}
               </Link>
               <div className="back-icon">
                 <i className="flaticon-brain-process"></i>
@@ -35,8 +35,8 @@ const Features = () => {
               </div>
               <h3>{t("learn-industry-experts")}</h3>
               <p>{t("industry-description")} </p>
-              <Link href="/authentication">
-                <a className="link-btn">{t("start-now")}</a>
+              <Link href="/authentication" className="link-btn">
+                {t("start-now")}
               </Link>
               <div className="back-icon">
                 <i className="flaticon-shield-1"></i>
@@ -50,8 +50,8 @@ const Features = () => {
               </div>
               <h3>{t("learn-anywhere")}</h3>
               <p>{t("learn-description")} </p>
-              <Link href="/authentication">
-                <a className="link-btn">{t("start-now")}</a>
+              <Link href="/authentication" className="link-btn">
+                {t("start-now")}
               </Link>
               <div className="back-icon">
                 <i className="flaticon-world"></i>

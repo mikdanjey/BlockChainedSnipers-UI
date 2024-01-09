@@ -35,7 +35,7 @@ const UpcomingEvents = () => {
                     </div>
                     <h3 className="font-weight-black">
                       <Link href="#">
-                        <a>Music Conference</a>
+                        Music Conference
                       </Link>
                     </h3>
                     <p>
@@ -71,7 +71,7 @@ const UpcomingEvents = () => {
                     </div>
                     <h3 className="font-weight-black">
                       <Link href="#">
-                        <a>Paper Plates Art</a>
+                        Paper Plates Art
                       </Link>
                     </h3>
                     <p>
@@ -107,7 +107,7 @@ const UpcomingEvents = () => {
                     </div>
                     <h3 className="font-weight-black">
                       <Link href="#">
-                        <a>Imagination classNamees</a>
+                        Imagination classNamees
                       </Link>
                     </h3>
                     <p>
@@ -143,7 +143,7 @@ const UpcomingEvents = () => {
                     </div>
                     <h3 className="font-weight-black">
                       <Link href="#">
-                        <a>Number Matching</a>
+                        Number Matching
                       </Link>
                     </h3>
                     <p>

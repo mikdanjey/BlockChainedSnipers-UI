@@ -18,16 +18,16 @@ const PopularCourses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box without-boxshadow">
               <div className="courses-image">
-                <Link href="/single-courses-2">
-                  <a className="d-block image">
-                    <img src="/images/courses/courses9.jpg" alt="image" />
-                  </a>
+                <Link href="/single-courses-2" className="d-block image">
+
+                  <img src="/images/courses/courses9.jpg" alt="image" />
+
                 </Link>
 
-                <Link href="#">
-                  <a className="fav">
-                    <i className="flaticon-heart"></i>
-                  </a>
+                <Link href="#" className="fav">
+
+                  <i className="flaticon-heart"></i>
+
                 </Link>
 
                 <div className="price shadow">$39</div>
@@ -43,7 +43,7 @@ const PopularCourses = () => {
                 </div>
                 <h3>
                   <Link href="/single-courses-2">
-                    <a>PRINCE2® Practitioner Certification Training</a>
+                    PRINCE2® Practitioner Certification Training
                   </Link>
                 </h3>
                 <p>
@@ -65,15 +65,15 @@ const PopularCourses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box without-boxshadow active">
               <div className="courses-image">
-                <Link href="/single-courses-2">
-                  <a className="d-block image">
-                    <img src="/images/courses/courses10.jpg" alt="image" />
-                  </a>
+                <Link href="/single-courses-2" className="d-block image">
+
+                  <img src="/images/courses/courses10.jpg" alt="image" />
+
                 </Link>
-                <Link href="#">
-                  <a className="fav">
-                    <i className="flaticon-heart"></i>
-                  </a>
+                <Link href="#" className="fav">
+
+                  <i className="flaticon-heart"></i>
+
                 </Link>
                 <div className="price shadow">$49</div>
               </div>
@@ -88,7 +88,7 @@ const PopularCourses = () => {
                 </div>
                 <h3>
                   <Link href="/single-courses-2">
-                    <a>PMI-RMP® Certification Training</a>
+                    PMI-RMP® Certification Training
                   </Link>
                 </h3>
                 <p>
@@ -110,15 +110,15 @@ const PopularCourses = () => {
           <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
             <div className="single-courses-box without-boxshadow">
               <div className="courses-image">
-                <Link href="/single-courses-2">
-                  <a className="d-block image">
-                    <img src="/images/courses/courses11.jpg" alt="image" />
-                  </a>
+                <Link href="/single-courses-2" className="d-block image">
+
+                  <img src="/images/courses/courses11.jpg" alt="image" />
+
                 </Link>
-                <Link href="#">
-                  <a className="fav">
-                    <i className="flaticon-heart"></i>
-                  </a>
+                <Link href="#" className="fav">
+
+                  <i className="flaticon-heart"></i>
+
                 </Link>
                 <div className="price shadow">$59</div>
               </div>
@@ -133,7 +133,7 @@ const PopularCourses = () => {
                 </div>
                 <h3>
                   <Link href="/single-courses-2">
-                    <a>PRINCE2® Foundation Certification Training</a>
+                    PRINCE2® Foundation Certification Training
                   </Link>
                 </h3>
                 <p>
@@ -154,17 +154,17 @@ const PopularCourses = () => {
 
           <div className="col-lg-12 col-md-12">
             <div className="courses-info">
-              <Link href="/courses-2">
-                <a className="default-btn">
-                  <i className="flaticon-user"></i> View All Courses{" "}
-                  <span></span>
-                </a>
+              <Link href="/courses-2" className="default-btn">
+
+                <i className="flaticon-user"></i>View All Courses{" "}
+                <span></span>
+
               </Link>
 
               <p>
                 Get into details now?​{" "}
                 <Link href="/courses-2">
-                  <a>PM Master’s Program</a>
+                  PM Master’s Program
                 </Link>
               </p>
             </div>

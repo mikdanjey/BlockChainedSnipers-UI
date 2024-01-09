@@ -19,16 +19,19 @@ const TopCourses = ({ courses }) => {
               <div className="col-lg-4 col-md-6" key={course.id}>
                 <div className="single-courses-box">
                   <div className="courses-image">
-                    <Link href="/courses/[id]" as={`/courses/${course.id}`}>
-                      <a className="d-block image">
-                        <img src={course.profilePhoto} alt={course.title} />
-                      </a>
+                    <Link
+                      href="/courses/[id]"
+                      as={`/courses/${course.id}`}
+                      className="d-block image">
+
+                      <img src={course.profilePhoto} alt={course.title} />
+
                     </Link>
 
-                    <Link href="#">
-                      <a className="fav">
-                        <i className="flaticon-heart"></i>
-                      </a>
+                    <Link href="#" className="fav">
+
+                      <i className="flaticon-heart"></i>
+
                     </Link>
 
                     <div className="price shadow">${course.price}</div>
@@ -50,10 +53,8 @@ const TopCourses = ({ courses }) => {
 
                     <h3 title={course.title}>
                       <Link href="/courses/[id]" as={`/courses/${course.id}`}>
-                        <a>
-                          {course.title.slice(0, 20)}
-                          ...
-                        </a>
+
+                        {course.title.slice(0, 20)}...
                       </Link>
                     </h3>
 
@@ -82,7 +83,7 @@ const TopCourses = ({ courses }) => {
               <p>
                 {t("course-description2")}{" "}
                 <Link href="/authentication">
-                  <a>{t("join-free-now")}</a>
+                  {t("join-free-now")}
                 </Link>
                 .
               </p>

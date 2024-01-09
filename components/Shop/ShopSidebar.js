@@ -25,16 +25,16 @@ const ShopSidebar = () => {
         <h3 className="widget-title">Popular Products</h3>
 
         <div className="item">
-          <Link href="#">
-            <a className="thumb">
-              <span className="fullimage cover bg1" role="img"></span>
-            </a>
+          <Link href="#" className="thumb">
+
+            <span className="fullimage cover bg1" role="img"></span>
+
           </Link>
           <div className="info">
             <span>$49.00</span>
             <h4 className="title usmall">
               <Link href="#">
-                <a>Random Romance Novel Title Generator</a>
+                Random Romance Novel Title Generator
               </Link>
             </h4>
             <div className="rating">
@@ -49,16 +49,16 @@ const ShopSidebar = () => {
         </div>
 
         <div className="item">
-          <Link href="#">
-            <a className="thumb">
-              <span className="fullimage cover bg2" role="img"></span>
-            </a>
+          <Link href="#" className="thumb">
+
+            <span className="fullimage cover bg2" role="img"></span>
+
           </Link>
           <div className="info">
             <span>$59.00</span>
             <h4 className="title usmall">
               <Link href="#">
-                <a>Writing Exercises Story Title Ideas</a>
+                Writing Exercises Story Title Ideas
               </Link>
             </h4>
             <div className="rating">
@@ -73,16 +73,16 @@ const ShopSidebar = () => {
         </div>
 
         <div className="item">
-          <Link href="#">
-            <a className="thumb">
-              <span className="fullimage cover bg3" role="img"></span>
-            </a>
+          <Link href="#" className="thumb">
+
+            <span className="fullimage cover bg3" role="img"></span>
+
           </Link>
           <div className="info">
             <span>$69.00</span>
             <h4 className="title usmall">
               <Link href="#">
-                <a>Amaze Story Kitt Net's Book Ideas</a>
+                Amaze Story Kitt Net's Book Ideas
               </Link>
             </h4>
             <div className="rating">
@@ -102,75 +102,63 @@ const ShopSidebar = () => {
 
         <div className="tagcloud">
           <Link href="#">
-            <a>
-              Business <span className="tag-link-count">(3)</span>
-            </a>
+            Business<span className="tag-link-count">(3)</span>
+
           </Link>
 
           <Link href="#">
-            <a>
-              Design <span className="tag-link-count">(3)</span>
-            </a>
+            Design<span className="tag-link-count">(3)</span>
+
           </Link>
 
           <Link href="#">
-            <a>
-              Digital <span className="tag-link-count">(2)</span>
-            </a>
+            Digital<span className="tag-link-count">(2)</span>
+
           </Link>
 
           <Link href="#">
-            <a>
-              SEO <span className="tag-link-count">(2)</span>
-            </a>
+            SEO<span className="tag-link-count">(2)</span>
+
           </Link>
 
           <Link href="#">
-            <a>
-              Braike <span className="tag-link-count">(2)</span>
-            </a>
+            Braike<span className="tag-link-count">(2)</span>
+
           </Link>
 
           <Link href="#">
-            <a>
-              Fashion <span className="tag-link-count">(2)</span>
-            </a>
+            Fashion<span className="tag-link-count">(2)</span>
+
           </Link>
 
           <Link href="#">
-            <a>
-              Software <span className="tag-link-count">(2)</span>
-            </a>
+            Software<span className="tag-link-count">(2)</span>
+
           </Link>
 
           <Link href="#">
-            <a>
-              Travel <span className="tag-link-count">(1)</span>
-            </a>
+            Travel<span className="tag-link-count">(1)</span>
+
           </Link>
 
           <Link href="#">
-            <a>
-              Smart <span className="tag-link-count">(1)</span>
-            </a>
+            Smart<span className="tag-link-count">(1)</span>
+
           </Link>
 
           <Link href="#">
-            <a>
-              Marketing <span className="tag-link-count">(1)</span>
-            </a>
+            Marketing<span className="tag-link-count">(1)</span>
+
           </Link>
 
           <Link href="#">
-            <a>
-              Tips <span className="tag-link-count">(2)</span>
-            </a>
+            Tips<span className="tag-link-count">(2)</span>
+
           </Link>
 
           <Link href="#">
-            <a>
-              Website <span className="tag-link-count">(2)</span>
-            </a>
+            Website<span className="tag-link-count">(2)</span>
+
           </Link>
         </div>
       </div>

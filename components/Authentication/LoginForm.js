@@ -85,8 +85,8 @@ const LoginForm = () => {
           </div>
 
           <div className="col-lg-6 col-md-6 col-sm-6 lost-your-password-wrap">
-            <Link href="/reset-password">
-              <a className="lost-your-password">Lost your password?</a>
+            <Link href="/reset-password" className="lost-your-password">
+              Lost your password?
             </Link>
           </div>
         </div>

@@ -21,7 +21,7 @@ const Quizzes = () => {
             <tr>
               <td>
                 <Link href="#">
-                  <a>Introduction to Python for Beginners</a>
+                  Introduction to Python for Beginners
                 </Link>
               </td>
               <td>Lesson 1 Term Test</td>
@@ -34,7 +34,7 @@ const Quizzes = () => {
             <tr>
               <td>
                 <Link href="#">
-                  <a>Python for Data Science and Machine Learning Bootcamp</a>
+                  Python for Data Science and Machine Learning Bootcamp
                 </Link>
               </td>
               <td>Lesson 2 Term Test</td>
@@ -47,7 +47,7 @@ const Quizzes = () => {
             <tr>
               <td>
                 <Link href="#">
-                  <a>The Modern Python 3 Bootcamp</a>
+                  The Modern Python 3 Bootcamp
                 </Link>
               </td>
               <td>Lesson 5 Term Test</td>
@@ -60,7 +60,7 @@ const Quizzes = () => {
             <tr>
               <td>
                 <Link href="#">
-                  <a>REST APIs with Flask and Python</a>
+                  REST APIs with Flask and Python
                 </Link>
               </td>
               <td>Lesson 1 Term Test</td>
@@ -73,7 +73,7 @@ const Quizzes = () => {
             <tr>
               <td>
                 <Link href="#">
-                  <a>Reinforcement Learning in Python</a>
+                  Reinforcement Learning in Python
                 </Link>
               </td>
               <td>Lesson 1 Term Test</td>

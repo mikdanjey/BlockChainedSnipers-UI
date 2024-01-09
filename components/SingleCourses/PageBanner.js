@@ -16,12 +16,12 @@ const PageBanner = ({
           <ul>
             <li>
               <Link href={homePageUrl}>
-                <a>{homePageText}</a>
+                {homePageText}
               </Link>
             </li>
             <li>
               <Link href={innerPageUrl}>
-                <a>{innerPageText}</a>
+                {innerPageText}
               </Link>
             </li>
             <li className="active">{activePageText}</li>

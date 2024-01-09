@@ -44,12 +44,12 @@ const About = () => {
                   </span>
                 </li>
               </ul>
-              <Link href="/courses-1">
-                <a className="default-btn">
-                  <i className="flaticon-user"></i>
-                  {t("view-all-courses")}
-                  <span></span>
-                </a>
+              <Link href="/courses-1" className="default-btn">
+
+                <i className="flaticon-user"></i>
+                {t("view-all-courses")}
+                <span></span>
+
               </Link>
             </div>
           </div>

@@ -18,8 +18,8 @@ const Features = () => {
                 eiusmod tempor.
               </p>
 
-              <Link href="/membership-levels">
-                <a className="link-btn">Start Now!</a>
+              <Link href="/membership-levels" className="link-btn">
+                Start Now!
               </Link>
             </div>
           </div>
@@ -36,8 +36,8 @@ const Features = () => {
                 eiusmod tempor.
               </p>
 
-              <Link href="/membership-levels">
-                <a className="link-btn">Start Now!</a>
+              <Link href="/membership-levels" className="link-btn">
+                Start Now!
               </Link>
             </div>
           </div>
@@ -54,8 +54,8 @@ const Features = () => {
                 eiusmod tempor.
               </p>
 
-              <Link href="/membership-levels">
-                <a className="link-btn">Start Now!</a>
+              <Link href="/membership-levels" className="link-btn">
+                Start Now!
               </Link>
             </div>
           </div>

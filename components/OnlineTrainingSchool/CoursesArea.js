@@ -25,23 +25,23 @@ const CoursesArea = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1">
-                      <a className="link-btn"></a>
+                    <Link href="/single-courses-1" className="link-btn">
+
                     </Link>
                   </div>
                 </div>
 
                 <div className="col-lg-8 col-md-8">
                   <div className="courses-content">
-                    <Link href="#">
-                      <a className="fav">
-                        <i className="flaticon-heart"></i>
-                      </a>
+                    <Link href="#" className="fav">
+
+                      <i className="flaticon-heart"></i>
+
                     </Link>
                     <span className="price">$39</span>
                     <h3>
                       <Link href="/single-courses-1">
-                        <a>Agile Crash Course: Agile Project Management</a>
+                        Agile Crash Course: Agile Project Management
                       </Link>
                     </h3>
                     <ul className="courses-content-footer d-flex justify-content-between align-items-center">
@@ -68,8 +68,8 @@ const CoursesArea = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1">
-                      <a className="link-btn"></a>
+                    <Link href="/single-courses-1" className="link-btn">
+
                     </Link>
                   </div>
                 </div>
@@ -109,8 +109,8 @@ const CoursesArea = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1">
-                      <a className="link-btn"></a>
+                    <Link href="/single-courses-1" className="link-btn">
+
                     </Link>
                   </div>
                 </div>
@@ -151,8 +151,8 @@ const CoursesArea = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1">
-                      <a className="link-btn"></a>
+                    <Link href="/single-courses-1" className="link-btn">
+
                     </Link>
                   </div>
                 </div>
@@ -192,8 +192,8 @@ const CoursesArea = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1">
-                      <a className="link-btn"></a>
+                    <Link href="/single-courses-1" className="link-btn">
+
                     </Link>
                   </div>
                 </div>
@@ -233,8 +233,8 @@ const CoursesArea = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1">
-                      <a className="link-btn"></a>
+                    <Link href="/single-courses-1" className="link-btn">
+
                     </Link>
                   </div>
                 </div>
@@ -266,17 +266,17 @@ const CoursesArea = () => {
 
           <div className="col-lg-12 col-md-12">
             <div className="courses-info">
-              <Link href="/courses-1">
-                <a className="default-btn">
-                  <i className="flaticon-user"></i> View All Courses{" "}
-                  <span></span>
-                </a>
+              <Link href="/courses-1" className="default-btn">
+
+                <i className="flaticon-user"></i>View All Courses{" "}
+                <span></span>
+
               </Link>
 
               <p>
                 Get into details now?​{" "}
                 <Link href="/courses-1">
-                  <a>PM Master’s Program</a>
+                  PM Master’s Program
                 </Link>
               </p>
             </div>

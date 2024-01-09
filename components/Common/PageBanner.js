@@ -14,7 +14,7 @@ const PageBanner = ({
           <ul>
             <li>
               <Link href={homePageUrl}>
-                <a>{homePageText}</a>
+                {homePageText}
               </Link>
             </li>
             <li className="active">{activePageText}</li>

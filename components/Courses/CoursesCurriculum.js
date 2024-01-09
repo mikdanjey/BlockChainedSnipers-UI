@@ -9,18 +9,18 @@ const CoursesCurriculum = ({ videos }) => {
         <ul>
           {videos.map((video) => (
             <li key={video.id}>
-              <Link href="/courses">
-                <a
-                  className="d-flex justify-content-between align-items-center"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  <span className="courses-name">{video.name}</span>
-                  <div className="courses-meta">
-                    <span className="status locked">
-                      <i className="flaticon-password"></i>
-                    </span>
-                  </div>
-                </a>
+              <Link
+                href="/courses"
+                className="d-flex justify-content-between align-items-center"
+                onClick={(e) => e.preventDefault()}>
+
+                <span className="courses-name">{video.name}</span>
+                <div className="courses-meta">
+                  <span className="status locked">
+                    <i className="flaticon-password"></i>
+                  </span>
+                </div>
+
               </Link>
             </li>
           ))}

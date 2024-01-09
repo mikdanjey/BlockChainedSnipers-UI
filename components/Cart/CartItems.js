@@ -6,15 +6,15 @@ const CartItems = ({ id, title, price, image, onRemove }) => {
     <tr>
       <td className="product-thumbnail">
         <Link href="#">
-          <a>
-            <img src={image} alt="item" />
-          </a>
+
+          <img src={image} alt="item" />
+
         </Link>
       </td>
 
       <td className="product-name">
         <Link href="#">
-          <a>{title}</a>
+          {title}
         </Link>
       </td>
 

@@ -32,22 +32,22 @@ const MainBanner = () => {
                 </li>
                 <li>
                   <Link href="#">
-                    <a>Development</a>
+                    Development
                   </Link>
                 </li>
                 <li>
                   <Link href="#">
-                    <a>Marketing</a>
+                    Marketing
                   </Link>
                 </li>
                 <li>
                   <Link href="#">
-                    <a>Illustration</a>
+                    Illustration
                   </Link>
                 </li>
                 <li>
                   <Link href="#">
-                    <a>UX/UI</a>
+                    UX/UI
                   </Link>
                 </li>
               </ul>

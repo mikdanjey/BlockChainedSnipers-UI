@@ -19,12 +19,12 @@ const EdemyPremium = () => {
                 <span className="sub-title">{t("distance-learning")}</span>
                 <h2>{t("go-ahead")}</h2>
                 <p>{t("go-ahead-desc")}</p>
-                <Link href="/courses-1">
-                  <a className="default-btn">
-                    <i className="flaticon-agenda"></i>
-                    {t("view-courses")}
-                    <span></span>
-                  </a>
+                <Link href="/courses-1" className="default-btn">
+
+                  <i className="flaticon-agenda"></i>
+                  {t("view-courses")}
+                  <span></span>
+
                 </Link>
               </div>
             </div>
@@ -43,12 +43,12 @@ const EdemyPremium = () => {
                 <span className="sub-title">{t("go-own-pace")}</span>
                 <h2>{t("unlimited-access")}</h2>
                 <p>{t("unlimited-access-desc")}</p>
-                <Link href="/membership-levels">
-                  <a className="default-btn">
-                    <i className="flaticon-user"></i>
-                    {t("get-started-now")}
-                    <span></span>
-                  </a>
+                <Link href="/membership-levels" className="default-btn">
+
+                  <i className="flaticon-user"></i>
+                  {t("get-started-now")}
+                  <span></span>
+
                 </Link>
               </div>
             </div>

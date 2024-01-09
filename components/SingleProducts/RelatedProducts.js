@@ -15,13 +15,13 @@ const RelatedProducts = () => {
             <div className="single-products-box">
               <div className="products-image">
                 <Link href="/single-products">
-                  <a>
-                    <img
-                      src="/images/products/product4.jpg"
-                      className="main-image"
-                      alt="image"
-                    />
-                  </a>
+
+                  <img
+                    src="/images/products/product4.jpg"
+                    className="main-image"
+                    alt="image"
+                  />
+
                 </Link>
 
                 <div className="products-button">
@@ -41,7 +41,7 @@ const RelatedProducts = () => {
               <div className="products-content">
                 <h3>
                   <Link href="/single-products">
-                    <a>Stop and Take a Second</a>
+                    Stop and Take a Second
                   </Link>
                 </h3>
                 <div className="price">
@@ -65,13 +65,13 @@ const RelatedProducts = () => {
             <div className="single-products-box">
               <div className="products-image">
                 <Link href="/single-products">
-                  <a>
-                    <img
-                      src="/images/products/product5.jpg"
-                      className="main-image"
-                      alt="image"
-                    />
-                  </a>
+
+                  <img
+                    src="/images/products/product5.jpg"
+                    className="main-image"
+                    alt="image"
+                  />
+
                 </Link>
 
                 <div className="products-button">
@@ -91,7 +91,7 @@ const RelatedProducts = () => {
               <div className="products-content">
                 <h3>
                   <Link href="/single-products">
-                    <a>Real Life Fairytale</a>
+                    Real Life Fairytale
                   </Link>
                 </h3>
                 <div className="price">
@@ -115,13 +115,13 @@ const RelatedProducts = () => {
             <div className="single-products-box">
               <div className="products-image">
                 <Link href="/single-products">
-                  <a>
-                    <img
-                      src="/images/products/product6.jpg"
-                      className="main-image"
-                      alt="image"
-                    />
-                  </a>
+
+                  <img
+                    src="/images/products/product6.jpg"
+                    className="main-image"
+                    alt="image"
+                  />
+
                 </Link>
 
                 <div className="products-button">
@@ -143,7 +143,7 @@ const RelatedProducts = () => {
               <div className="products-content">
                 <h3>
                   <Link href="/single-products">
-                    <a>Running From Me</a>
+                    Running From Me
                   </Link>
                 </h3>
                 <div className="price">

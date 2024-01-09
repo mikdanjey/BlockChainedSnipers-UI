@@ -24,7 +24,7 @@ const LifestyleCourses = () => {
 
               <h3 className="playfair-display-font">
                 <Link href="/courses-1">
-                  <a>Nutrition Strategies</a>
+                  Nutrition Strategies
                 </Link>
               </h3>
 
@@ -33,8 +33,8 @@ const LifestyleCourses = () => {
                 eiusmod tempor incididunt ut labore et dolore.
               </p>
 
-              <Link href="/courses-1">
-                <a className="link-btn">Start Now</a>
+              <Link href="/courses-1" className="link-btn">
+                Start Now
               </Link>
             </div>
           </div>
@@ -47,7 +47,7 @@ const LifestyleCourses = () => {
 
               <h3 className="playfair-display-font">
                 <Link href="/courses-1">
-                  <a>Personal Program</a>
+                  Personal Program
                 </Link>
               </h3>
 
@@ -56,8 +56,8 @@ const LifestyleCourses = () => {
                 eiusmod tempor incididunt ut labore et dolore.
               </p>
 
-              <Link href="/courses-1">
-                <a className="link-btn">Start Now</a>
+              <Link href="/courses-1" className="link-btn">
+                Start Now
               </Link>
             </div>
           </div>
@@ -70,7 +70,7 @@ const LifestyleCourses = () => {
 
               <h3 className="playfair-display-font">
                 <Link href="/courses-1">
-                  <a>Find Your Balance</a>
+                  Find Your Balance
                 </Link>
               </h3>
 
@@ -79,8 +79,8 @@ const LifestyleCourses = () => {
                 eiusmod tempor incididunt ut labore et dolore.
               </p>
 
-              <Link href="/courses-1">
-                <a className="link-btn">Start Now</a>
+              <Link href="/courses-1" className="link-btn">
+                Start Now
               </Link>
             </div>
           </div>

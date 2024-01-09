@@ -24,7 +24,7 @@ const HealthServices = () => {
               </div>
               <h3 className="playfair-display-font">
                 <Link href="/courses-1">
-                  <a>Daily Excersize</a>
+                  Daily Excersize
                 </Link>
               </h3>
               <p>
@@ -42,7 +42,7 @@ const HealthServices = () => {
               </div>
               <h3 className="playfair-display-font">
                 <Link href="courses-1.html">
-                  <a>Find Your Balance</a>
+                  Find Your Balance
                 </Link>
               </h3>
               <p>
@@ -60,7 +60,7 @@ const HealthServices = () => {
               </div>
               <h3 className="playfair-display-font">
                 <Link href="/courses-1">
-                  <a>Personal Program</a>
+                  Personal Program
                 </Link>
               </h3>
               <p>
@@ -78,7 +78,7 @@ const HealthServices = () => {
               </div>
               <h3 className="playfair-display-font">
                 <Link href="/courses-1">
-                  <a>Natural Process</a>
+                  Natural Process
                 </Link>
               </h3>
               <p>
@@ -96,7 +96,7 @@ const HealthServices = () => {
               </div>
               <h3 className="playfair-display-font">
                 <Link href="/courses-1">
-                  <a>Immune System</a>
+                  Immune System
                 </Link>
               </h3>
               <p>
@@ -114,7 +114,7 @@ const HealthServices = () => {
               </div>
               <h3 className="playfair-display-font">
                 <Link href="/courses-1">
-                  <a>Gives You Energy</a>
+                  Gives You Energy
                 </Link>
               </h3>
               <p>

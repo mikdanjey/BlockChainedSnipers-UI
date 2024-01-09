@@ -19,7 +19,7 @@ const YogaTraining = () => {
               <img src="/images/training-img1.png" alt="image" />
               <h3 className="playfair-display-font">
                 <Link href="/courses-1">
-                  <a>Flexibility</a>
+                  Flexibility
                 </Link>
               </h3>
               <p>
@@ -27,8 +27,8 @@ const YogaTraining = () => {
                 eiusmod tempor incididunt ut labore et dolore.
               </p>
 
-              <Link href="/courses-1">
-                <a className="link-btn">Start Now</a>
+              <Link href="/courses-1" className="link-btn">
+                Start Now
               </Link>
             </div>
           </div>
@@ -38,7 +38,7 @@ const YogaTraining = () => {
               <img src="/images/training-img2.png" alt="image" />
               <h3 className="playfair-display-font">
                 <Link href="/courses-1">
-                  <a>Comfort</a>
+                  Comfort
                 </Link>
               </h3>
               <p>
@@ -46,8 +46,8 @@ const YogaTraining = () => {
                 eiusmod tempor incididunt ut labore et dolore.
               </p>
 
-              <Link href="/courses-1">
-                <a className="link-btn">Start Now</a>
+              <Link href="/courses-1" className="link-btn">
+                Start Now
               </Link>
             </div>
           </div>
@@ -57,7 +57,7 @@ const YogaTraining = () => {
               <img src="/images/training-img3.png" alt="image" />
               <h3 className="playfair-display-font">
                 <Link href="/courses-1">
-                  <a>Resources</a>
+                  Resources
                 </Link>
               </h3>
               <p>
@@ -65,8 +65,8 @@ const YogaTraining = () => {
                 eiusmod tempor incididunt ut labore et dolore.
               </p>
 
-              <Link href="/courses-1">
-                <a className="link-btn">Start Now</a>
+              <Link href="/courses-1" className="link-btn">
+                Start Now
               </Link>
             </div>
           </div>

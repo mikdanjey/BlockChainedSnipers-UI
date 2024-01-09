@@ -21,11 +21,11 @@ const GetInstantCourses = () => {
                   substantial changes to someone!
                 </p>
 
-                <Link href="/profile-authentication">
-                  <a className="default-btn">
-                    <i className="flaticon-user"></i> Start For Free{" "}
-                    <span></span>
-                  </a>
+                <Link href="/profile-authentication" className="default-btn">
+
+                  <i className="flaticon-user"></i>Start For Free{" "}
+                  <span></span>
+
                 </Link>
               </div>
             </div>

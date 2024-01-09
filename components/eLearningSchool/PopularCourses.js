@@ -20,16 +20,19 @@ const PopularCourses = ({ courses }) => {
               <div className="col-lg-4 col-md-6" key={course.id}>
                 <div className="single-courses-box">
                   <div className="courses-image">
-                    <Link href="/courses/[id]" as={`/courses/${course.id}`}>
-                      <a className="d-block image">
-                        <img src={course.profilePhoto} alt={course.title} />
-                      </a>
+                    <Link
+                      href="/courses/[id]"
+                      as={`/courses/${course.id}`}
+                      className="d-block image">
+
+                      <img src={course.profilePhoto} alt={course.title} />
+
                     </Link>
 
-                    <Link href="#">
-                      <a className="fav">
-                        <i className="flaticon-heart"></i>
-                      </a>
+                    <Link href="#" className="fav">
+
+                      <i className="flaticon-heart"></i>
+
                     </Link>
 
                     <div className="price shadow">${course.price}</div>
@@ -51,7 +54,7 @@ const PopularCourses = ({ courses }) => {
 
                     <h3>
                       <Link href="/courses/[id]" as={`/courses/${course.id}`}>
-                        <a>{course.title}</a>
+                        {course.title}
                       </Link>
                     </h3>
 
@@ -82,7 +85,7 @@ const PopularCourses = ({ courses }) => {
                 skills! You are the creator of your own career & we will guide
                 you through that.{" "}
                 <Link href="/profile-authentication">
-                  <a>Register Free Now!</a>
+                  Register Free Now!
                 </Link>
                 .
               </p>

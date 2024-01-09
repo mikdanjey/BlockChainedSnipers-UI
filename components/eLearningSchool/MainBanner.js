@@ -16,10 +16,10 @@ const MainBanner = ({ courses }) => {
                 can offer you to enjoy the beauty of eLearning!
               </p>
 
-              <Link href="/profile-authentication">
-                <a className="default-btn">
-                  <i className="flaticon-user"></i> Join For Free <span></span>
-                </a>
+              <Link href="/profile-authentication" className="default-btn">
+
+                <i className="flaticon-user"></i>Join For Free<span></span>
+
               </Link>
             </div>
           </div>
@@ -31,16 +31,19 @@ const MainBanner = ({ courses }) => {
                   <div className="col-lg-6 col-md-6" key={course.id}>
                     <div className="single-courses-box">
                       <div className="courses-image">
-                        <Link href="/courses/[id]" as={`/courses/${course.id}`}>
-                          <a className="d-block image">
-                            <img src={course.profilePhoto} alt={course.title} />
-                          </a>
+                        <Link
+                          href="/courses/[id]"
+                          as={`/courses/${course.id}`}
+                          className="d-block image">
+
+                          <img src={course.profilePhoto} alt={course.title} />
+
                         </Link>
 
-                        <Link href="#">
-                          <a className="fav">
-                            <i className="flaticon-heart"></i>
-                          </a>
+                        <Link href="#" className="fav">
+
+                          <i className="flaticon-heart"></i>
+
                         </Link>
 
                         <div className="price shadow">${course.price}</div>
@@ -65,7 +68,7 @@ const MainBanner = ({ courses }) => {
                             href="/courses/[id]"
                             as={`/courses/${course.id}`}
                           >
-                            <a>{course.title}</a>
+                            {course.title}
                           </Link>
                         </h3>
 

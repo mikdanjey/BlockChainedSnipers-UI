@@ -10,10 +10,10 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="single-footer-widget">
-              <Link href="/">
-                <a className="logo">
-                  <img src="/images/logo2.png" alt="logo" />
-                </a>
+              <Link href="/" className="logo">
+
+                <img src="/images/logo2.png" alt="logo" />
+
               </Link>
 
               <p>
@@ -54,27 +54,27 @@ const Footer = () => {
               <ul className="footer-links-list">
                 <li>
                   <Link href="/">
-                    <a>Home</a>
+                    Home
                   </Link>
                 </li>
                 <li>
                   <Link href="/about-1">
-                    <a>About</a>
+                    About
                   </Link>
                 </li>
                 <li>
                   <Link href="/courses-1">
-                    <a>Courses</a>
+                    Courses
                   </Link>
                 </li>
                 <li>
                   <Link href="/events">
-                    <a>Events</a>
+                    Events
                   </Link>
                 </li>
                 <li>
                   <Link href="/contact">
-                    <a>Contact</a>
+                    Contact
                   </Link>
                 </li>
               </ul>
@@ -87,27 +87,27 @@ const Footer = () => {
               <ul className="footer-links-list">
                 <li>
                   <Link href="#">
-                    <a>Student Success</a>
+                    Student Success
                   </Link>
                 </li>
                 <li>
                   <Link href="#">
-                    <a>Scholarships</a>
+                    Scholarships
                   </Link>
                 </li>
                 <li>
                   <Link href="#">
-                    <a>For Business</a>
+                    For Business
                   </Link>
                 </li>
                 <li>
                   <Link href="#">
-                    <a>Go Premium</a>
+                    Go Premium
                   </Link>
                 </li>
                 <li>
                   <Link href="#">
-                    <a>Team Plans</a>
+                    Team Plans
                   </Link>
                 </li>
               </ul>
@@ -155,12 +155,12 @@ const Footer = () => {
               <ul>
                 <li>
                   <Link href="/privacy-policy">
-                    <a>Privacy Policy</a>
+                    Privacy Policy
                   </Link>
                 </li>
                 <li>
                   <Link href="/terms-of-service">
-                    <a>Terms & Conditions</a>
+                    Terms & Conditions
                   </Link>
                 </li>
               </ul>
