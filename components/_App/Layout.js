@@ -1,8 +1,28 @@
 import React from "react";
 import Head from "next/head";
+import Router from "next/router";
 import GoTop from "./GoTop";
+import Preloader from "./Preloader";
 
 const Layout = ({ children }) => {
+  const [loader, setLoader] = React.useState(true);
+
+  React.useEffect(() => {
+    setTimeout(() => {
+      setLoader(false);
+    }, 1000);
+  }, []);
+
+  Router.events.on("routeChangeStart", () => {
+    setLoader(true);
+  });
+  Router.events.on("routeChangeComplete", () => {
+    setLoader(false);
+  });
+  Router.events.on("routeChangeError", () => {
+    setLoader(false);
+  });
+
   return (
     <>
       <Head>
@@ -27,6 +47,7 @@ const Layout = ({ children }) => {
         <link rel="canonical" href="https://mikdantech.local"></link>
       </Head>
 
+      {loader && <Preloader />}
       {children}
 
       <GoTop scrollStepInPx="100" delayInMs="10.50" />
