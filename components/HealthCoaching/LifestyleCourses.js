@@ -23,9 +23,7 @@ const LifestyleCourses = () => {
               </div>
 
               <h3 className="playfair-display-font">
-                <Link href="/courses-1">
-                  Nutrition Strategies
-                </Link>
+                <Link href="/courses-1">Nutrition Strategies</Link>
               </h3>
 
               <p>
@@ -46,9 +44,7 @@ const LifestyleCourses = () => {
               </div>
 
               <h3 className="playfair-display-font">
-                <Link href="/courses-1">
-                  Personal Program
-                </Link>
+                <Link href="/courses-1">Personal Program</Link>
               </h3>
 
               <p>
@@ -69,9 +65,7 @@ const LifestyleCourses = () => {
               </div>
 
               <h3 className="playfair-display-font">
-                <Link href="/courses-1">
-                  Find Your Balance
-                </Link>
+                <Link href="/courses-1">Find Your Balance</Link>
               </h3>
 
               <p>

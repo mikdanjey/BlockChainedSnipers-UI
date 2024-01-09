@@ -39,7 +39,6 @@ const Pricing = () => {
 
               <Link href="#" className="default-btn">
                 Book Now<span></span>
-
               </Link>
 
               <div className="pricing-shape1">
@@ -75,7 +74,6 @@ const Pricing = () => {
 
               <Link href="#" className="default-btn">
                 Book Now<span></span>
-
               </Link>
 
               <div className="pricing-shape1">
@@ -111,7 +109,6 @@ const Pricing = () => {
 
               <Link href="#" className="default-btn">
                 Book Now<span></span>
-
               </Link>
 
               <div className="pricing-shape1">

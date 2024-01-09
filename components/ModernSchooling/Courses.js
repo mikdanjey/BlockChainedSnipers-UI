@@ -25,9 +25,7 @@ const Courses = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn">
-
-                    </Link>
+                    <Link href="/single-courses-1" className="link-btn"></Link>
                   </div>
                 </div>
 
@@ -68,9 +66,7 @@ const Courses = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn">
-
-                    </Link>
+                    <Link href="/single-courses-1" className="link-btn"></Link>
                   </div>
                 </div>
 
@@ -82,10 +78,7 @@ const Courses = () => {
                     <span className="price">$99</span>
                     <h3>
                       <Link href="/single-courses-1">
-                        
-                          Vue JS 2 - The Complete Guide (incl. Vue Router &
-                          Vuex)
-                        
+                        Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)
                       </Link>
                     </h3>
                     <ul className="courses-content-footer d-flex justify-content-between align-items-center">
@@ -112,9 +105,7 @@ const Courses = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn">
-
-                    </Link>
+                    <Link href="/single-courses-1" className="link-btn"></Link>
                   </div>
                 </div>
 
@@ -127,10 +118,8 @@ const Courses = () => {
 
                     <h3>
                       <Link href="/single-courses-1">
-                        
-                          The Python Bible™ | Everything You Need to Program in
-                          Python
-                        
+                        The Python Bible™ | Everything You Need to Program in
+                        Python
                       </Link>
                     </h3>
 
@@ -158,9 +147,7 @@ const Courses = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn">
-
-                    </Link>
+                    <Link href="/single-courses-1" className="link-btn"></Link>
                   </div>
                 </div>
 
@@ -173,9 +160,7 @@ const Courses = () => {
 
                     <h3>
                       <Link href="/single-courses-1">
-                        
-                          Mathematical Foundation For Machine Learning and AI
-                        
+                        Mathematical Foundation For Machine Learning and AI
                       </Link>
                     </h3>
 
@@ -203,9 +188,7 @@ const Courses = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn">
-
-                    </Link>
+                    <Link href="/single-courses-1" className="link-btn"></Link>
                   </div>
                 </div>
 
@@ -218,9 +201,7 @@ const Courses = () => {
 
                     <h3>
                       <Link href="/single-courses-1">
-                        
-                          The Ultimate Drawing Course - Beginner to Advanced
-                        
+                        The Ultimate Drawing Course - Beginner to Advanced
                       </Link>
                     </h3>
 
@@ -248,9 +229,7 @@ const Courses = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn">
-
-                    </Link>
+                    <Link href="/single-courses-1" className="link-btn"></Link>
                   </div>
                 </div>
 
@@ -263,9 +242,7 @@ const Courses = () => {
 
                     <h3>
                       <Link href="/single-courses-1">
-                        
-                          PyTorch: Deep Learning and Artificial Intelligence
-                        
+                        PyTorch: Deep Learning and Artificial Intelligence
                       </Link>
                     </h3>
 
@@ -286,15 +263,11 @@ const Courses = () => {
           <div className="col-lg-12 col-md-12">
             <div className="courses-info">
               <Link href="/courses-1" className="default-btn">
-
                 <i className="flaticon-user"></i>View All Courses<span></span>
-
               </Link>
               <p>
                 Get into details now?​{" "}
-                <Link href="/courses-1">
-                  PM Master’s Program
-                </Link>
+                <Link href="/courses-1">PM Master’s Program</Link>
               </p>
             </div>
           </div>

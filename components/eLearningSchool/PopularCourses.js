@@ -23,16 +23,13 @@ const PopularCourses = ({ courses }) => {
                     <Link
                       href="/courses/[id]"
                       as={`/courses/${course.id}`}
-                      className="d-block image">
-
+                      className="d-block image"
+                    >
                       <img src={course.profilePhoto} alt={course.title} />
-
                     </Link>
 
                     <Link href="#" className="fav">
-
                       <i className="flaticon-heart"></i>
-
                     </Link>
 
                     <div className="price shadow">${course.price}</div>
@@ -84,10 +81,7 @@ const PopularCourses = ({ courses }) => {
                 Enjoy the top notch learning methods and achieve next level
                 skills! You are the creator of your own career & we will guide
                 you through that.{" "}
-                <Link href="/profile-authentication">
-                  Register Free Now!
-                </Link>
-                .
+                <Link href="/profile-authentication">Register Free Now!</Link>.
               </p>
             </div>
           </div>

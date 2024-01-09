@@ -26,16 +26,12 @@ const ShopSidebar = () => {
 
         <div className="item">
           <Link href="#" className="thumb">
-
             <span className="fullimage cover bg1" role="img"></span>
-
           </Link>
           <div className="info">
             <span>$49.00</span>
             <h4 className="title usmall">
-              <Link href="#">
-                Random Romance Novel Title Generator
-              </Link>
+              <Link href="#">Random Romance Novel Title Generator</Link>
             </h4>
             <div className="rating">
               <i className="bx bxs-star"></i>
@@ -50,16 +46,12 @@ const ShopSidebar = () => {
 
         <div className="item">
           <Link href="#" className="thumb">
-
             <span className="fullimage cover bg2" role="img"></span>
-
           </Link>
           <div className="info">
             <span>$59.00</span>
             <h4 className="title usmall">
-              <Link href="#">
-                Writing Exercises Story Title Ideas
-              </Link>
+              <Link href="#">Writing Exercises Story Title Ideas</Link>
             </h4>
             <div className="rating">
               <i className="bx bxs-star"></i>
@@ -74,16 +66,12 @@ const ShopSidebar = () => {
 
         <div className="item">
           <Link href="#" className="thumb">
-
             <span className="fullimage cover bg3" role="img"></span>
-
           </Link>
           <div className="info">
             <span>$69.00</span>
             <h4 className="title usmall">
-              <Link href="#">
-                Amaze Story Kitt Net's Book Ideas
-              </Link>
+              <Link href="#">Amaze Story Kitt Net's Book Ideas</Link>
             </h4>
             <div className="rating">
               <i className="bx bxs-star"></i>
@@ -103,62 +91,50 @@ const ShopSidebar = () => {
         <div className="tagcloud">
           <Link href="#">
             Business<span className="tag-link-count">(3)</span>
-
           </Link>
 
           <Link href="#">
             Design<span className="tag-link-count">(3)</span>
-
           </Link>
 
           <Link href="#">
             Digital<span className="tag-link-count">(2)</span>
-
           </Link>
 
           <Link href="#">
             SEO<span className="tag-link-count">(2)</span>
-
           </Link>
 
           <Link href="#">
             Braike<span className="tag-link-count">(2)</span>
-
           </Link>
 
           <Link href="#">
             Fashion<span className="tag-link-count">(2)</span>
-
           </Link>
 
           <Link href="#">
             Software<span className="tag-link-count">(2)</span>
-
           </Link>
 
           <Link href="#">
             Travel<span className="tag-link-count">(1)</span>
-
           </Link>
 
           <Link href="#">
             Smart<span className="tag-link-count">(1)</span>
-
           </Link>
 
           <Link href="#">
             Marketing<span className="tag-link-count">(1)</span>
-
           </Link>
 
           <Link href="#">
             Tips<span className="tag-link-count">(2)</span>
-
           </Link>
 
           <Link href="#">
             Website<span className="tag-link-count">(2)</span>
-
           </Link>
         </div>
       </div>

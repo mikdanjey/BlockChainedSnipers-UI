@@ -19,15 +19,11 @@ const PopularCourses = () => {
             <div className="single-courses-box without-boxshadow">
               <div className="courses-image">
                 <Link href="/single-courses-2" className="d-block image">
-
                   <img src="/images/courses/courses9.jpg" alt="image" />
-
                 </Link>
 
                 <Link href="#" className="fav">
-
                   <i className="flaticon-heart"></i>
-
                 </Link>
 
                 <div className="price shadow">$39</div>
@@ -66,14 +62,10 @@ const PopularCourses = () => {
             <div className="single-courses-box without-boxshadow active">
               <div className="courses-image">
                 <Link href="/single-courses-2" className="d-block image">
-
                   <img src="/images/courses/courses10.jpg" alt="image" />
-
                 </Link>
                 <Link href="#" className="fav">
-
                   <i className="flaticon-heart"></i>
-
                 </Link>
                 <div className="price shadow">$49</div>
               </div>
@@ -111,14 +103,10 @@ const PopularCourses = () => {
             <div className="single-courses-box without-boxshadow">
               <div className="courses-image">
                 <Link href="/single-courses-2" className="d-block image">
-
                   <img src="/images/courses/courses11.jpg" alt="image" />
-
                 </Link>
                 <Link href="#" className="fav">
-
                   <i className="flaticon-heart"></i>
-
                 </Link>
                 <div className="price shadow">$59</div>
               </div>
@@ -155,17 +143,12 @@ const PopularCourses = () => {
           <div className="col-lg-12 col-md-12">
             <div className="courses-info">
               <Link href="/courses-2" className="default-btn">
-
-                <i className="flaticon-user"></i>View All Courses{" "}
-                <span></span>
-
+                <i className="flaticon-user"></i>View All Courses <span></span>
               </Link>
 
               <p>
                 Get into details now?​{" "}
-                <Link href="/courses-2">
-                  PM Master’s Program
-                </Link>
+                <Link href="/courses-2">PM Master’s Program</Link>
               </p>
             </div>
           </div>

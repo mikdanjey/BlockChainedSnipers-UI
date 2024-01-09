@@ -26,9 +26,7 @@ const BlogSidebar = () => {
 
         <div className="item">
           <Link href="#" className="thumb">
-
             <span className="fullimage cover bg1" role="img"></span>
-
           </Link>
           <div className="info">
             <span>June 10, 2020</span>
@@ -44,9 +42,7 @@ const BlogSidebar = () => {
 
         <div className="item">
           <Link href="#" className="thumb">
-
             <span className="fullimage cover bg2" role="img"></span>
-
           </Link>
           <div className="info">
             <span>June 21, 2020</span>
@@ -62,9 +58,7 @@ const BlogSidebar = () => {
 
         <div className="item">
           <Link href="#" className="thumb">
-
             <span className="fullimage cover bg3" role="img"></span>
-
           </Link>
           <div className="info">
             <span>June 30, 2020</span>
@@ -86,31 +80,26 @@ const BlogSidebar = () => {
           <li>
             <Link href="#">
               Design<span className="post-count">(03)</span>
-
             </Link>
           </li>
           <li>
             <Link href="#">
               Lifestyle<span className="post-count">(05)</span>
-
             </Link>
           </li>
           <li>
             <Link href="#">
               Script<span className="post-count">(10)</span>
-
             </Link>
           </li>
           <li>
             <Link href="#">
               Device<span className="post-count">(08)</span>
-
             </Link>
           </li>
           <li>
             <Link href="#">
               Tips<span className="post-count">(01)</span>
-
             </Link>
           </li>
         </ul>
@@ -122,42 +111,34 @@ const BlogSidebar = () => {
         <div className="tagcloud">
           <Link href="#">
             Business<span className="tag-link-count"> (3)</span>
-
           </Link>
 
           <Link href="#">
             Design<span className="tag-link-count"> (3)</span>
-
           </Link>
 
           <Link href="#">
             Braike<span className="tag-link-count"> (2)</span>
-
           </Link>
 
           <Link href="#">
             Fashion<span className="tag-link-count"> (2)</span>
-
           </Link>
 
           <Link href="#">
             Travel<span className="tag-link-count"> (1)</span>
-
           </Link>
 
           <Link href="#">
             Smart<span className="tag-link-count"> (1)</span>
-
           </Link>
 
           <Link href="#">
             Marketing<span className="tag-link-count"> (1)</span>
-
           </Link>
 
           <Link href="#">
             Tips<span className="tag-link-count"> (2)</span>
-
           </Link>
         </div>
       </div>

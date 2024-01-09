@@ -21,17 +21,13 @@ const Courses = () => {
             <div className="single-yoga-courses-box">
               <div className="courses-image">
                 <Link href="/single-courses-1" className="d-block">
-
                   <img src="/images/courses/yoga-img1.jpg" alt="image" />
-
                 </Link>
               </div>
 
               <div className="courses-content">
                 <h3 className="playfair-display-font">
-                  <Link href="/single-courses-1">
-                    200 Hour YTT Course
-                  </Link>
+                  <Link href="/single-courses-1">200 Hour YTT Course</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -40,7 +36,6 @@ const Courses = () => {
 
                 <Link href="#" className="default-btn">
                   View Details<span></span>
-
                 </Link>
               </div>
             </div>
@@ -50,17 +45,13 @@ const Courses = () => {
             <div className="single-yoga-courses-box">
               <div className="courses-image">
                 <Link href="/single-courses-1" className="d-block">
-
                   <img src="/images/courses/yoga-img2.jpg" alt="image" />
-
                 </Link>
               </div>
 
               <div className="courses-content">
                 <h3 className="playfair-display-font">
-                  <Link href="/single-courses-1">
-                    300 Hour YTT Course
-                  </Link>
+                  <Link href="/single-courses-1">300 Hour YTT Course</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -69,7 +60,6 @@ const Courses = () => {
 
                 <Link href="#" className="default-btn">
                   View Details<span></span>
-
                 </Link>
               </div>
             </div>
@@ -79,17 +69,13 @@ const Courses = () => {
             <div className="single-yoga-courses-box">
               <div className="courses-image">
                 <Link href="/single-courses-1" className="d-block">
-
                   <img src="/images/courses/yoga-img3.jpg" alt="image" />
-
                 </Link>
               </div>
 
               <div className="courses-content">
                 <h3 className="playfair-display-font">
-                  <Link href="/single-courses-1">
-                    500 Hour YTT Course
-                  </Link>
+                  <Link href="/single-courses-1">500 Hour YTT Course</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -98,7 +84,6 @@ const Courses = () => {
 
                 <Link href="#" className="default-btn">
                   View Details<span></span>
-
                 </Link>
               </div>
             </div>

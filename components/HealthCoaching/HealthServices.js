@@ -23,9 +23,7 @@ const HealthServices = () => {
                 <i className="flaticon-yoga-2"></i>
               </div>
               <h3 className="playfair-display-font">
-                <Link href="/courses-1">
-                  Daily Excersize
-                </Link>
+                <Link href="/courses-1">Daily Excersize</Link>
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, conectetur adipiscing elit, sed do
@@ -41,9 +39,7 @@ const HealthServices = () => {
                 <i className="flaticon-yoga"></i>
               </div>
               <h3 className="playfair-display-font">
-                <Link href="courses-1.html">
-                  Find Your Balance
-                </Link>
+                <Link href="courses-1.html">Find Your Balance</Link>
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, conectetur adipiscing elit, sed do
@@ -59,9 +55,7 @@ const HealthServices = () => {
                 <i className="flaticon-lotus"></i>
               </div>
               <h3 className="playfair-display-font">
-                <Link href="/courses-1">
-                  Personal Program
-                </Link>
+                <Link href="/courses-1">Personal Program</Link>
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, conectetur adipiscing elit, sed do
@@ -77,9 +71,7 @@ const HealthServices = () => {
                 <i className="flaticon-tomato"></i>
               </div>
               <h3 className="playfair-display-font">
-                <Link href="/courses-1">
-                  Natural Process
-                </Link>
+                <Link href="/courses-1">Natural Process</Link>
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, conectetur adipiscing elit, sed do
@@ -95,9 +87,7 @@ const HealthServices = () => {
                 <i className="flaticon-yoga-1"></i>
               </div>
               <h3 className="playfair-display-font">
-                <Link href="/courses-1">
-                  Immune System
-                </Link>
+                <Link href="/courses-1">Immune System</Link>
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, conectetur adipiscing elit, sed do
@@ -113,9 +103,7 @@ const HealthServices = () => {
                 <i className="flaticon-strawberry"></i>
               </div>
               <h3 className="playfair-display-font">
-                <Link href="/courses-1">
-                  Gives You Energy
-                </Link>
+                <Link href="/courses-1">Gives You Energy</Link>
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, conectetur adipiscing elit, sed do

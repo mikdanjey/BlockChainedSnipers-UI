@@ -21,10 +21,7 @@ import "../styles/responsive.css";
 // Global RTL Styles
 import "../styles/rtl.css";
 
-function MyApp({
-  Component,
-  pageProps: { session, ...pageProps },
-}) {
+function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   const seoData = {
     title: "Developers City",
     description:

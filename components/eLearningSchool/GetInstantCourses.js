@@ -22,10 +22,7 @@ const GetInstantCourses = () => {
                 </p>
 
                 <Link href="/profile-authentication" className="default-btn">
-
-                  <i className="flaticon-user"></i>Start For Free{" "}
-                  <span></span>
-
+                  <i className="flaticon-user"></i>Start For Free <span></span>
                 </Link>
               </div>
             </div>

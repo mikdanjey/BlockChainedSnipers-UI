@@ -54,16 +54,10 @@ const EventsSidebar = () => {
 
       <div className="btn-box">
         <Link href="#" className="default-btn">
-
           <i className="flaticon-user"></i>Book Now<span></span>
-
         </Link>
         <p>
-          You must{" "}
-          <Link href="#">
-            login
-          </Link>{" "}
-          before register event.
+          You must <Link href="#">login</Link> before register event.
         </p>
       </div>
 

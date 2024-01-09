@@ -19,22 +19,16 @@ const PopularCoursesTwo = () => {
             <div className="single-courses-box bg-color">
               <div className="courses-image">
                 <Link href="/single-courses-2" className="d-block image">
-
                   <img src="/images/courses/courses6.jpg" alt="image" />
-
                 </Link>
                 <Link href="#" className="fav">
-
                   <i className="flaticon-heart"></i>
-
                 </Link>
                 <div className="price shadow">$39</div>
               </div>
               <div className="courses-content">
                 <h3>
-                  <Link href="/single-courses-2">
-                    PMP® Plus
-                  </Link>
+                  <Link href="/single-courses-2">PMP® Plus</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -56,22 +50,16 @@ const PopularCoursesTwo = () => {
             <div className="single-courses-box bg-color">
               <div className="courses-image">
                 <Link href="/single-courses-2" className="d-block image">
-
                   <img src="/images/courses/courses7.jpg" alt="image" />
-
                 </Link>
                 <Link href="#" className="fav">
-
                   <i className="flaticon-heart"></i>
-
                 </Link>
                 <div className="price shadow">$49</div>
               </div>
               <div className="courses-content">
                 <h3>
-                  <Link href="/single-courses-2">
-                    PMP® Renewal Pack
-                  </Link>
+                  <Link href="/single-courses-2">PMP® Renewal Pack</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -93,22 +81,16 @@ const PopularCoursesTwo = () => {
             <div className="single-courses-box bg-color">
               <div className="courses-image">
                 <Link href="/single-courses-2" className="d-block image">
-
                   <img src="/images/courses/courses8.jpg" alt="image" />
-
                 </Link>
                 <Link href="#" className="fav">
-
                   <i className="flaticon-heart"></i>
-
                 </Link>
                 <div className="price shadow">$59</div>
               </div>
               <div className="courses-content">
                 <h3>
-                  <Link href="/single-courses-2">
-                    Digital Project Manager
-                  </Link>
+                  <Link href="/single-courses-2">Digital Project Manager</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

@@ -19,13 +19,9 @@ const LatestBlog = () => {
             <div className="single-blog-item">
               <div className="post-image">
                 <Link href="/single-blog-1" className="d-block">
-
                   <img src="/images/blog/kindergarten-img1.jpg" alt="image" />
-
                 </Link>
-                <Link href="#" className="link-btn">
-
-                </Link>
+                <Link href="#" className="link-btn"></Link>
               </div>
 
               <div className="post-content">
@@ -45,14 +41,10 @@ const LatestBlog = () => {
             <div className="single-blog-item">
               <div className="post-image">
                 <Link href="/single-blog-1" className="d-block">
-
                   <img src="/images/blog/kindergarten-img2.jpg" alt="image" />
-
                 </Link>
 
-                <Link href="#" className="link-btn">
-
-                </Link>
+                <Link href="#" className="link-btn"></Link>
               </div>
 
               <div className="post-content">
@@ -72,14 +64,10 @@ const LatestBlog = () => {
             <div className="single-blog-item">
               <div className="post-image">
                 <Link href="/single-blog-1" className="d-block">
-
                   <img src="/images/blog/kindergarten-img3.jpg" alt="image" />
-
                 </Link>
 
-                <Link href="#" className="link-btn">
-
-                </Link>
+                <Link href="#" className="link-btn"></Link>
               </div>
 
               <div className="post-content">

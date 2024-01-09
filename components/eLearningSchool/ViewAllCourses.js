@@ -20,9 +20,7 @@ const ViewAllCourses = () => {
               </p>
 
               <Link href="/courses-1" className="default-btn">
-
                 <i className="flaticon-agenda"></i>View Courses<span></span>
-
               </Link>
             </div>
           </div>

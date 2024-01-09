@@ -19,9 +19,7 @@ const TopSellingCourses = () => {
             <div className="single-courses-box">
               <div className="courses-image">
                 <Link href="/single-courses-1" className="d-block image">
-
                   <img src="/images/courses/courses1.jpg" alt="image" />
-
                 </Link>
                 <a href="#" className="fav">
                   <i className="flaticon-heart"></i>
@@ -62,9 +60,7 @@ const TopSellingCourses = () => {
             <div className="single-courses-box">
               <div className="courses-image">
                 <Link href="/single-courses-1" className="d-block image">
-
                   <img src="/images/courses/courses2.jpg" alt="image" />
-
                 </Link>
                 <a href="#" className="fav">
                   <i className="flaticon-heart"></i>
@@ -105,9 +101,7 @@ const TopSellingCourses = () => {
             <div className="single-courses-box">
               <div className="courses-image">
                 <Link href="/single-courses-1" className="d-block image">
-
                   <img src="/images/courses/courses3.jpg" alt="image" />
-
                 </Link>
                 <a href="#" className="fav">
                   <i className="flaticon-heart"></i>
@@ -149,10 +143,7 @@ const TopSellingCourses = () => {
               <p>
                 Get the most dedicated consultation for your life-changing
                 course. Earn a certification for your effort and passion{" "}
-                <Link href="/profile-authentication">
-                  Join Free Now
-                </Link>
-                .
+                <Link href="/profile-authentication">Join Free Now</Link>.
               </p>
             </div>
           </div>

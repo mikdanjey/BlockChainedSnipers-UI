@@ -22,16 +22,13 @@ const TopCourses = ({ courses }) => {
                     <Link
                       href="/courses/[id]"
                       as={`/courses/${course.id}`}
-                      className="d-block image">
-
+                      className="d-block image"
+                    >
                       <img src={course.profilePhoto} alt={course.title} />
-
                     </Link>
 
                     <Link href="#" className="fav">
-
                       <i className="flaticon-heart"></i>
-
                     </Link>
 
                     <div className="price shadow">${course.price}</div>
@@ -53,7 +50,6 @@ const TopCourses = ({ courses }) => {
 
                     <h3 title={course.title}>
                       <Link href="/courses/[id]" as={`/courses/${course.id}`}>
-
                         {course.title.slice(0, 20)}...
                       </Link>
                     </h3>
@@ -82,10 +78,7 @@ const TopCourses = ({ courses }) => {
             <div className="courses-info">
               <p>
                 {t("course-description2")}{" "}
-                <Link href="/authentication">
-                  {t("join-free-now")}
-                </Link>
-                .
+                <Link href="/authentication">{t("join-free-now")}</Link>.
               </p>
             </div>
           </div>

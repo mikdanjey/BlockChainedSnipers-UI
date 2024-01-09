@@ -60,10 +60,7 @@ const FeaturedCourses = () => {
 
         <div className="boxes-info">
           <p>
-            If you want more?{" "}
-            <Link href="/courses-1">
-              View More Courses
-            </Link>
+            If you want more? <Link href="/courses-1">View More Courses</Link>
           </p>
         </div>
       </div>

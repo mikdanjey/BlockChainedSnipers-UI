@@ -14,10 +14,7 @@ const GetPremiumAccess = () => {
           </p>
 
           <Link href="/membership-levels" className="default-btn">
-
-            <i className="flaticon-user"></i>Give Premium Access{" "}
-            <span></span>
-
+            <i className="flaticon-user"></i>Give Premium Access <span></span>
           </Link>
         </div>
       </div>

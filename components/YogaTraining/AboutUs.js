@@ -28,9 +28,7 @@ const AboutUs = () => {
               </p>
 
               <Link href="/profile-authentication" className="default-btn mt-2">
-
                 <i className="flaticon-user"></i>Join For Free<span></span>
-
               </Link>
             </div>
           </div>

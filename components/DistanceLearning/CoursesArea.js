@@ -20,15 +20,11 @@ const CoursesArea = () => {
               <div className="single-courses-item-box">
                 <div className="courses-image">
                   <Link href="/single-courses-2" className="d-block image">
-
                     <img src="/images/courses/courses12.jpg" alt="image" />
-
                   </Link>
 
                   <Link href="#" className="fav">
-
                     <i className="flaticon-heart"></i>
-
                   </Link>
 
                   <div className="price shadow">$39</div>
@@ -55,15 +51,11 @@ const CoursesArea = () => {
               <div className="single-courses-item-box">
                 <div className="courses-image">
                   <Link href="/single-courses-2" className="d-block image">
-
                     <img src="/images/courses/courses13.jpg" alt="image" />
-
                   </Link>
 
                   <Link href="#" className="fav">
-
                     <i className="flaticon-heart"></i>
-
                   </Link>
 
                   <div className="price shadow">$59</div>
@@ -71,9 +63,7 @@ const CoursesArea = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-2">
-                      
-                        Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)
-                      
+                      Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)
                     </Link>
                   </h3>
                   <div className="rating">
@@ -92,15 +82,11 @@ const CoursesArea = () => {
               <div className="single-courses-item-box">
                 <div className="courses-image">
                   <Link href="/single-courses-2" className="d-block image">
-
                     <img src="/images/courses/courses14.jpg" alt="image" />
-
                   </Link>
 
                   <Link href="#" className="fav">
-
                     <i className="flaticon-heart"></i>
-
                   </Link>
 
                   <div className="price shadow">$69</div>
@@ -108,10 +94,8 @@ const CoursesArea = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-2">
-                      
-                        The Python Bible™ | Everything You Need to Program in
-                        Python
-                      
+                      The Python Bible™ | Everything You Need to Program in
+                      Python
                     </Link>
                   </h3>
                   <div className="rating">
@@ -130,15 +114,11 @@ const CoursesArea = () => {
               <div className="single-courses-item-box">
                 <div className="courses-image">
                   <Link href="/single-courses-2" className="d-block image">
-
                     <img src="/images/courses/courses15.jpg" alt="image" />
-
                   </Link>
 
                   <Link href="#" className="fav">
-
                     <i className="flaticon-heart"></i>
-
                   </Link>
 
                   <div className="price shadow">$79</div>
@@ -165,15 +145,11 @@ const CoursesArea = () => {
               <div className="single-courses-item-box">
                 <div className="courses-image">
                   <Link href="/single-courses-2" className="d-block image">
-
                     <img src="/images/courses/courses16.jpg" alt="image" />
-
                   </Link>
 
                   <Link href="#" className="fav">
-
                     <i className="flaticon-heart"></i>
-
                   </Link>
 
                   <div className="price shadow">$89</div>
@@ -200,15 +176,11 @@ const CoursesArea = () => {
               <div className="single-courses-item-box">
                 <div className="courses-image">
                   <Link href="/single-courses-2" className="d-block image">
-
                     <img src="/images/courses/courses17.jpg" alt="image" />
-
                   </Link>
 
                   <Link href="#" className="fav">
-
                     <i className="flaticon-heart"></i>
-
                   </Link>
 
                   <div className="price shadow">$99</div>

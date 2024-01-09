@@ -21,10 +21,7 @@ const ChooseProgram = () => {
               </p>
 
               <Link href="/profile-authentication" className="default-btn">
-
-                <i className="flaticon-user"></i>Get Started Now{" "}
-                <span></span>
-
+                <i className="flaticon-user"></i>Get Started Now <span></span>
               </Link>
             </div>
           </div>
@@ -43,9 +40,7 @@ const ChooseProgram = () => {
                     </div>
 
                     <h3 className="playfair-display-font">
-                      <Link href="/about-1">
-                        Certification Courses
-                      </Link>
+                      <Link href="/about-1">Certification Courses</Link>
                     </h3>
 
                     <p>
@@ -69,9 +64,7 @@ const ChooseProgram = () => {
                     </div>
 
                     <h3 className="playfair-display-font">
-                      <Link href="/about-1">
-                        Mens’s Coaching
-                      </Link>
+                      <Link href="/about-1">Mens’s Coaching</Link>
                     </h3>
 
                     <p>
@@ -97,9 +90,7 @@ const ChooseProgram = () => {
                     </div>
 
                     <h3 className="playfair-display-font">
-                      <Link href="/about-1">
-                        Women’s Coaching
-                      </Link>
+                      <Link href="/about-1">Women’s Coaching</Link>
                     </h3>
 
                     <p>

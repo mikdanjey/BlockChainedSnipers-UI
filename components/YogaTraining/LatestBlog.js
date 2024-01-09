@@ -19,9 +19,7 @@ const LatestBlog = () => {
             <div className="single-blog-post-box">
               <div className="post-image">
                 <Link href="#" className="d-block">
-
                   <img src="/images/yoga-blog-img1.jpg" alt="image" />
-
                 </Link>
               </div>
               <div className="post-content">
@@ -30,9 +28,7 @@ const LatestBlog = () => {
                 </Link>
                 <h3 className="playfair-display-font">
                   <Link href="#">
-                    
-                      Surprising SUP Yoga Poses You’ll Want to Try This Summer
-                    
+                    Surprising SUP Yoga Poses You’ll Want to Try This Summer
                   </Link>
                 </h3>
                 <ul className="post-content-footer d-flex justify-content-between align-items-center">
@@ -58,9 +54,7 @@ const LatestBlog = () => {
             <div className="single-blog-post-box">
               <div className="post-image">
                 <Link href="#" className="d-block">
-
                   <img src="/images/yoga-blog-img2.jpg" alt="image" />
-
                 </Link>
               </div>
               <div className="post-content">
@@ -69,10 +63,7 @@ const LatestBlog = () => {
                 </Link>
                 <h3 className="playfair-display-font">
                   <Link href="#">
-                    
-                      7 Things I Learned From Doing One of Those Social Media
-                      Yoga
-                    
+                    7 Things I Learned From Doing One of Those Social Media Yoga
                   </Link>
                 </h3>
                 <ul className="post-content-footer d-flex justify-content-between align-items-center">
@@ -98,9 +89,7 @@ const LatestBlog = () => {
             <div className="single-blog-post-box">
               <div className="post-image">
                 <Link href="#" className="d-block">
-
                   <img src="/images/yoga-blog-img3.jpg" alt="image" />
-
                 </Link>
               </div>
               <div className="post-content">
@@ -109,9 +98,7 @@ const LatestBlog = () => {
                 </a>
                 <h3 className="playfair-display-font">
                   <Link href="#">
-                    
-                      10 Ways to Get Real About Your Body’s Limitations & Avoid
-                    
+                    10 Ways to Get Real About Your Body’s Limitations & Avoid
                   </Link>
                 </h3>
                 <ul className="post-content-footer d-flex justify-content-between align-items-center">

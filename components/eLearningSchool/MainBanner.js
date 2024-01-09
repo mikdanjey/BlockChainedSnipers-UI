@@ -17,9 +17,7 @@ const MainBanner = ({ courses }) => {
               </p>
 
               <Link href="/profile-authentication" className="default-btn">
-
                 <i className="flaticon-user"></i>Join For Free<span></span>
-
               </Link>
             </div>
           </div>
@@ -34,16 +32,13 @@ const MainBanner = ({ courses }) => {
                         <Link
                           href="/courses/[id]"
                           as={`/courses/${course.id}`}
-                          className="d-block image">
-
+                          className="d-block image"
+                        >
                           <img src={course.profilePhoto} alt={course.title} />
-
                         </Link>
 
                         <Link href="#" className="fav">
-
                           <i className="flaticon-heart"></i>
-
                         </Link>
 
                         <div className="price shadow">${course.price}</div>

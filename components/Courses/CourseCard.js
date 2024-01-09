@@ -16,10 +16,12 @@ const CourseCard = ({
     <div className="col-lg-6 col-md-12">
       <div className="single-courses-box">
         <div className="courses-image">
-          <Link href="/courses/[id]" as={`/courses/${id}`} className="d-block image">
-
+          <Link
+            href="/courses/[id]"
+            as={`/courses/${id}`}
+            className="d-block image"
+          >
             <img src={profilePhoto} alt={title} />
-
           </Link>
           <a href="#" className="fav">
             <i className="flaticon-heart"></i>

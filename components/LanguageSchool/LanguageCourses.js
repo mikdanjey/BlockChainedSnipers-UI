@@ -28,9 +28,7 @@ const LanguageCourses = () => {
               </p>
 
               <Link href="/courses-1" className="default-btn">
-
                 <i className="flaticon-right"></i>View More<span></span>
-
               </Link>
             </div>
           </div>
@@ -48,9 +46,7 @@ const LanguageCourses = () => {
               </p>
 
               <Link href="/courses-1" className="default-btn">
-
                 <i className="flaticon-right"></i>View More<span></span>
-
               </Link>
             </div>
           </div>
@@ -68,9 +64,7 @@ const LanguageCourses = () => {
               </p>
 
               <Link href="/courses-1" className="default-btn">
-
                 <i className="flaticon-right"></i>View More<span></span>
-
               </Link>
             </div>
           </div>

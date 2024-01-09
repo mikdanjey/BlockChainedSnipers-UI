@@ -45,11 +45,9 @@ const About = () => {
                 </li>
               </ul>
               <Link href="/courses-1" className="default-btn">
-
                 <i className="flaticon-user"></i>
                 {t("view-all-courses")}
                 <span></span>
-
               </Link>
             </div>
           </div>

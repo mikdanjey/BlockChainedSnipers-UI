@@ -14,9 +14,7 @@ const AffordableCertification = () => {
           </p>
 
           <Link href="/membership-levels" className="default-btn">
-
             <i className="flaticon-user"></i>Get Started Now<span></span>
-
           </Link>
         </div>
       </div>

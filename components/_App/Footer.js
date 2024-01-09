@@ -11,9 +11,7 @@ const Footer = () => {
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="single-footer-widget">
               <Link href="/" className="logo">
-
                 <img src="/images/logo2.png" alt="logo" />
-
               </Link>
 
               <p>
@@ -53,29 +51,19 @@ const Footer = () => {
               <h3>Explore</h3>
               <ul className="footer-links-list">
                 <li>
-                  <Link href="/">
-                    Home
-                  </Link>
+                  <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="/about-1">
-                    About
-                  </Link>
+                  <Link href="/about-1">About</Link>
                 </li>
                 <li>
-                  <Link href="/courses-1">
-                    Courses
-                  </Link>
+                  <Link href="/courses-1">Courses</Link>
                 </li>
                 <li>
-                  <Link href="/events">
-                    Events
-                  </Link>
+                  <Link href="/events">Events</Link>
                 </li>
                 <li>
-                  <Link href="/contact">
-                    Contact
-                  </Link>
+                  <Link href="/contact">Contact</Link>
                 </li>
               </ul>
             </div>
@@ -86,29 +74,19 @@ const Footer = () => {
               <h3>Resources</h3>
               <ul className="footer-links-list">
                 <li>
-                  <Link href="#">
-                    Student Success
-                  </Link>
+                  <Link href="#">Student Success</Link>
                 </li>
                 <li>
-                  <Link href="#">
-                    Scholarships
-                  </Link>
+                  <Link href="#">Scholarships</Link>
                 </li>
                 <li>
-                  <Link href="#">
-                    For Business
-                  </Link>
+                  <Link href="#">For Business</Link>
                 </li>
                 <li>
-                  <Link href="#">
-                    Go Premium
-                  </Link>
+                  <Link href="#">Go Premium</Link>
                 </li>
                 <li>
-                  <Link href="#">
-                    Team Plans
-                  </Link>
+                  <Link href="#">Team Plans</Link>
                 </li>
               </ul>
             </div>
@@ -154,14 +132,10 @@ const Footer = () => {
             <div className="col-lg-6 col-md-6">
               <ul>
                 <li>
-                  <Link href="/privacy-policy">
-                    Privacy Policy
-                  </Link>
+                  <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>
                 <li>
-                  <Link href="/terms-of-service">
-                    Terms & Conditions
-                  </Link>
+                  <Link href="/terms-of-service">Terms & Conditions</Link>
                 </li>
               </ul>
             </div>

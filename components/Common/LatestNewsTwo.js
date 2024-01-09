@@ -19,9 +19,7 @@ const LatestNewsTwo = () => {
             <div className="single-blog-post-item">
               <div className="post-image">
                 <Link href="/single-blog-3" className="d-block">
-
                   <img src="/images/blog/blog4.jpg" alt="image" />
-
                 </Link>
               </div>
               <div className="post-content">
@@ -59,18 +57,14 @@ const LatestNewsTwo = () => {
                   <div className="single-blog-post-item">
                     <div className="post-image">
                       <Link href="/single-blog-3" className="d-block">
-
                         <img src="/images/blog/blog5.jpg" alt="image" />
-
                       </Link>
                     </div>
                     <div className="post-content">
                       <h3>
                         <Link href="/single-blog-3">
-                          
-                            Online Learning Can Prepare Students For A
-                            Fast-Changing
-                          
+                          Online Learning Can Prepare Students For A
+                          Fast-Changing
                         </Link>
                       </h3>
                     </div>
@@ -81,17 +75,13 @@ const LatestNewsTwo = () => {
                   <div className="single-blog-post-item">
                     <div className="post-image">
                       <Link href="/single-blog-3" className="d-block">
-
                         <img src="/images/blog/blog6.jpg" alt="image" />
-
                       </Link>
                     </div>
                     <div className="post-content">
                       <h3>
                         <Link href="/single-blog-3">
-                          
-                            As Learning Moves Online, Trigger Warnings Must Too
-                          
+                          As Learning Moves Online, Trigger Warnings Must Too
                         </Link>
                       </h3>
                     </div>
@@ -105,9 +95,7 @@ const LatestNewsTwo = () => {
             <div className="blog-post-info">
               <p>
                 Get into details now?​{" "}
-                <Link href="/blog-3">
-                  View all posts
-                </Link>
+                <Link href="/blog-3">View all posts</Link>
               </p>
             </div>
           </div>

@@ -7,29 +7,19 @@ const Sidebar = () => {
       <div className="widget widget_insight">
         <ul>
           <li>
-            <Link href="/about-1">
-              About Us
-            </Link>
+            <Link href="/about-1">About Us</Link>
           </li>
           <li>
-            <Link href="/contact">
-              Contact Us
-            </Link>
+            <Link href="/contact">Contact Us</Link>
           </li>
           <li>
-            <Link href="/purchase-guide">
-              Purchase Guide
-            </Link>
+            <Link href="/purchase-guide">Purchase Guide</Link>
           </li>
           <li>
-            <Link href="/privacy-policy">
-              Privacy Policy
-            </Link>
+            <Link href="/privacy-policy">Privacy Policy</Link>
           </li>
           <li>
-            <Link href="/terms-of-service">
-              Terms of Service
-            </Link>
+            <Link href="/terms-of-service">Terms of Service</Link>
           </li>
         </ul>
       </div>
@@ -39,17 +29,13 @@ const Sidebar = () => {
 
         <div className="item">
           <Link href="#" className="thumb">
-
             <span className="fullimage cover bg1" role="img"></span>
-
           </Link>
           <div className="info">
             <span>$49.00</span>
             <h4 className="title usmall">
               <Link href="#">
-                
-                  The Data Science Course 2020: Complete Data Science Bootcamp
-                
+                The Data Science Course 2020: Complete Data Science Bootcamp
               </Link>
             </h4>
           </div>
@@ -58,9 +44,7 @@ const Sidebar = () => {
 
         <div className="item">
           <Link href="#" className="thumb">
-
             <span className="fullimage cover bg2" role="img"></span>
-
           </Link>
           <div className="info">
             <span>$59.00</span>
@@ -75,9 +59,7 @@ const Sidebar = () => {
 
         <div className="item">
           <Link href="#" className="thumb">
-
             <span className="fullimage cover bg3" role="img"></span>
-
           </Link>
           <div className="info">
             <span>$69.00</span>
@@ -97,42 +79,34 @@ const Sidebar = () => {
         <div className="tagcloud">
           <Link href="#">
             Business<span className="tag-link-count">(3)</span>
-
           </Link>
 
           <Link href="#">
             Design<span className="tag-link-count">(3)</span>
-
           </Link>
 
           <Link href="#">
             Braike<span className="tag-link-count">(2)</span>
-
           </Link>
 
           <Link href="#">
             Fashion<span className="tag-link-count">(2)</span>
-
           </Link>
 
           <Link href="#">
             Travel<span className="tag-link-count">(1)</span>
-
           </Link>
 
           <Link href="#">
             Smart<span className="tag-link-count">(1)</span>
-
           </Link>
 
           <Link href="#">
             Marketing<span className="tag-link-count">(1)</span>
-
           </Link>
 
           <Link href="#">
             Tips<span className="tag-link-count">(2)</span>
-
           </Link>
         </div>
       </div>

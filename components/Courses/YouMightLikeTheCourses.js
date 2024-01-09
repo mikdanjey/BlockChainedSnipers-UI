@@ -14,9 +14,7 @@ const YouMightLikeTheCourses = () => {
             <div className="single-courses-box">
               <div className="courses-image">
                 <Link href="/single-courses-1" className="d-block image">
-
                   <img src="/images/courses/courses1.jpg" alt="image" />
-
                 </Link>
                 <a href="#" className="fav">
                   <i className="flaticon-heart"></i>
@@ -34,10 +32,7 @@ const YouMightLikeTheCourses = () => {
                 </div>
                 <h3>
                   <Link href="/single-courses-1">
-                    
-                      The Data Science Course 2020: Complete Data Science
-                      Bootcamp
-                    
+                    The Data Science Course 2020: Complete Data Science Bootcamp
                   </Link>
                 </h3>
                 <p>
@@ -60,9 +55,7 @@ const YouMightLikeTheCourses = () => {
             <div className="single-courses-box">
               <div className="courses-image">
                 <Link href="/single-courses-1" className="d-block image">
-
                   <img src="/images/courses/courses2.jpg" alt="image" />
-
                 </Link>
                 <a href="#" className="fav">
                   <i className="flaticon-heart"></i>
@@ -80,9 +73,7 @@ const YouMightLikeTheCourses = () => {
                 </div>
                 <h3>
                   <Link href="/single-courses-1">
-                    
-                      Java Programming MasterclassName for Software Developers
-                    
+                    Java Programming MasterclassName for Software Developers
                   </Link>
                 </h3>
                 <p>
@@ -105,9 +96,7 @@ const YouMightLikeTheCourses = () => {
             <div className="single-courses-box">
               <div className="courses-image">
                 <Link href="/single-courses-1" className="d-block image">
-
                   <img src="/images/courses/courses3.jpg" alt="image" />
-
                 </Link>
                 <a href="#" className="fav">
                   <i className="flaticon-heart"></i>
@@ -125,9 +114,7 @@ const YouMightLikeTheCourses = () => {
                 </div>
                 <h3>
                   <Link href="/single-courses-1">
-                    
-                      Deep Learning A-Z™: Hands-On Artificial Neural Networks
-                    
+                    Deep Learning A-Z™: Hands-On Artificial Neural Networks
                   </Link>
                 </h3>
                 <p>

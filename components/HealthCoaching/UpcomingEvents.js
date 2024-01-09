@@ -19,18 +19,14 @@ const UpcomingEvents = () => {
             <div className="single-events-box-item">
               <div className="image">
                 <Link href="#" className="d-block">
-
                   <img src="/images/events/health-img1.jpg" alt="image" />
-
                 </Link>
                 <span className="date">Wed, 20 May, 2020</span>
               </div>
 
               <div className="content">
                 <h3 className="playfair-display-font">
-                  <Link href="#">
-                    Global Conference on Business Management
-                  </Link>
+                  <Link href="#">Global Conference on Business Management</Link>
                 </h3>
                 <span className="location">
                   <i className="bx bx-map"></i> Vancover, Canada
@@ -43,9 +39,7 @@ const UpcomingEvents = () => {
             <div className="single-events-box-item">
               <div className="image">
                 <Link href="#" className="d-block">
-
                   <img src="/images/events/health-img2.jpg" alt="image" />
-
                 </Link>
                 <span className="date">Tue, 19 May, 2020</span>
               </div>
@@ -67,9 +61,7 @@ const UpcomingEvents = () => {
             <div className="single-events-box-item">
               <div className="image">
                 <Link href="#" className="d-block">
-
                   <img src="/images/events/health-img3.jpg" alt="image" />
-
                 </Link>
                 <span className="date">Mon, 18 May, 2020</span>
               </div>

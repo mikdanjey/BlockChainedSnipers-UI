@@ -18,9 +18,7 @@ const YogaTraining = () => {
             <div className="single-training-box">
               <img src="/images/training-img1.png" alt="image" />
               <h3 className="playfair-display-font">
-                <Link href="/courses-1">
-                  Flexibility
-                </Link>
+                <Link href="/courses-1">Flexibility</Link>
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -37,9 +35,7 @@ const YogaTraining = () => {
             <div className="single-training-box">
               <img src="/images/training-img2.png" alt="image" />
               <h3 className="playfair-display-font">
-                <Link href="/courses-1">
-                  Comfort
-                </Link>
+                <Link href="/courses-1">Comfort</Link>
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -56,9 +52,7 @@ const YogaTraining = () => {
             <div className="single-training-box">
               <img src="/images/training-img3.png" alt="image" />
               <h3 className="playfair-display-font">
-                <Link href="/courses-1">
-                  Resources
-                </Link>
+                <Link href="/courses-1">Resources</Link>
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
