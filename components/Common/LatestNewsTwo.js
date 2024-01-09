@@ -18,19 +18,17 @@ const LatestNewsTwo = () => {
           <div className="col-lg-8 col-md-12">
             <div className="single-blog-post-item">
               <div className="post-image">
-                <Link href="/single-blog-3">
-                  <a className="d-block">
-                    <img src="/images/blog/blog4.jpg" alt="image" />
-                  </a>
+                <Link href="/single-blog-3" className="d-block">
+                  <img src="/images/blog/blog4.jpg" alt="image" />
                 </Link>
               </div>
               <div className="post-content">
-                <Link href="#">
-                  <a className="category">Education</a>
+                <Link href="#" className="category">
+                  Education
                 </Link>
                 <h3>
                   <Link href="/single-blog-3">
-                    <a>University Admissions Could Face Emergency Controls</a>
+                    University Admissions Could Face Emergency Controls
                   </Link>
                 </h3>
                 <ul className="post-content-footer d-flex align-items-center">
@@ -58,19 +56,15 @@ const LatestNewsTwo = () => {
                 <div className="col-lg-12 col-sm-6 col-md-6">
                   <div className="single-blog-post-item">
                     <div className="post-image">
-                      <Link href="/single-blog-3">
-                        <a className="d-block">
-                          <img src="/images/blog/blog5.jpg" alt="image" />
-                        </a>
+                      <Link href="/single-blog-3" className="d-block">
+                        <img src="/images/blog/blog5.jpg" alt="image" />
                       </Link>
                     </div>
                     <div className="post-content">
                       <h3>
                         <Link href="/single-blog-3">
-                          <a>
-                            Online Learning Can Prepare Students For A
-                            Fast-Changing
-                          </a>
+                          Online Learning Can Prepare Students For A
+                          Fast-Changing
                         </Link>
                       </h3>
                     </div>
@@ -80,18 +74,14 @@ const LatestNewsTwo = () => {
                 <div className="col-lg-12 col-sm-6 col-md-6">
                   <div className="single-blog-post-item">
                     <div className="post-image">
-                      <Link href="/single-blog-3">
-                        <a className="d-block">
-                          <img src="/images/blog/blog6.jpg" alt="image" />
-                        </a>
+                      <Link href="/single-blog-3" className="d-block">
+                        <img src="/images/blog/blog6.jpg" alt="image" />
                       </Link>
                     </div>
                     <div className="post-content">
                       <h3>
                         <Link href="/single-blog-3">
-                          <a>
-                            As Learning Moves Online, Trigger Warnings Must Too
-                          </a>
+                          As Learning Moves Online, Trigger Warnings Must Too
                         </Link>
                       </h3>
                     </div>
@@ -105,9 +95,7 @@ const LatestNewsTwo = () => {
             <div className="blog-post-info">
               <p>
                 Get into details now?​{" "}
-                <Link href="/blog-3">
-                  <a>View all posts</a>
-                </Link>
+                <Link href="/blog-3">View all posts</Link>
               </p>
             </div>
           </div>

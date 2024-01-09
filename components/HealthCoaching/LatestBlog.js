@@ -18,21 +18,17 @@ const LatestBlog = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-blog-post-box">
               <div className="post-image">
-                <Link href="#">
-                  <a className="d-block">
-                    <img src="/images/health-blog-img1.jpg" alt="image" />
-                  </a>
+                <Link href="#" className="d-block">
+                  <img src="/images/health-blog-img1.jpg" alt="image" />
                 </Link>
               </div>
               <div className="post-content">
-                <Link href="#">
-                  <a className="category">Yoga</a>
+                <Link href="#" className="category">
+                  Yoga
                 </Link>
                 <h3 className="playfair-display-font">
                   <Link href="#">
-                    <a>
-                      Surprising SUP Yoga Poses You’ll Want to Try This Summer
-                    </a>
+                    Surprising SUP Yoga Poses You’ll Want to Try This Summer
                   </Link>
                 </h3>
                 <ul className="post-content-footer d-flex justify-content-between align-items-center">
@@ -57,22 +53,17 @@ const LatestBlog = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-blog-post-box">
               <div className="post-image">
-                <Link href="#">
-                  <a className="d-block">
-                    <img src="/images/health-blog-img2.jpg" alt="image" />
-                  </a>
+                <Link href="#" className="d-block">
+                  <img src="/images/health-blog-img2.jpg" alt="image" />
                 </Link>
               </div>
               <div className="post-content">
-                <Link href="#">
-                  <a className="category">YTT</a>
+                <Link href="#" className="category">
+                  YTT
                 </Link>
                 <h3 className="playfair-display-font">
                   <Link href="#">
-                    <a>
-                      7 Things I Learned From Doing One of Those Social Media
-                      Yoga
-                    </a>
+                    7 Things I Learned From Doing One of Those Social Media Yoga
                   </Link>
                 </h3>
                 <ul className="post-content-footer d-flex justify-content-between align-items-center">
@@ -97,21 +88,17 @@ const LatestBlog = () => {
           <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
             <div className="single-blog-post-box">
               <div className="post-image">
-                <Link href="#">
-                  <a className="d-block">
-                    <img src="/images/health-blog-img3.jpg" alt="image" />
-                  </a>
+                <Link href="#" className="d-block">
+                  <img src="/images/health-blog-img3.jpg" alt="image" />
                 </Link>
               </div>
               <div className="post-content">
-                <Link href="#">
-                  <a className="category">Yoga</a>
+                <Link href="#" className="category">
+                  Yoga
                 </Link>
                 <h3 className="playfair-display-font">
                   <Link href="#">
-                    <a>
-                      10 Ways to Get Real About Your Body’s Limitations & Avoid
-                    </a>
+                    10 Ways to Get Real About Your Body’s Limitations & Avoid
                   </Link>
                 </h3>
                 <ul className="post-content-footer d-flex justify-content-between align-items-center">
@@ -137,9 +124,7 @@ const LatestBlog = () => {
             <div className="blog-post-info">
               <p>
                 Get into details now?​{" "}
-                <Link href="/blog-1">
-                  <a>View all posts</a>
-                </Link>
+                <Link href="/blog-1">View all posts</Link>
               </p>
             </div>
           </div>

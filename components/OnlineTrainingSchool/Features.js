@@ -26,8 +26,8 @@ const Features = () => {
                 but the majority have suffered alteration.
               </p>
 
-              <Link href="/profile-authentication">
-                <a className="link-btn">Start Now!</a>
+              <Link href="/profile-authentication" className="link-btn">
+                Start Now!
               </Link>
             </div>
           </div>
@@ -43,8 +43,8 @@ const Features = () => {
                 but the majority have suffered alteration.
               </p>
 
-              <Link href="/profile-authentication">
-                <a className="link-btn">Start Now!</a>
+              <Link href="/profile-authentication" className="link-btn">
+                Start Now!
               </Link>
             </div>
           </div>
@@ -60,8 +60,8 @@ const Features = () => {
                 but the majority have suffered alteration.
               </p>
 
-              <Link href="/profile-authentication">
-                <a className="link-btn">Start Now!</a>
+              <Link href="/profile-authentication" className="link-btn">
+                Start Now!
               </Link>
             </div>
           </div>

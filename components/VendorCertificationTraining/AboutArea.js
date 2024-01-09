@@ -41,8 +41,8 @@ const AboutArea = () => {
                   </strong>
                 </p>
 
-                <Link href="/contact">
-                  <a className="link-btn">Explore Learning</a>
+                <Link href="/contact" className="link-btn">
+                  Explore Learning
                 </Link>
               </div>
             </div>

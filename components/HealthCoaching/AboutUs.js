@@ -48,11 +48,8 @@ const AboutUs = () => {
                 </li>
               </ul>
 
-              <Link href="/profile-authentication">
-                <a className="default-btn">
-                  <i className="flaticon-user"></i> Get Started Now{" "}
-                  <span></span>
-                </a>
+              <Link href="/profile-authentication" className="default-btn">
+                <i className="flaticon-user"></i>Get Started Now <span></span>
               </Link>
             </div>
           </div>

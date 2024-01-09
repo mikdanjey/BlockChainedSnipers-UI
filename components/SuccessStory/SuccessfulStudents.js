@@ -22,20 +22,16 @@ const SuccessfulStudents = () => {
             <div className="start-with-success-box">
               <div className="image">
                 <Link href="#">
-                  <a>
-                    <img
-                      src="/images/success-people/success-people1.jpg"
-                      alt="image"
-                    />
-                  </a>
+                  <img
+                    src="/images/success-people/success-people1.jpg"
+                    alt="image"
+                  />
                 </Link>
               </div>
 
               <div className="content">
-                <Link href="#">
-                  <a className="link-btn">
-                    <i className="flaticon-right"></i>
-                  </a>
+                <Link href="#" className="link-btn">
+                  <i className="flaticon-right"></i>
                 </Link>
                 <h3>Sarah Taylor</h3>
                 <span>Web Developer</span>
@@ -47,20 +43,16 @@ const SuccessfulStudents = () => {
             <div className="start-with-success-box">
               <div className="image">
                 <Link href="#">
-                  <a>
-                    <img
-                      src="/images/success-people/success-people2.jpg"
-                      alt="image"
-                    />
-                  </a>
+                  <img
+                    src="/images/success-people/success-people2.jpg"
+                    alt="image"
+                  />
                 </Link>
               </div>
 
               <div className="content">
-                <Link href="#">
-                  <a className="link-btn">
-                    <i className="flaticon-right"></i>
-                  </a>
+                <Link href="#" className="link-btn">
+                  <i className="flaticon-right"></i>
                 </Link>
                 <h3>Alex Maxwell</h3>
                 <span>Tutor</span>
@@ -72,20 +64,16 @@ const SuccessfulStudents = () => {
             <div className="start-with-success-box">
               <div className="image">
                 <Link href="#">
-                  <a>
-                    <img
-                      src="/images/success-people/success-people3.jpg"
-                      alt="image"
-                    />
-                  </a>
+                  <img
+                    src="/images/success-people/success-people3.jpg"
+                    alt="image"
+                  />
                 </Link>
               </div>
 
               <div className="content">
-                <Link href="#">
-                  <a className="link-btn">
-                    <i className="flaticon-right"></i>
-                  </a>
+                <Link href="#" className="link-btn">
+                  <i className="flaticon-right"></i>
                 </Link>
                 <h3>Eva Lucy</h3>
                 <span>UX/UI Designer</span>
@@ -97,20 +85,16 @@ const SuccessfulStudents = () => {
             <div className="start-with-success-box">
               <div className="image">
                 <Link href="#">
-                  <a>
-                    <img
-                      src="/images/success-people/success-people4.jpg"
-                      alt="image"
-                    />
-                  </a>
+                  <img
+                    src="/images/success-people/success-people4.jpg"
+                    alt="image"
+                  />
                 </Link>
               </div>
 
               <div className="content">
-                <Link href="#">
-                  <a className="link-btn">
-                    <i className="flaticon-right"></i>
-                  </a>
+                <Link href="#" className="link-btn">
+                  <i className="flaticon-right"></i>
                 </Link>
                 <h3>Alina Smith</h3>
                 <span>Author</span>
@@ -122,20 +106,16 @@ const SuccessfulStudents = () => {
             <div className="start-with-success-box">
               <div className="image">
                 <Link href="#">
-                  <a>
-                    <img
-                      src="/images/success-people/success-people5.jpg"
-                      alt="image"
-                    />
-                  </a>
+                  <img
+                    src="/images/success-people/success-people5.jpg"
+                    alt="image"
+                  />
                 </Link>
               </div>
 
               <div className="content">
-                <Link href="#">
-                  <a className="link-btn">
-                    <i className="flaticon-right"></i>
-                  </a>
+                <Link href="#" className="link-btn">
+                  <i className="flaticon-right"></i>
                 </Link>
                 <h3>James Anderson</h3>
                 <span>Designer</span>
@@ -147,20 +127,16 @@ const SuccessfulStudents = () => {
             <div className="start-with-success-box">
               <div className="image">
                 <Link href="#">
-                  <a>
-                    <img
-                      src="/images/success-people/success-people6.jpg"
-                      alt="image"
-                    />
-                  </a>
+                  <img
+                    src="/images/success-people/success-people6.jpg"
+                    alt="image"
+                  />
                 </Link>
               </div>
 
               <div className="content">
-                <Link href="#">
-                  <a className="link-btn">
-                    <i className="flaticon-right"></i>
-                  </a>
+                <Link href="#" className="link-btn">
+                  <i className="flaticon-right"></i>
                 </Link>
                 <h3>Meg Lanning</h3>
                 <span>Writer</span>

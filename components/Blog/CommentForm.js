@@ -30,8 +30,8 @@ const CommentArea = () => {
             </div>
 
             <div className="reply">
-              <Link href="#">
-                <a className="comment-reply-link">Reply</a>
+              <Link href="#" className="comment-reply-link">
+                Reply
               </Link>
             </div>
           </div>
@@ -64,8 +64,8 @@ const CommentArea = () => {
                 </div>
 
                 <div className="reply">
-                  <Link href="#">
-                    <a className="comment-reply-link">Reply</a>
+                  <Link href="#" className="comment-reply-link">
+                    Reply
                   </Link>
                 </div>
               </div>
@@ -98,8 +98,8 @@ const CommentArea = () => {
                     </div>
 
                     <div className="reply">
-                      <Link href="#">
-                        <a className="comment-reply-link">Reply</a>
+                      <Link href="#" className="comment-reply-link">
+                        Reply
                       </Link>
                     </div>
                   </div>
@@ -132,8 +132,8 @@ const CommentArea = () => {
             </div>
 
             <div className="reply">
-              <Link href="#">
-                <a className="comment-reply-link">Reply</a>
+              <Link href="#" className="comment-reply-link">
+                Reply
               </Link>
             </div>
           </div>
@@ -166,8 +166,8 @@ const CommentArea = () => {
                 </div>
 
                 <div className="reply">
-                  <Link href="#">
-                    <a className="comment-reply-link">Reply</a>
+                  <Link href="#" className="comment-reply-link">
+                    Reply
                   </Link>
                 </div>
               </div>

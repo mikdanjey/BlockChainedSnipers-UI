@@ -15,10 +15,8 @@ const MainBanner = () => {
                 can offer you to enjoy the beauty of eLearning!
               </p>
 
-              <Link href="/profile-authentication">
-                <a className="default-btn">
-                  <i className="flaticon-user"></i> Join For Free <span></span>
-                </a>
+              <Link href="/profile-authentication" className="default-btn">
+                <i className="flaticon-user"></i>Join For Free<span></span>
               </Link>
             </div>
           </div>
@@ -29,16 +27,12 @@ const MainBanner = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="single-courses-box">
                     <div className="courses-image">
-                      <Link href="/single-courses-1">
-                        <a className="d-block image">
-                          <img src="/images/courses/courses4.jpg" alt="image" />
-                        </a>
+                      <Link href="/single-courses-1" className="d-block image">
+                        <img src="/images/courses/courses4.jpg" alt="image" />
                       </Link>
 
-                      <Link href="#">
-                        <a className="fav">
-                          <i className="flaticon-heart"></i>
-                        </a>
+                      <Link href="#" className="fav">
+                        <i className="flaticon-heart"></i>
                       </Link>
 
                       <div className="price shadow">$39</div>
@@ -56,10 +50,8 @@ const MainBanner = () => {
 
                       <h3>
                         <Link href="/single-courses-1">
-                          <a>
-                            Python for Finance: Investment Fundamentals & Data
-                            Analytics
-                          </a>
+                          Python for Finance: Investment Fundamentals & Data
+                          Analytics
                         </Link>
                       </h3>
 
@@ -83,16 +75,12 @@ const MainBanner = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="single-courses-box">
                     <div className="courses-image">
-                      <Link href="/single-courses-1">
-                        <a className="d-block image">
-                          <img src="/images/courses/courses5.jpg" alt="image" />
-                        </a>
+                      <Link href="/single-courses-1" className="d-block image">
+                        <img src="/images/courses/courses5.jpg" alt="image" />
                       </Link>
 
-                      <Link href="#">
-                        <a className="fav">
-                          <i className="flaticon-heart"></i>
-                        </a>
+                      <Link href="#" className="fav">
+                        <i className="flaticon-heart"></i>
                       </Link>
 
                       <div className="price shadow">$49</div>
@@ -110,10 +98,8 @@ const MainBanner = () => {
 
                       <h3>
                         <Link href="/single-courses-1">
-                          <a>
-                            Machine Learning A-Z™: Hands-On Python & R In Data
-                            Science
-                          </a>
+                          Machine Learning A-Z™: Hands-On Python & R In Data
+                          Science
                         </Link>
                       </h3>
 

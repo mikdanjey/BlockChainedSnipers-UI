@@ -19,16 +19,12 @@ const CoursesArea = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-item-box">
                 <div className="courses-image">
-                  <Link href="/single-courses-2">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses12.jpg" alt="image" />
-                    </a>
+                  <Link href="/single-courses-2" className="d-block image">
+                    <img src="/images/courses/courses12.jpg" alt="image" />
                   </Link>
 
-                  <Link href="#">
-                    <a className="fav">
-                      <i className="flaticon-heart"></i>
-                    </a>
+                  <Link href="#" className="fav">
+                    <i className="flaticon-heart"></i>
                   </Link>
 
                   <div className="price shadow">$39</div>
@@ -36,7 +32,7 @@ const CoursesArea = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-2">
-                      <a>Agile Crash Course: Agile Project Management</a>
+                      Agile Crash Course: Agile Project Management
                     </Link>
                   </h3>
                   <div className="rating">
@@ -54,16 +50,12 @@ const CoursesArea = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-item-box">
                 <div className="courses-image">
-                  <Link href="/single-courses-2">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses13.jpg" alt="image" />
-                    </a>
+                  <Link href="/single-courses-2" className="d-block image">
+                    <img src="/images/courses/courses13.jpg" alt="image" />
                   </Link>
 
-                  <Link href="#">
-                    <a className="fav">
-                      <i className="flaticon-heart"></i>
-                    </a>
+                  <Link href="#" className="fav">
+                    <i className="flaticon-heart"></i>
                   </Link>
 
                   <div className="price shadow">$59</div>
@@ -71,9 +63,7 @@ const CoursesArea = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-2">
-                      <a>
-                        Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)
-                      </a>
+                      Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)
                     </Link>
                   </h3>
                   <div className="rating">
@@ -91,16 +81,12 @@ const CoursesArea = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-item-box">
                 <div className="courses-image">
-                  <Link href="/single-courses-2">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses14.jpg" alt="image" />
-                    </a>
+                  <Link href="/single-courses-2" className="d-block image">
+                    <img src="/images/courses/courses14.jpg" alt="image" />
                   </Link>
 
-                  <Link href="#">
-                    <a className="fav">
-                      <i className="flaticon-heart"></i>
-                    </a>
+                  <Link href="#" className="fav">
+                    <i className="flaticon-heart"></i>
                   </Link>
 
                   <div className="price shadow">$69</div>
@@ -108,10 +94,8 @@ const CoursesArea = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-2">
-                      <a>
-                        The Python Bible™ | Everything You Need to Program in
-                        Python
-                      </a>
+                      The Python Bible™ | Everything You Need to Program in
+                      Python
                     </Link>
                   </h3>
                   <div className="rating">
@@ -129,16 +113,12 @@ const CoursesArea = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-item-box">
                 <div className="courses-image">
-                  <Link href="/single-courses-2">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses15.jpg" alt="image" />
-                    </a>
+                  <Link href="/single-courses-2" className="d-block image">
+                    <img src="/images/courses/courses15.jpg" alt="image" />
                   </Link>
 
-                  <Link href="#">
-                    <a className="fav">
-                      <i className="flaticon-heart"></i>
-                    </a>
+                  <Link href="#" className="fav">
+                    <i className="flaticon-heart"></i>
                   </Link>
 
                   <div className="price shadow">$79</div>
@@ -146,7 +126,7 @@ const CoursesArea = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-2">
-                      <a>Mathematical Foundation For Machine Learning and AI</a>
+                      Mathematical Foundation For Machine Learning and AI
                     </Link>
                   </h3>
                   <div className="rating">
@@ -164,16 +144,12 @@ const CoursesArea = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-item-box">
                 <div className="courses-image">
-                  <Link href="/single-courses-2">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses16.jpg" alt="image" />
-                    </a>
+                  <Link href="/single-courses-2" className="d-block image">
+                    <img src="/images/courses/courses16.jpg" alt="image" />
                   </Link>
 
-                  <Link href="#">
-                    <a className="fav">
-                      <i className="flaticon-heart"></i>
-                    </a>
+                  <Link href="#" className="fav">
+                    <i className="flaticon-heart"></i>
                   </Link>
 
                   <div className="price shadow">$89</div>
@@ -181,7 +157,7 @@ const CoursesArea = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-2">
-                      <a>The Ultimate Drawing Course - Beginner to Advanced</a>
+                      The Ultimate Drawing Course - Beginner to Advanced
                     </Link>
                   </h3>
                   <div className="rating">
@@ -199,16 +175,12 @@ const CoursesArea = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-item-box">
                 <div className="courses-image">
-                  <Link href="/single-courses-2">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses17.jpg" alt="image" />
-                    </a>
+                  <Link href="/single-courses-2" className="d-block image">
+                    <img src="/images/courses/courses17.jpg" alt="image" />
                   </Link>
 
-                  <Link href="#">
-                    <a className="fav">
-                      <i className="flaticon-heart"></i>
-                    </a>
+                  <Link href="#" className="fav">
+                    <i className="flaticon-heart"></i>
                   </Link>
 
                   <div className="price shadow">$99</div>
@@ -216,7 +188,7 @@ const CoursesArea = () => {
                 <div className="courses-content">
                   <h3>
                     <Link href="/single-courses-2">
-                      <a>PyTorch: Deep Learning and Artificial Intelligence</a>
+                      PyTorch: Deep Learning and Artificial Intelligence
                     </Link>
                   </h3>
                   <div className="rating">

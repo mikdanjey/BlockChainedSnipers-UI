@@ -10,10 +10,8 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="single-footer-widget">
-              <Link href="/">
-                <a className="logo">
-                  <img src="/images/logo2.png" alt="logo" />
-                </a>
+              <Link href="/" className="logo">
+                <img src="/images/logo2.png" alt="logo" />
               </Link>
 
               <p>
@@ -53,29 +51,19 @@ const Footer = () => {
               <h3>Explore</h3>
               <ul className="footer-links-list">
                 <li>
-                  <Link href="/">
-                    <a>Home</a>
-                  </Link>
+                  <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="/about-1">
-                    <a>About</a>
-                  </Link>
+                  <Link href="/about-1">About</Link>
                 </li>
                 <li>
-                  <Link href="/courses-1">
-                    <a>Courses</a>
-                  </Link>
+                  <Link href="/courses-1">Courses</Link>
                 </li>
                 <li>
-                  <Link href="/events">
-                    <a>Events</a>
-                  </Link>
+                  <Link href="/events">Events</Link>
                 </li>
                 <li>
-                  <Link href="/contact">
-                    <a>Contact</a>
-                  </Link>
+                  <Link href="/contact">Contact</Link>
                 </li>
               </ul>
             </div>
@@ -86,29 +74,19 @@ const Footer = () => {
               <h3>Resources</h3>
               <ul className="footer-links-list">
                 <li>
-                  <Link href="#">
-                    <a>Student Success</a>
-                  </Link>
+                  <Link href="#">Student Success</Link>
                 </li>
                 <li>
-                  <Link href="#">
-                    <a>Scholarships</a>
-                  </Link>
+                  <Link href="#">Scholarships</Link>
                 </li>
                 <li>
-                  <Link href="#">
-                    <a>For Business</a>
-                  </Link>
+                  <Link href="#">For Business</Link>
                 </li>
                 <li>
-                  <Link href="#">
-                    <a>Go Premium</a>
-                  </Link>
+                  <Link href="#">Go Premium</Link>
                 </li>
                 <li>
-                  <Link href="#">
-                    <a>Team Plans</a>
-                  </Link>
+                  <Link href="#">Team Plans</Link>
                 </li>
               </ul>
             </div>
@@ -154,14 +132,10 @@ const Footer = () => {
             <div className="col-lg-6 col-md-6">
               <ul>
                 <li>
-                  <Link href="/privacy-policy">
-                    <a>Privacy Policy</a>
-                  </Link>
+                  <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>
                 <li>
-                  <Link href="/terms-of-service">
-                    <a>Terms & Conditions</a>
-                  </Link>
+                  <Link href="/terms-of-service">Terms & Conditions</Link>
                 </li>
               </ul>
             </div>

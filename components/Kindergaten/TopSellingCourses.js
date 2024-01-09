@@ -53,9 +53,7 @@ const TopSellingCourses = () => {
                     <img src="/images/price-bg.png" alt="image" />
                     <span>$39</span>
                   </div>
-                  <Link href="#">
-                    <a className="link-btn"></a>
-                  </Link>
+                  <Link href="#" className="link-btn"></Link>
                 </div>
 
                 <div className="courses-content">
@@ -69,7 +67,7 @@ const TopSellingCourses = () => {
                   </div>
                   <h3 className="font-weight-black">
                     <Link href="/single-courses-1">
-                      <a>Equivalent fractions and comparing fractions</a>
+                      Equivalent fractions and comparing fractions
                     </Link>
                   </h3>
                   <p>
@@ -93,9 +91,7 @@ const TopSellingCourses = () => {
                     <img src="/images/price-bg.png" alt="image" />
                     <span>$49</span>
                   </div>
-                  <Link href="#">
-                    <a className="link-btn"></a>
-                  </Link>
+                  <Link href="#" className="link-btn"></Link>
                 </div>
 
                 <div className="courses-content">
@@ -109,7 +105,7 @@ const TopSellingCourses = () => {
                   </div>
                   <h3 className="font-weight-black">
                     <Link href="/single-courses-1">
-                      <a>Arithmetic patterns and problem solving</a>
+                      Arithmetic patterns and problem solving
                     </Link>
                   </h3>
                   <p>
@@ -133,9 +129,7 @@ const TopSellingCourses = () => {
                     <img src="/images/price-bg.png" alt="image" />
                     <span>$59</span>
                   </div>
-                  <Link href="#">
-                    <a className="link-btn"></a>
-                  </Link>
+                  <Link href="#" className="link-btn"></Link>
                 </div>
 
                 <div className="courses-content">
@@ -149,7 +143,7 @@ const TopSellingCourses = () => {
                   </div>
                   <h3 className="font-weight-black">
                     <Link href="/single-courses-1">
-                      <a>The unit circle definition of sine, and cosine</a>
+                      The unit circle definition of sine, and cosine
                     </Link>
                   </h3>
                   <p>
@@ -173,9 +167,7 @@ const TopSellingCourses = () => {
                     <img src="/images/price-bg.png" alt="image" />
                     <span>$69</span>
                   </div>
-                  <Link href="#">
-                    <a className="link-btn"></a>
-                  </Link>
+                  <Link href="#" className="link-btn"></Link>
                 </div>
 
                 <div className="courses-content">
@@ -189,7 +181,7 @@ const TopSellingCourses = () => {
                   </div>
                   <h3 className="font-weight-black">
                     <Link href="/single-courses-1">
-                      <a>Thinking about multivariable functions</a>
+                      Thinking about multivariable functions
                     </Link>
                   </h3>
                   <p>

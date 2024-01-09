@@ -17,8 +17,8 @@ const FeaturedCourses = () => {
                 eiusmod tempor.
               </p>
 
-              <Link href="/courses-1">
-                <a className="link-btn">Start Now!</a>
+              <Link href="/courses-1" className="link-btn">
+                Start Now!
               </Link>
             </div>
           </div>
@@ -34,8 +34,8 @@ const FeaturedCourses = () => {
                 eiusmod tempor.
               </p>
 
-              <Link href="/courses-1">
-                <a className="link-btn">Start Now!</a>
+              <Link href="/courses-1" className="link-btn">
+                Start Now!
               </Link>
             </div>
           </div>
@@ -51,8 +51,8 @@ const FeaturedCourses = () => {
                 eiusmod tempor.
               </p>
 
-              <Link href="/courses-1">
-                <a className="link-btn">Start Now!</a>
+              <Link href="/courses-1" className="link-btn">
+                Start Now!
               </Link>
             </div>
           </div>
@@ -60,10 +60,7 @@ const FeaturedCourses = () => {
 
         <div className="boxes-info">
           <p>
-            If you want more?{" "}
-            <Link href="/courses-1">
-              <a>View More Courses</a>
-            </Link>
+            If you want more? <Link href="/courses-1">View More Courses</Link>
           </p>
         </div>
       </div>

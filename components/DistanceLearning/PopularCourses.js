@@ -44,10 +44,8 @@ const PopularCourses = () => {
             <SwiperSlide>
               <div className="single-courses-box">
                 <div className="courses-image">
-                  <Link href="/single-courses-2">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses1.jpg" alt="image" />
-                    </a>
+                  <Link href="/single-courses-2" className="d-block image">
+                    <img src="/images/courses/courses1.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
                     <i className="flaticon-heart"></i>
@@ -65,10 +63,8 @@ const PopularCourses = () => {
                   </div>
                   <h3>
                     <Link href="/single-courses-2">
-                      <a>
-                        The Data Science Course 2020: Complete Data Science
-                        Bootcamp
-                      </a>
+                      The Data Science Course 2020: Complete Data Science
+                      Bootcamp
                     </Link>
                   </h3>
                   <p>
@@ -90,10 +86,8 @@ const PopularCourses = () => {
             <SwiperSlide>
               <div className="single-courses-box">
                 <div className="courses-image">
-                  <Link href="/single-courses-2">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses2.jpg" alt="image" />
-                    </a>
+                  <Link href="/single-courses-2" className="d-block image">
+                    <img src="/images/courses/courses2.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
                     <i className="flaticon-heart"></i>
@@ -111,9 +105,7 @@ const PopularCourses = () => {
                   </div>
                   <h3>
                     <Link href="/single-courses-2">
-                      <a>
-                        Java Programming MasterclassName for Software Developers
-                      </a>
+                      Java Programming MasterclassName for Software Developers
                     </Link>
                   </h3>
                   <p>
@@ -135,10 +127,8 @@ const PopularCourses = () => {
             <SwiperSlide>
               <div className="single-courses-box">
                 <div className="courses-image">
-                  <Link href="/single-courses-2">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses3.jpg" alt="image" />
-                    </a>
+                  <Link href="/single-courses-2" className="d-block image">
+                    <img src="/images/courses/courses3.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
                     <i className="flaticon-heart"></i>
@@ -156,9 +146,7 @@ const PopularCourses = () => {
                   </div>
                   <h3>
                     <Link href="/single-courses-2">
-                      <a>
-                        Deep Learning A-Z™: Hands-On Artificial Neural Networks
-                      </a>
+                      Deep Learning A-Z™: Hands-On Artificial Neural Networks
                     </Link>
                   </h3>
                   <p>
@@ -180,10 +168,8 @@ const PopularCourses = () => {
             <SwiperSlide>
               <div className="single-courses-box">
                 <div className="courses-image">
-                  <Link href="/single-courses-2">
-                    <a className="d-block image">
-                      <img src="/images/courses/courses4.jpg" alt="image" />
-                    </a>
+                  <Link href="/single-courses-2" className="d-block image">
+                    <img src="/images/courses/courses4.jpg" alt="image" />
                   </Link>
                   <a href="#" className="fav">
                     <i className="flaticon-heart"></i>
@@ -201,10 +187,8 @@ const PopularCourses = () => {
                   </div>
                   <h3>
                     <Link href="/single-courses-2">
-                      <a>
-                        Python for Finance: Investment Fundamentals & Data
-                        Analytics
-                      </a>
+                      Python for Finance: Investment Fundamentals & Data
+                      Analytics
                     </Link>
                   </h3>
                   <p>
@@ -228,10 +212,7 @@ const PopularCourses = () => {
             <p>
               Get the most dedicated consultation for your life-changing course.
               Earn a certification for your effort and passion{" "}
-              <Link href="/profile-authentication">
-                <a>Join Free Now</a>
-              </Link>
-              .
+              <Link href="/profile-authentication">Join Free Now</Link>.
             </p>
           </div>
         </div>

@@ -18,10 +18,8 @@ const DistanceLearning = () => {
               skills.
             </p>
 
-            <Link href="#">
-              <a className="default-btn">
-                <i className="flaticon-user"></i> Get Started Now <span></span>
-              </a>
+            <Link href="#" className="default-btn">
+              <i className="flaticon-user"></i>Get Started Now<span></span>
             </Link>
           </div>
 
@@ -48,20 +46,14 @@ const DistanceLearning = () => {
             </p>
 
             <div className="btn-box">
-              <Link href="#">
-                <a className="playstore-btn">
-                  <img src="/images/playstore.png" alt="image" />
-                  GET IT ON
-                  <span>Google Play</span>
-                </a>
+              <Link href="#" className="playstore-btn">
+                <img src="/images/playstore.png" alt="image" />
+                GET IT ON<span>Google Play</span>
               </Link>
 
-              <Link href="#">
-                <a className="applestore-btn">
-                  <img src="/images/applestore.png" alt="image" />
-                  GET IT ON
-                  <span>Apple Store</span>
-                </a>
+              <Link href="#" className="applestore-btn">
+                <img src="/images/applestore.png" alt="image" />
+                GET IT ON<span>Apple Store</span>
               </Link>
             </div>
           </div>

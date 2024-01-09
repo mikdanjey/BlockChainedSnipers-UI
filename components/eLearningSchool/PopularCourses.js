@@ -18,16 +18,12 @@ const PopularCourses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box">
               <div className="courses-image">
-                <Link href="/single-courses-1">
-                  <a className="d-block image">
-                    <img src="/images/courses/courses1.jpg" alt="image" />
-                  </a>
+                <Link href="/single-courses-1" className="d-block image">
+                  <img src="/images/courses/courses1.jpg" alt="image" />
                 </Link>
 
-                <Link href="#">
-                  <a className="fav">
-                    <i className="flaticon-heart"></i>
-                  </a>
+                <Link href="#" className="fav">
+                  <i className="flaticon-heart"></i>
                 </Link>
 
                 <div className="price shadow">$39</div>
@@ -45,9 +41,7 @@ const PopularCourses = () => {
 
                 <h3>
                   <Link href="/single-courses-1">
-                    <a>
-                      Deep Learning a-z™: Hands-on Artificial Neural Networks
-                    </a>
+                    Deep Learning a-z™: Hands-on Artificial Neural Networks
                   </Link>
                 </h3>
 
@@ -71,16 +65,12 @@ const PopularCourses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box">
               <div className="courses-image">
-                <Link href="/single-courses-1">
-                  <a className="d-block image">
-                    <img src="/images/courses/courses2.jpg" alt="image" />
-                  </a>
+                <Link href="/single-courses-1" className="d-block image">
+                  <img src="/images/courses/courses2.jpg" alt="image" />
                 </Link>
 
-                <Link href="#">
-                  <a className="fav">
-                    <i className="flaticon-heart"></i>
-                  </a>
+                <Link href="#" className="fav">
+                  <i className="flaticon-heart"></i>
                 </Link>
 
                 <div className="price shadow">$49</div>
@@ -98,9 +88,7 @@ const PopularCourses = () => {
 
                 <h3>
                   <Link href="/single-courses-1">
-                    <a>
-                      Java Programming MasterclassName for Software Developers
-                    </a>
+                    Java Programming MasterclassName for Software Developers
                   </Link>
                 </h3>
 
@@ -124,16 +112,12 @@ const PopularCourses = () => {
           <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
             <div className="single-courses-box">
               <div className="courses-image">
-                <Link href="/single-courses-1">
-                  <a className="d-block image">
-                    <img src="/images/courses/courses3.jpg" alt="image" />
-                  </a>
+                <Link href="/single-courses-1" className="d-block image">
+                  <img src="/images/courses/courses3.jpg" alt="image" />
                 </Link>
 
-                <Link href="#">
-                  <a className="fav">
-                    <i className="flaticon-heart"></i>
-                  </a>
+                <Link href="#" className="fav">
+                  <i className="flaticon-heart"></i>
                 </Link>
 
                 <div className="price shadow">$59</div>
@@ -151,10 +135,7 @@ const PopularCourses = () => {
 
                 <h3>
                   <Link href="/single-courses-1">
-                    <a>
-                      The Data Science Course 2020: Complete Data Science
-                      Bootcamp
-                    </a>
+                    The Data Science Course 2020: Complete Data Science Bootcamp
                   </Link>
                 </h3>
                 <p>
@@ -180,10 +161,7 @@ const PopularCourses = () => {
                 Enjoy the top notch learning methods and achieve next level
                 skills! You are the creator of your own career & we will guide
                 you through that.{" "}
-                <Link href="/profile-authentication">
-                  <a>Register Free Now!</a>
-                </Link>
-                .
+                <Link href="/profile-authentication">Register Free Now!</Link>.
               </p>
             </div>
           </div>

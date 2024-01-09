@@ -72,9 +72,7 @@ const CourseAdvisor = () => {
 
                 <div className="advisor-content">
                   <h3>
-                    <Link href="/profile">
-                      <a>James Andy</a>
-                    </Link>
+                    <Link href="/profile">James Andy</Link>
                   </h3>
                   <span>Project Management Expert</span>
                 </div>
@@ -112,9 +110,7 @@ const CourseAdvisor = () => {
 
                 <div className="advisor-content">
                   <h3>
-                    <Link href="/profile">
-                      <a>Jassica Hische</a>
-                    </Link>
+                    <Link href="/profile">Jassica Hische</Link>
                   </h3>
                   <span>Illustrator Expert</span>
                 </div>
@@ -152,9 +148,7 @@ const CourseAdvisor = () => {
 
                 <div className="advisor-content">
                   <h3>
-                    <Link href="/profile">
-                      <a>Alister Cock</a>
-                    </Link>
+                    <Link href="/profile">Alister Cock</Link>
                   </h3>
                   <span>QA Project Expert</span>
                 </div>
@@ -192,9 +186,7 @@ const CourseAdvisor = () => {
 
                 <div className="advisor-content">
                   <h3>
-                    <Link href="/profile">
-                      <a>Lina Ninja</a>
-                    </Link>
+                    <Link href="/profile">Lina Ninja</Link>
                   </h3>
                   <span>QA Project Expert</span>
                 </div>

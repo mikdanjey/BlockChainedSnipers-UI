@@ -81,11 +81,8 @@ const CoursesDetailsSidebarTwo = () => {
         </ul>
 
         <div className="btn-box">
-          <Link href="#">
-            <a className="default-btn">
-              <i className="flaticon-shopping-cart"></i> Add to Cart{" "}
-              <span></span>
-            </a>
+          <Link href="#" className="default-btn">
+            <i className="flaticon-shopping-cart"></i>Add to Cart <span></span>
           </Link>
         </div>
 

@@ -18,10 +18,8 @@ const TopSellingCourses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box">
               <div className="courses-image">
-                <Link href="/single-courses-1">
-                  <a className="d-block image">
-                    <img src="/images/courses/health-img1.jpg" alt="image" />
-                  </a>
+                <Link href="/single-courses-1" className="d-block image">
+                  <img src="/images/courses/health-img1.jpg" alt="image" />
                 </Link>
                 <a href="#" className="fav">
                   <i className="flaticon-heart"></i>
@@ -39,7 +37,7 @@ const TopSellingCourses = () => {
                 </div>
                 <h3 className="playfair-display-font">
                   <Link href="/single-courses-1">
-                    <a>Diet And Nutrition Coach Certification</a>
+                    Diet And Nutrition Coach Certification
                   </Link>
                 </h3>
                 <p>
@@ -53,10 +51,8 @@ const TopSellingCourses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box">
               <div className="courses-image">
-                <Link href="/single-courses-1">
-                  <a className="d-block image">
-                    <img src="/images/courses/health-img2.jpg" alt="image" />
-                  </a>
+                <Link href="/single-courses-1" className="d-block image">
+                  <img src="/images/courses/health-img2.jpg" alt="image" />
                 </Link>
                 <a href="#" className="fav">
                   <i className="flaticon-heart"></i>
@@ -74,7 +70,7 @@ const TopSellingCourses = () => {
                 </div>
                 <h3 className="playfair-display-font">
                   <Link href="/single-courses-1">
-                    <a>Internationally Accredited Diploma Certificate</a>
+                    Internationally Accredited Diploma Certificate
                   </Link>
                 </h3>
                 <p>
@@ -88,10 +84,8 @@ const TopSellingCourses = () => {
           <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
             <div className="single-courses-box">
               <div className="courses-image">
-                <Link href="/single-courses-1">
-                  <a className="d-block image">
-                    <img src="/images/courses/health-img3.jpg" alt="image" />
-                  </a>
+                <Link href="/single-courses-1" className="d-block image">
+                  <img src="/images/courses/health-img3.jpg" alt="image" />
                 </Link>
                 <a href="#" className="fav">
                   <i className="flaticon-heart"></i>
@@ -109,7 +103,7 @@ const TopSellingCourses = () => {
                 </div>
                 <h3 className="playfair-display-font">
                   <Link href="/single-courses-1">
-                    <a>Nutrition Certification Diet & Meal Panning</a>
+                    Nutrition Certification Diet & Meal Panning
                   </Link>
                 </h3>
                 <p>
@@ -126,10 +120,7 @@ const TopSellingCourses = () => {
                 Enjoy the top notch learning methods and achieve next level
                 skills! You are the creator of your own career & we will guide
                 you through that.{" "}
-                <Link href="/profile-authentication">
-                  <a>Register Free Now!</a>
-                </Link>
-                .
+                <Link href="/profile-authentication">Register Free Now!</Link>.
               </p>
             </div>
           </div>

@@ -20,28 +20,22 @@ const Courses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-yoga-courses-box">
               <div className="courses-image">
-                <Link href="/single-courses-1">
-                  <a className="d-block">
-                    <img src="/images/courses/yoga-img1.jpg" alt="image" />
-                  </a>
+                <Link href="/single-courses-1" className="d-block">
+                  <img src="/images/courses/yoga-img1.jpg" alt="image" />
                 </Link>
               </div>
 
               <div className="courses-content">
                 <h3 className="playfair-display-font">
-                  <Link href="/single-courses-1">
-                    <a>200 Hour YTT Course</a>
-                  </Link>
+                  <Link href="/single-courses-1">200 Hour YTT Course</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
 
-                <Link href="#">
-                  <a className="default-btn">
-                    View Details<span></span>
-                  </a>
+                <Link href="#" className="default-btn">
+                  View Details<span></span>
                 </Link>
               </div>
             </div>
@@ -50,28 +44,22 @@ const Courses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-yoga-courses-box">
               <div className="courses-image">
-                <Link href="/single-courses-1">
-                  <a className="d-block">
-                    <img src="/images/courses/yoga-img2.jpg" alt="image" />
-                  </a>
+                <Link href="/single-courses-1" className="d-block">
+                  <img src="/images/courses/yoga-img2.jpg" alt="image" />
                 </Link>
               </div>
 
               <div className="courses-content">
                 <h3 className="playfair-display-font">
-                  <Link href="/single-courses-1">
-                    <a>300 Hour YTT Course</a>
-                  </Link>
+                  <Link href="/single-courses-1">300 Hour YTT Course</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
 
-                <Link href="#">
-                  <a className="default-btn">
-                    View Details<span></span>
-                  </a>
+                <Link href="#" className="default-btn">
+                  View Details<span></span>
                 </Link>
               </div>
             </div>
@@ -80,28 +68,22 @@ const Courses = () => {
           <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
             <div className="single-yoga-courses-box">
               <div className="courses-image">
-                <Link href="/single-courses-1">
-                  <a className="d-block">
-                    <img src="/images/courses/yoga-img3.jpg" alt="image" />
-                  </a>
+                <Link href="/single-courses-1" className="d-block">
+                  <img src="/images/courses/yoga-img3.jpg" alt="image" />
                 </Link>
               </div>
 
               <div className="courses-content">
                 <h3 className="playfair-display-font">
-                  <Link href="/single-courses-1">
-                    <a>500 Hour YTT Course</a>
-                  </Link>
+                  <Link href="/single-courses-1">500 Hour YTT Course</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
 
-                <Link href="#">
-                  <a className="default-btn">
-                    View Details<span></span>
-                  </a>
+                <Link href="#" className="default-btn">
+                  View Details<span></span>
                 </Link>
               </div>
             </div>
