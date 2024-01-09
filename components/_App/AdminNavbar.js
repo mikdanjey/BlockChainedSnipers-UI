@@ -81,7 +81,10 @@ const AdminNavbar = ({ user }) => {
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/vendor-certification" activeClassName="active">
+                        <Link
+                          href="/vendor-certification"
+                          activeClassName="active"
+                        >
                           <a onClick={toggleNavbar} className="nav-link">
                             Vendor Certification Training
                           </a>
@@ -97,7 +100,10 @@ const AdminNavbar = ({ user }) => {
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/distance-learning" activeClassName="active">
+                        <Link
+                          href="/distance-learning"
+                          activeClassName="active"
+                        >
                           <a onClick={toggleNavbar} className="nav-link">
                             Distance Learning
                           </a>

@@ -28,21 +28,21 @@ const FeedbackSlider = () => {
               576: {
                 slidesPerView: 2,
               },
-							992: {
+              992: {
                 slidesPerView: 3,
               },
-							1200: {
+              1200: {
                 slidesPerView: 4,
               },
-							1550: {
+              1550: {
                 slidesPerView: 5,
               },
             }}
-						autoplay={{
-							delay: 6500,
-							disableOnInteraction: true,
-							pauseOnMouseEnter: true,
-						}}
+            autoplay={{
+              delay: 6500,
+              disableOnInteraction: true,
+              pauseOnMouseEnter: true,
+            }}
             modules={[Navigation, Autoplay]}
             className="feedback-slides-three"
           >

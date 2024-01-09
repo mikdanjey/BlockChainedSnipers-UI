@@ -12,11 +12,11 @@ const FeedbackSlider = () => {
             pagination={{
               clickable: true,
             }}
-						autoplay={{
-							delay: 6500,
-							disableOnInteraction: true,
-							pauseOnMouseEnter: true,
-						}}
+            autoplay={{
+              delay: 6500,
+              disableOnInteraction: true,
+              pauseOnMouseEnter: true,
+            }}
             modules={[Pagination, Autoplay]}
             className="feedback-slides feedback-slides-style-two"
           >

@@ -15,30 +15,30 @@ import baseUrl from "@/utils/baseUrl";
 import SEO from "@/components/SEO";
 
 const index = ({ courses }) => {
-	const { t } = useTranslation("distance-learning");
-	return (
-		<>
-			<SEO title={t("pagetitle")} description={t("bannersubtitle")} />
-			<MainBanner />
-			<Features />
-			<TopCourses courses={courses} />
-			<About />
-			<Testimonials />
-			<Instance />
-			<Partner />
-			<Ad />
-			<Funfacts />
-			<Blog />
-			<EdemyPremium />
-		</>
-	);
+  const { t } = useTranslation("distance-learning");
+  return (
+    <>
+      <SEO title={t("pagetitle")} description={t("bannersubtitle")} />
+      <MainBanner />
+      <Features />
+      <TopCourses courses={courses} />
+      <About />
+      <Testimonials />
+      <Instance />
+      <Partner />
+      <Ad />
+      <Funfacts />
+      <Blog />
+      <EdemyPremium />
+    </>
+  );
 };
 
-index.getInitialProps = async () => {
-	const url = `${baseUrl}/api/v1/courses/homepage-courses`;
-	const response = await fetch(url);
-	const data = await response.json();
-	return data;
-};
+// index.getInitialProps = async () => {
+//   const url = `${baseUrl}/api/v1/courses/homepage-courses`;
+//   const response = await fetch(url);
+//   const data = await response.json();
+//   return data;
+// };
 
 export default index;
