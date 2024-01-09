@@ -23,7 +23,8 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "next": "14.0.4",
+    "next-translate": "^1.4.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.2.0",
