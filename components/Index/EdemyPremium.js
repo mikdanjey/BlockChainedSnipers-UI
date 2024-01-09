@@ -41,7 +41,11 @@ const EdemyPremium = () => {
                 <span className="sub-title">{t("go-own-pace")}</span>
                 <h2>{t("unlimited-access")}</h2>
                 <p>{t("unlimited-access-desc")}</p>
-                <Link href="/membership-levels" className="default-btn" legacyBehavior>
+                <Link
+                  href="/membership-levels"
+                  className="default-btn"
+                  legacyBehavior
+                >
                   <i className="flaticon-user"></i>
                   {t("get-started-now")}
                   <span></span>

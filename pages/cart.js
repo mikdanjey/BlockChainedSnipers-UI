@@ -23,68 +23,68 @@ const Cart = ({ user }) => {
     });
   };
 
-  return <>
-    <PageBanner
-      pageTitle="Cart"
-      homePageUrl="/"
-      homePageText="Home"
-      activePageText="Cart"
-    />
+  return (
+    <>
+      <PageBanner
+        pageTitle="Cart"
+        homePageUrl="/"
+        homePageText="Home"
+        activePageText="Cart"
+      />
 
-    <div className="cart-area ptb-100">
-      <div className="container">
-        <form>
-          <div className="cart-table table-responsive">
-            <table className="table table-bordered">
-              <thead>
-                <tr>
-                  <th scope="col">Product</th>
-                  <th scope="col">Name</th>
-                  <th scope="col">Price</th>
-                  <th scope="col">Action</th>
-                </tr>
-              </thead>
-
-              <tbody>
-                {cartItems.length > 0 ? (
-                  cartItems.map((cart) => (
-                    <CartItems
-                      key={cart.id}
-                      {...cart}
-                      onRemove={() => handleRemove(cart.id)}
-                    />
-                  ))
-                ) : (
+      <div className="cart-area ptb-100">
+        <div className="container">
+          <form>
+            <div className="cart-table table-responsive">
+              <table className="table table-bordered">
+                <thead>
                   <tr>
-                    <td colSpan="4" className="text-center py-5">
-                      Empty
-                    </td>
+                    <th scope="col">Product</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Action</th>
                   </tr>
-                )}
-              </tbody>
-            </table>
-          </div>
+                </thead>
 
-          <div className="cart-totals">
-            <h3>Cart Totals</h3>
+                <tbody>
+                  {cartItems.length > 0 ? (
+                    cartItems.map((cart) => (
+                      <CartItems
+                        key={cart.id}
+                        {...cart}
+                        onRemove={() => handleRemove(cart.id)}
+                      />
+                    ))
+                  ) : (
+                    <tr>
+                      <td colSpan="4" className="text-center py-5">
+                        Empty
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+            </div>
 
-            <ul>
-              <li>
-                Total <span>${cartAmout}</span>
-              </li>
-            </ul>
+            <div className="cart-totals">
+              <h3>Cart Totals</h3>
 
-            <Link href="/checkout" className="default-btn">
+              <ul>
+                <li>
+                  Total <span>${cartAmout}</span>
+                </li>
+              </ul>
 
-              <i className="flaticon-shopping-cart"></i>Proceed to Checkout{" "}
-              <span></span>
-
-            </Link>
-          </div>
-        </form>
+              <Link href="/checkout" className="default-btn">
+                <i className="flaticon-shopping-cart"></i>Proceed to Checkout{" "}
+                <span></span>
+              </Link>
+            </div>
+          </form>
+        </div>
       </div>
-    </div>
-  </>;
+    </>
+  );
 };
 
 export default Cart;

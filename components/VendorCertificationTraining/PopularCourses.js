@@ -18,7 +18,11 @@ const PopularCourses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box without-boxshadow">
               <div className="courses-image">
-                <Link href="/single-courses-2" className="d-block image" legacyBehavior>
+                <Link
+                  href="/single-courses-2"
+                  className="d-block image"
+                  legacyBehavior
+                >
                   <img src="/images/courses/courses9.jpg" alt="image" />
                 </Link>
 
@@ -61,7 +65,11 @@ const PopularCourses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box without-boxshadow active">
               <div className="courses-image">
-                <Link href="/single-courses-2" className="d-block image" legacyBehavior>
+                <Link
+                  href="/single-courses-2"
+                  className="d-block image"
+                  legacyBehavior
+                >
                   <img src="/images/courses/courses10.jpg" alt="image" />
                 </Link>
                 <Link href="#" className="fav" legacyBehavior>
@@ -102,7 +110,11 @@ const PopularCourses = () => {
           <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
             <div className="single-courses-box without-boxshadow">
               <div className="courses-image">
-                <Link href="/single-courses-2" className="d-block image" legacyBehavior>
+                <Link
+                  href="/single-courses-2"
+                  className="d-block image"
+                  legacyBehavior
+                >
                   <img src="/images/courses/courses11.jpg" alt="image" />
                 </Link>
                 <Link href="#" className="fav" legacyBehavior>

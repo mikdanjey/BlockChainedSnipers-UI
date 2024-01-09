@@ -13,7 +13,9 @@ const PageBanner = ({
         <div className="page-title-content">
           <ul>
             <li>
-              <Link href={homePageUrl} legacyBehavior>{homePageText}</Link>
+              <Link href={homePageUrl} legacyBehavior>
+                {homePageText}
+              </Link>
             </li>
             <li className="active">{activePageText}</li>
           </ul>

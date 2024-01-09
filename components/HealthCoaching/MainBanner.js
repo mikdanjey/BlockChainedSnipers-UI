@@ -23,7 +23,11 @@ const MainBanner = () => {
               </p>
               <div className="btn-box">
                 <div className="d-flex align-items-center">
-                  <Link href="/profile-authentication" className="default-btn" legacyBehavior>
+                  <Link
+                    href="/profile-authentication"
+                    className="default-btn"
+                    legacyBehavior
+                  >
                     <i className="flaticon-user"></i>Join For Free <span></span>
                   </Link>
                   <img

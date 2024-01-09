@@ -23,7 +23,8 @@ const TopCourses = ({ courses = [] }) => {
                       href="/courses/[id]"
                       as={`/courses/${course.id}`}
                       className="d-block image"
-                      legacyBehavior>
+                      legacyBehavior
+                    >
                       <img src={course.profilePhoto} alt={course.title} />
                     </Link>
 
@@ -49,7 +50,11 @@ const TopCourses = ({ courses = [] }) => {
                     </div>
 
                     <h3 title={course.title}>
-                      <Link href="/courses/[id]" as={`/courses/${course.id}`} legacyBehavior>
+                      <Link
+                        href="/courses/[id]"
+                        as={`/courses/${course.id}`}
+                        legacyBehavior
+                      >
                         {course.title.slice(0, 20)}...
                       </Link>
                     </h3>
@@ -78,7 +83,10 @@ const TopCourses = ({ courses = [] }) => {
             <div className="courses-info">
               <p>
                 {t("course-description2")}{" "}
-                <Link href="/authentication" legacyBehavior>{t("join-free-now")}</Link>.
+                <Link href="/authentication" legacyBehavior>
+                  {t("join-free-now")}
+                </Link>
+                .
               </p>
             </div>
           </div>

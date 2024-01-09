@@ -11,7 +11,9 @@ const CartItems = ({ id, title, price, image, onRemove }) => {
       </td>
 
       <td className="product-name">
-        <Link href="#" legacyBehavior>{title}</Link>
+        <Link href="#" legacyBehavior>
+          {title}
+        </Link>
       </td>
 
       <td className="product-price">
