@@ -22,7 +22,7 @@ const AboutArea = () => {
                 </strong>
               </p>
 
-              <Link href="/courses-4" className="default-btn">
+              <Link href="/courses-4" className="default-btn" legacyBehavior>
                 <i className="flaticon-user"></i>View All Courses <span></span>
               </Link>
             </div>

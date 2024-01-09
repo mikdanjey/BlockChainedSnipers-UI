@@ -44,7 +44,7 @@ const About = () => {
                   </span>
                 </li>
               </ul>
-              <Link href="/courses-1" className="default-btn">
+              <Link href="/courses-1" className="default-btn" legacyBehavior>
                 <i className="flaticon-user"></i>
                 {t("view-all-courses")}
                 <span></span>

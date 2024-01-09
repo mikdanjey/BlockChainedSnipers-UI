@@ -18,11 +18,11 @@ const PopularCourses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box without-boxshadow">
               <div className="courses-image">
-                <Link href="/single-courses-2" className="d-block image">
+                <Link href="/single-courses-2" className="d-block image" legacyBehavior>
                   <img src="/images/courses/courses9.jpg" alt="image" />
                 </Link>
 
-                <Link href="#" className="fav">
+                <Link href="#" className="fav" legacyBehavior>
                   <i className="flaticon-heart"></i>
                 </Link>
 
@@ -61,10 +61,10 @@ const PopularCourses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box without-boxshadow active">
               <div className="courses-image">
-                <Link href="/single-courses-2" className="d-block image">
+                <Link href="/single-courses-2" className="d-block image" legacyBehavior>
                   <img src="/images/courses/courses10.jpg" alt="image" />
                 </Link>
-                <Link href="#" className="fav">
+                <Link href="#" className="fav" legacyBehavior>
                   <i className="flaticon-heart"></i>
                 </Link>
                 <div className="price shadow">$49</div>
@@ -102,10 +102,10 @@ const PopularCourses = () => {
           <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
             <div className="single-courses-box without-boxshadow">
               <div className="courses-image">
-                <Link href="/single-courses-2" className="d-block image">
+                <Link href="/single-courses-2" className="d-block image" legacyBehavior>
                   <img src="/images/courses/courses11.jpg" alt="image" />
                 </Link>
-                <Link href="#" className="fav">
+                <Link href="#" className="fav" legacyBehavior>
                   <i className="flaticon-heart"></i>
                 </Link>
                 <div className="price shadow">$59</div>
@@ -142,7 +142,7 @@ const PopularCourses = () => {
 
           <div className="col-lg-12 col-md-12">
             <div className="courses-info">
-              <Link href="/courses-2" className="default-btn">
+              <Link href="/courses-2" className="default-btn" legacyBehavior>
                 <i className="flaticon-user"></i>View All Courses <span></span>
               </Link>
 

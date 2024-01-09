@@ -18,7 +18,7 @@ const DistanceLearning = () => {
               skills.
             </p>
 
-            <Link href="#" className="default-btn">
+            <Link href="#" className="default-btn" legacyBehavior>
               <i className="flaticon-user"></i>Get Started Now<span></span>
             </Link>
           </div>
@@ -46,12 +46,12 @@ const DistanceLearning = () => {
             </p>
 
             <div className="btn-box">
-              <Link href="#" className="playstore-btn">
+              <Link href="#" className="playstore-btn" legacyBehavior>
                 <img src="/images/playstore.png" alt="image" />
                 GET IT ON<span>Google Play</span>
               </Link>
 
-              <Link href="#" className="applestore-btn">
+              <Link href="#" className="applestore-btn" legacyBehavior>
                 <img src="/images/applestore.png" alt="image" />
                 GET IT ON<span>Apple Store</span>
               </Link>

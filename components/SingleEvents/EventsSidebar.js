@@ -53,7 +53,7 @@ const EventsSidebar = () => {
       </ul>
 
       <div className="btn-box">
-        <Link href="#" className="default-btn">
+        <Link href="#" className="default-btn" legacyBehavior>
           <i className="flaticon-user"></i>Book Now<span></span>
         </Link>
         <p>

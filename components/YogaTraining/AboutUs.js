@@ -27,7 +27,10 @@ const AboutUs = () => {
                 ways of learning skills.
               </p>
 
-              <Link href="/profile-authentication" className="default-btn mt-2">
+              <Link
+                href="/profile-authentication"
+                className="default-btn mt-2"
+                legacyBehavior>
                 <i className="flaticon-user"></i>Join For Free<span></span>
               </Link>
             </div>

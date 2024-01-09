@@ -24,7 +24,7 @@ const TopCategories = () => {
                 <span>10 Courses</span>
               </div>
 
-              <Link href="/courses-1" className="link-btn"></Link>
+              <Link href="/courses-1" className="link-btn" legacyBehavior></Link>
             </div>
           </div>
 
@@ -37,7 +37,7 @@ const TopCategories = () => {
                 <span>20 Courses</span>
               </div>
 
-              <Link href="/courses-1" className="link-btn"></Link>
+              <Link href="/courses-1" className="link-btn" legacyBehavior></Link>
             </div>
           </div>
 
@@ -50,7 +50,7 @@ const TopCategories = () => {
                 <span>15 Courses</span>
               </div>
 
-              <Link href="/courses-1" className="link-btn"></Link>
+              <Link href="/courses-1" className="link-btn" legacyBehavior></Link>
             </div>
           </div>
 
@@ -63,7 +63,7 @@ const TopCategories = () => {
                 <span>11 Courses</span>
               </div>
 
-              <Link href="/courses-1" className="link-btn"></Link>
+              <Link href="/courses-1" className="link-btn" legacyBehavior></Link>
             </div>
           </div>
 
@@ -76,7 +76,7 @@ const TopCategories = () => {
                 <span>10 Courses</span>
               </div>
 
-              <Link href="/courses-1" className="link-btn"></Link>
+              <Link href="/courses-1" className="link-btn" legacyBehavior></Link>
             </div>
           </div>
 
@@ -89,7 +89,7 @@ const TopCategories = () => {
                 <span>12 Courses</span>
               </div>
 
-              <Link href="/courses-1" className="link-btn"></Link>
+              <Link href="/courses-1" className="link-btn" legacyBehavior></Link>
             </div>
           </div>
 
@@ -102,7 +102,7 @@ const TopCategories = () => {
                 <span>05 Courses</span>
               </div>
 
-              <Link href="/courses-1" className="link-btn"></Link>
+              <Link href="/courses-1" className="link-btn" legacyBehavior></Link>
             </div>
           </div>
 
@@ -115,13 +115,13 @@ const TopCategories = () => {
                 <span>20 Courses</span>
               </div>
 
-              <Link href="/courses-1" className="link-btn"></Link>
+              <Link href="/courses-1" className="link-btn" legacyBehavior></Link>
             </div>
           </div>
 
           <div className="col-lg-12 col-sm-12 col-md-12">
             <div className="categories-btn-box">
-              <Link href="/categories" className="default-btn">
+              <Link href="/categories" className="default-btn" legacyBehavior>
                 <i className="flaticon-user"></i>View All Categories{" "}
                 <span></span>
               </Link>

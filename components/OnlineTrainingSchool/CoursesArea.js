@@ -25,13 +25,13 @@ const CoursesArea = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn"></Link>
+                    <Link href="/single-courses-1" className="link-btn" legacyBehavior></Link>
                   </div>
                 </div>
 
                 <div className="col-lg-8 col-md-8">
                   <div className="courses-content">
-                    <Link href="#" className="fav">
+                    <Link href="#" className="fav" legacyBehavior>
                       <i className="flaticon-heart"></i>
                     </Link>
                     <span className="price">$39</span>
@@ -64,7 +64,7 @@ const CoursesArea = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn"></Link>
+                    <Link href="/single-courses-1" className="link-btn" legacyBehavior></Link>
                   </div>
                 </div>
 
@@ -103,7 +103,7 @@ const CoursesArea = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn"></Link>
+                    <Link href="/single-courses-1" className="link-btn" legacyBehavior></Link>
                   </div>
                 </div>
 
@@ -143,7 +143,7 @@ const CoursesArea = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn"></Link>
+                    <Link href="/single-courses-1" className="link-btn" legacyBehavior></Link>
                   </div>
                 </div>
 
@@ -182,7 +182,7 @@ const CoursesArea = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn"></Link>
+                    <Link href="/single-courses-1" className="link-btn" legacyBehavior></Link>
                   </div>
                 </div>
 
@@ -221,7 +221,7 @@ const CoursesArea = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn"></Link>
+                    <Link href="/single-courses-1" className="link-btn" legacyBehavior></Link>
                   </div>
                 </div>
 
@@ -252,7 +252,7 @@ const CoursesArea = () => {
 
           <div className="col-lg-12 col-md-12">
             <div className="courses-info">
-              <Link href="/courses-1" className="default-btn">
+              <Link href="/courses-1" className="default-btn" legacyBehavior>
                 <i className="flaticon-user"></i>View All Courses <span></span>
               </Link>
 

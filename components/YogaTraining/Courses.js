@@ -20,7 +20,7 @@ const Courses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-yoga-courses-box">
               <div className="courses-image">
-                <Link href="/single-courses-1" className="d-block">
+                <Link href="/single-courses-1" className="d-block" legacyBehavior>
                   <img src="/images/courses/yoga-img1.jpg" alt="image" />
                 </Link>
               </div>
@@ -34,7 +34,7 @@ const Courses = () => {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
 
-                <Link href="#" className="default-btn">
+                <Link href="#" className="default-btn" legacyBehavior>
                   View Details<span></span>
                 </Link>
               </div>
@@ -44,7 +44,7 @@ const Courses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-yoga-courses-box">
               <div className="courses-image">
-                <Link href="/single-courses-1" className="d-block">
+                <Link href="/single-courses-1" className="d-block" legacyBehavior>
                   <img src="/images/courses/yoga-img2.jpg" alt="image" />
                 </Link>
               </div>
@@ -58,7 +58,7 @@ const Courses = () => {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
 
-                <Link href="#" className="default-btn">
+                <Link href="#" className="default-btn" legacyBehavior>
                   View Details<span></span>
                 </Link>
               </div>
@@ -68,7 +68,7 @@ const Courses = () => {
           <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
             <div className="single-yoga-courses-box">
               <div className="courses-image">
-                <Link href="/single-courses-1" className="d-block">
+                <Link href="/single-courses-1" className="d-block" legacyBehavior>
                   <img src="/images/courses/yoga-img3.jpg" alt="image" />
                 </Link>
               </div>
@@ -82,7 +82,7 @@ const Courses = () => {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
 
-                <Link href="#" className="default-btn">
+                <Link href="#" className="default-btn" legacyBehavior>
                   View Details<span></span>
                 </Link>
               </div>

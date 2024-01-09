@@ -49,7 +49,7 @@ const AboutUs = () => {
                 </li>
               </ul>
 
-              <Link href="/profile-authentication" className="default-btn">
+              <Link href="/profile-authentication" className="default-btn" legacyBehavior>
                 <i className="flaticon-user"></i>Join For Free<span></span>
               </Link>
             </div>

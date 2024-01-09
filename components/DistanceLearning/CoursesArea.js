@@ -19,11 +19,11 @@ const CoursesArea = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-item-box">
                 <div className="courses-image">
-                  <Link href="/single-courses-2" className="d-block image">
+                  <Link href="/single-courses-2" className="d-block image" legacyBehavior>
                     <img src="/images/courses/courses12.jpg" alt="image" />
                   </Link>
 
-                  <Link href="#" className="fav">
+                  <Link href="#" className="fav" legacyBehavior>
                     <i className="flaticon-heart"></i>
                   </Link>
 
@@ -50,11 +50,11 @@ const CoursesArea = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-item-box">
                 <div className="courses-image">
-                  <Link href="/single-courses-2" className="d-block image">
+                  <Link href="/single-courses-2" className="d-block image" legacyBehavior>
                     <img src="/images/courses/courses13.jpg" alt="image" />
                   </Link>
 
-                  <Link href="#" className="fav">
+                  <Link href="#" className="fav" legacyBehavior>
                     <i className="flaticon-heart"></i>
                   </Link>
 
@@ -81,11 +81,11 @@ const CoursesArea = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-item-box">
                 <div className="courses-image">
-                  <Link href="/single-courses-2" className="d-block image">
+                  <Link href="/single-courses-2" className="d-block image" legacyBehavior>
                     <img src="/images/courses/courses14.jpg" alt="image" />
                   </Link>
 
-                  <Link href="#" className="fav">
+                  <Link href="#" className="fav" legacyBehavior>
                     <i className="flaticon-heart"></i>
                   </Link>
 
@@ -113,11 +113,11 @@ const CoursesArea = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-item-box">
                 <div className="courses-image">
-                  <Link href="/single-courses-2" className="d-block image">
+                  <Link href="/single-courses-2" className="d-block image" legacyBehavior>
                     <img src="/images/courses/courses15.jpg" alt="image" />
                   </Link>
 
-                  <Link href="#" className="fav">
+                  <Link href="#" className="fav" legacyBehavior>
                     <i className="flaticon-heart"></i>
                   </Link>
 
@@ -144,11 +144,11 @@ const CoursesArea = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-item-box">
                 <div className="courses-image">
-                  <Link href="/single-courses-2" className="d-block image">
+                  <Link href="/single-courses-2" className="d-block image" legacyBehavior>
                     <img src="/images/courses/courses16.jpg" alt="image" />
                   </Link>
 
-                  <Link href="#" className="fav">
+                  <Link href="#" className="fav" legacyBehavior>
                     <i className="flaticon-heart"></i>
                   </Link>
 
@@ -175,11 +175,11 @@ const CoursesArea = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-item-box">
                 <div className="courses-image">
-                  <Link href="/single-courses-2" className="d-block image">
+                  <Link href="/single-courses-2" className="d-block image" legacyBehavior>
                     <img src="/images/courses/courses17.jpg" alt="image" />
                   </Link>
 
-                  <Link href="#" className="fav">
+                  <Link href="#" className="fav" legacyBehavior>
                     <i className="flaticon-heart"></i>
                   </Link>
 

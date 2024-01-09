@@ -81,7 +81,7 @@ const CoursesDetailsSidebarTwo = () => {
         </ul>
 
         <div className="btn-box">
-          <Link href="#" className="default-btn">
+          <Link href="#" className="default-btn" legacyBehavior>
             <i className="flaticon-shopping-cart"></i>Add to Cart <span></span>
           </Link>
         </div>

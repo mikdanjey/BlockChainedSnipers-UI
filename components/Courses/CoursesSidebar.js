@@ -26,7 +26,7 @@ const CoursesSidebar = () => {
         <h3 className="widget-title">Recent Courses</h3>
 
         <div className="item">
-          <Link href="#" className="thumb">
+          <Link href="#" className="thumb" legacyBehavior>
             <span className="fullimage cover bg1" role="img"></span>
           </Link>
           <div className="info">
@@ -41,7 +41,7 @@ const CoursesSidebar = () => {
         </div>
 
         <div className="item">
-          <Link href="#" className="thumb">
+          <Link href="#" className="thumb" legacyBehavior>
             <span className="fullimage cover bg2" role="img"></span>
           </Link>
           <div className="info">
@@ -56,7 +56,7 @@ const CoursesSidebar = () => {
         </div>
 
         <div className="item">
-          <Link href="#" className="thumb">
+          <Link href="#" className="thumb" legacyBehavior>
             <span className="fullimage cover bg3" role="img"></span>
           </Link>
           <div className="info">
@@ -75,40 +75,40 @@ const CoursesSidebar = () => {
         <h3 className="widget-title">Popular Tags</h3>
 
         <div className="tagcloud">
-          <Link href="#">
+          <Link href="#" legacyBehavior>
             Business<span className="tag-link-count">(3)</span>
           </Link>
-          <Link href="#">
+          <Link href="#" legacyBehavior>
             Design<span className="tag-link-count">(3)</span>
           </Link>
-          <Link href="#">
+          <Link href="#" legacyBehavior>
             Digital<span className="tag-link-count">(2)</span>
           </Link>
-          <Link href="#">
+          <Link href="#" legacyBehavior>
             SEO<span className="tag-link-count">(2)</span>
           </Link>
-          <Link href="#">
+          <Link href="#" legacyBehavior>
             Braike<span className="tag-link-count">(2)</span>
           </Link>
-          <Link href="#">
+          <Link href="#" legacyBehavior>
             Fashion<span className="tag-link-count">(2)</span>
           </Link>
-          <Link href="#">
+          <Link href="#" legacyBehavior>
             Software<span className="tag-link-count">(2)</span>
           </Link>
-          <Link href="#">
+          <Link href="#" legacyBehavior>
             Travel<span className="tag-link-count">(1)</span>
           </Link>
-          <Link href="#">
+          <Link href="#" legacyBehavior>
             Smart<span className="tag-link-count">(1)</span>
           </Link>
-          <Link href="#">
+          <Link href="#" legacyBehavior>
             Marketing<span className="tag-link-count">(1)</span>
           </Link>
-          <Link href="#">
+          <Link href="#" legacyBehavior>
             Tips<span className="tag-link-count">(2)</span>
           </Link>
-          <Link href="#">
+          <Link href="#" legacyBehavior>
             Website<span className="tag-link-count">(2)</span>
           </Link>
         </div>

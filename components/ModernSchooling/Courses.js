@@ -25,7 +25,7 @@ const Courses = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn"></Link>
+                    <Link href="/single-courses-1" className="link-btn" legacyBehavior></Link>
                   </div>
                 </div>
 
@@ -66,7 +66,7 @@ const Courses = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn"></Link>
+                    <Link href="/single-courses-1" className="link-btn" legacyBehavior></Link>
                   </div>
                 </div>
 
@@ -105,7 +105,7 @@ const Courses = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn"></Link>
+                    <Link href="/single-courses-1" className="link-btn" legacyBehavior></Link>
                   </div>
                 </div>
 
@@ -147,7 +147,7 @@ const Courses = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn"></Link>
+                    <Link href="/single-courses-1" className="link-btn" legacyBehavior></Link>
                   </div>
                 </div>
 
@@ -188,7 +188,7 @@ const Courses = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn"></Link>
+                    <Link href="/single-courses-1" className="link-btn" legacyBehavior></Link>
                   </div>
                 </div>
 
@@ -229,7 +229,7 @@ const Courses = () => {
                       alt="image"
                     />
 
-                    <Link href="/single-courses-1" className="link-btn"></Link>
+                    <Link href="/single-courses-1" className="link-btn" legacyBehavior></Link>
                   </div>
                 </div>
 
@@ -262,7 +262,7 @@ const Courses = () => {
 
           <div className="col-lg-12 col-md-12">
             <div className="courses-info">
-              <Link href="/courses-1" className="default-btn">
+              <Link href="/courses-1" className="default-btn" legacyBehavior>
                 <i className="flaticon-user"></i>View All Courses<span></span>
               </Link>
               <p>

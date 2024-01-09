@@ -14,7 +14,7 @@ const MainBanner = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
 
-              <Link href="/courses-4" className="default-btn">
+              <Link href="/courses-4" className="default-btn" legacyBehavior>
                 <i className="flaticon-user"></i>View All Courses<span></span>
               </Link>
             </div>

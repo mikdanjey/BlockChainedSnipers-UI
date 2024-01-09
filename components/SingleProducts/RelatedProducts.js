@@ -14,7 +14,7 @@ const RelatedProducts = () => {
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="single-products-box">
               <div className="products-image">
-                <Link href="/single-products">
+                <Link href="/single-products" legacyBehavior>
                   <img
                     src="/images/products/product4.jpg"
                     className="main-image"
@@ -60,7 +60,7 @@ const RelatedProducts = () => {
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="single-products-box">
               <div className="products-image">
-                <Link href="/single-products">
+                <Link href="/single-products" legacyBehavior>
                   <img
                     src="/images/products/product5.jpg"
                     className="main-image"
@@ -106,7 +106,7 @@ const RelatedProducts = () => {
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="single-products-box">
               <div className="products-image">
-                <Link href="/single-products">
+                <Link href="/single-products" legacyBehavior>
                   <img
                     src="/images/products/product6.jpg"
                     className="main-image"

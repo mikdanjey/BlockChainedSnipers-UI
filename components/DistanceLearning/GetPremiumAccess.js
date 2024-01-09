@@ -13,7 +13,7 @@ const GetPremiumAccess = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
 
-          <Link href="/membership-levels" className="default-btn">
+          <Link href="/membership-levels" className="default-btn" legacyBehavior>
             <i className="flaticon-user"></i>Give Premium Access <span></span>
           </Link>
         </div>

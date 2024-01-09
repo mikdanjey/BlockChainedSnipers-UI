@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const PopularCourses = ({ courses }) => {
+const PopularCourses = ({ courses = [] }) => {
   return (
     <div className="courses-area ptb-100">
       <div className="container">
@@ -24,11 +24,11 @@ const PopularCourses = ({ courses }) => {
                       href="/courses/[id]"
                       as={`/courses/${course.id}`}
                       className="d-block image"
-                    >
+                      legacyBehavior>
                       <img src={course.profilePhoto} alt={course.title} />
                     </Link>
 
-                    <Link href="#" className="fav">
+                    <Link href="#" className="fav" legacyBehavior>
                       <i className="flaticon-heart"></i>
                     </Link>
 
@@ -50,7 +50,7 @@ const PopularCourses = ({ courses }) => {
                     </div>
 
                     <h3>
-                      <Link href="/courses/[id]" as={`/courses/${course.id}`}>
+                      <Link href="/courses/[id]" as={`/courses/${course.id}`} legacyBehavior>
                         {course.title}
                       </Link>
                     </h3>

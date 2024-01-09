@@ -5,13 +5,13 @@ const CartItems = ({ id, title, price, image, onRemove }) => {
   return (
     <tr>
       <td className="product-thumbnail">
-        <Link href="#">
+        <Link href="#" legacyBehavior>
           <img src={image} alt="item" />
         </Link>
       </td>
 
       <td className="product-name">
-        <Link href="#">{title}</Link>
+        <Link href="#" legacyBehavior>{title}</Link>
       </td>
 
       <td className="product-price">

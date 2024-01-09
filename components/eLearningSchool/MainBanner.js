@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const MainBanner = ({ courses }) => {
+const MainBanner = ({ courses = [] }) => {
   // console.log(courses)
   return (
     <div className="main-banner">
@@ -16,7 +16,7 @@ const MainBanner = ({ courses }) => {
                 can offer you to enjoy the beauty of eLearning!
               </p>
 
-              <Link href="/profile-authentication" className="default-btn">
+              <Link href="/profile-authentication" className="default-btn" legacyBehavior>
                 <i className="flaticon-user"></i>Join For Free<span></span>
               </Link>
             </div>
@@ -33,11 +33,11 @@ const MainBanner = ({ courses }) => {
                           href="/courses/[id]"
                           as={`/courses/${course.id}`}
                           className="d-block image"
-                        >
+                          legacyBehavior>
                           <img src={course.profilePhoto} alt={course.title} />
                         </Link>
 
-                        <Link href="#" className="fav">
+                        <Link href="#" className="fav" legacyBehavior>
                           <i className="flaticon-heart"></i>
                         </Link>
 
@@ -59,10 +59,7 @@ const MainBanner = ({ courses }) => {
                         </div>
 
                         <h3>
-                          <Link
-                            href="/courses/[id]"
-                            as={`/courses/${course.id}`}
-                          >
+                          <Link href="/courses/[id]" as={`/courses/${course.id}`} legacyBehavior>
                             {course.title}
                           </Link>
                         </h3>

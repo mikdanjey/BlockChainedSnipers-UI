@@ -18,7 +18,7 @@ const LatestNews = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-blog-post">
               <div className="post-image">
-                <Link href="/single-blog-1" className="d-block">
+                <Link href="/single-blog-1" className="d-block" legacyBehavior>
                   <img src="/images/blog/blog1.jpg" alt="image" />
                 </Link>
               </div>
@@ -53,7 +53,7 @@ const LatestNews = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-blog-post">
               <div className="post-image">
-                <Link href="/single-blog-1" className="d-block">
+                <Link href="/single-blog-1" className="d-block" legacyBehavior>
                   <img src="/images/blog/blog2.jpg" alt="image" />
                 </Link>
               </div>
@@ -88,7 +88,7 @@ const LatestNews = () => {
           <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
             <div className="single-blog-post">
               <div className="post-image">
-                <Link href="/single-blog-1" className="d-block">
+                <Link href="/single-blog-1" className="d-block" legacyBehavior>
                   <img src="/images/blog/blog3.jpg" alt="image" />
                 </Link>
               </div>
