@@ -1,7 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Layout from "../components/_App/Layout";
-
 import "../styles/bootstrap.min.css";
 import "../styles/animate.min.css";
 import "../styles/boxicons.min.css";
@@ -20,6 +18,8 @@ import "../styles/style.css";
 import "../styles/responsive.css";
 // Global RTL Styles
 import "../styles/rtl.css";
+
+import Layout from "../components/_App/Layout";
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   const seoData = {
