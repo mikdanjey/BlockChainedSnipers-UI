@@ -66,7 +66,7 @@ const SingleCourses = () => {
 
                   <div className="price">$150</div>
 
-                  <Link href="#" className="default-btn">
+                  <Link href="#" className="default-btn" legacyBehavior>
                     <i className="flaticon-user"></i>Buy Course<span></span>
                   </Link>
                 </div>

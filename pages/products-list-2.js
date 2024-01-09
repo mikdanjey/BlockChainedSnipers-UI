@@ -42,7 +42,7 @@ const Shop = () => {
                 <div className="col-lg-6 col-md-6 col-sm-6">
                   <div className="single-products-box">
                     <div className="products-image">
-                      <Link href="/single-products">
+                      <Link href="/single-products" legacyBehavior>
                         <img
                           src="/images/products/product1.jpg"
                           className="main-image"
@@ -91,7 +91,7 @@ const Shop = () => {
                 <div className="col-lg-6 col-md-6 col-sm-6">
                   <div className="single-products-box">
                     <div className="products-image">
-                      <Link href="/single-products">
+                      <Link href="/single-products" legacyBehavior>
                         <img
                           src="/images/products/product2.jpg"
                           className="main-image"
@@ -144,7 +144,7 @@ const Shop = () => {
                 <div className="col-lg-6 col-md-6 col-sm-6">
                   <div className="single-products-box">
                     <div className="products-image">
-                      <Link href="/single-products">
+                      <Link href="/single-products" legacyBehavior>
                         <img
                           src="/images/products/product3.jpg"
                           className="main-image"
@@ -195,7 +195,7 @@ const Shop = () => {
                 <div className="col-lg-6 col-md-6 col-sm-6">
                   <div className="single-products-box">
                     <div className="products-image">
-                      <Link href="/single-products">
+                      <Link href="/single-products" legacyBehavior>
                         <img
                           src="/images/products/product4.jpg"
                           className="main-image"
@@ -245,7 +245,7 @@ const Shop = () => {
                 <div className="col-lg-6 col-md-6 col-sm-6">
                   <div className="single-products-box">
                     <div className="products-image">
-                      <Link href="/single-products">
+                      <Link href="/single-products" legacyBehavior>
                         <img
                           src="/images/products/product5.jpg"
                           className="main-image"
@@ -293,7 +293,7 @@ const Shop = () => {
                 <div className="col-lg-6 col-md-6 col-sm-6">
                   <div className="single-products-box">
                     <div className="products-image">
-                      <Link href="/single-products">
+                      <Link href="/single-products" legacyBehavior>
                         <img
                           src="/images/products/product6.jpg"
                           className="main-image"

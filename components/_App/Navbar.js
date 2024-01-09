@@ -284,9 +284,9 @@ const Navbar = ({ user }) => {
 
                       <li className="nav-item">
                         <Link href="/authentication" activeClassName="active">
-                          <a onClick={toggleNavbar} className="nav-link">
+                          <div onClick={toggleNavbar} className="nav-link">
                             Login/Register
-                          </a>
+                          </div>
                         </Link>
                       </li>
 
@@ -1030,7 +1030,7 @@ const Navbar = ({ user }) => {
 
                           <li className="nav-item">
                             <Link href="/">
-                              <a
+                              <div
                                 className="nav-link"
                                 onClick={(e) => {
                                   e.preventDefault();
@@ -1038,17 +1038,17 @@ const Navbar = ({ user }) => {
                                 }}
                               >
                                 Logout
-                              </a>
+                              </div>
                             </Link>
                           </li>
                         </ul>
                       </div>
                     ) : (
                       <Link href="/authentication">
-                        <a className="default-btn">
+                        <div className="default-btn">
                           <i className="flaticon-user"></i> Login/Register{" "}
                           <span></span>
-                        </a>
+                        </div>
                       </Link>
                     )}
                   </div>

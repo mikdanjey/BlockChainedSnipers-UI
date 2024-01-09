@@ -9,7 +9,7 @@ import catchErrors from "@/utils/catchErrors";
 import PageBanner from "@/components/Common/PageBanner";
 import Link from "@/utils/ActiveLink";
 
-const Edit = ({ existingData }) => {
+const Edit = ({ existingData = {} }) => {
   const { token } = parseCookies();
   // console.log(existingData)
 

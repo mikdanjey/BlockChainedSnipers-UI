@@ -46,7 +46,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#" className="link-btn"></Link>
+                      <Link href="#" className="link-btn" legacyBehavior></Link>
                     </div>
                   </div>
 
@@ -85,7 +85,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#" className="link-btn"></Link>
+                      <Link href="#" className="link-btn" legacyBehavior></Link>
                     </div>
                   </div>
 
@@ -125,7 +125,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#" className="link-btn"></Link>
+                      <Link href="#" className="link-btn" legacyBehavior></Link>
                     </div>
                   </div>
 
@@ -165,7 +165,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#" className="link-btn"></Link>
+                      <Link href="#" className="link-btn" legacyBehavior></Link>
                     </div>
                   </div>
 
@@ -204,7 +204,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#" className="link-btn"></Link>
+                      <Link href="#" className="link-btn" legacyBehavior></Link>
                     </div>
                   </div>
 
@@ -243,7 +243,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#" className="link-btn"></Link>
+                      <Link href="#" className="link-btn" legacyBehavior></Link>
                     </div>
                   </div>
 
@@ -282,7 +282,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#" className="link-btn"></Link>
+                      <Link href="#" className="link-btn" legacyBehavior></Link>
                     </div>
                   </div>
 
@@ -321,7 +321,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#" className="link-btn"></Link>
+                      <Link href="#" className="link-btn" legacyBehavior></Link>
                     </div>
                   </div>
 
@@ -360,7 +360,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#" className="link-btn"></Link>
+                      <Link href="#" className="link-btn" legacyBehavior></Link>
                     </div>
                   </div>
 
@@ -399,7 +399,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#" className="link-btn"></Link>
+                      <Link href="#" className="link-btn" legacyBehavior></Link>
                     </div>
                   </div>
 
@@ -438,7 +438,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#" className="link-btn"></Link>
+                      <Link href="#" className="link-btn" legacyBehavior></Link>
                     </div>
                   </div>
 
@@ -475,7 +475,7 @@ const CoursesList01 = () => {
                         alt="image"
                       />
 
-                      <Link href="#" className="link-btn"></Link>
+                      <Link href="#" className="link-btn" legacyBehavior></Link>
                     </div>
                   </div>
 

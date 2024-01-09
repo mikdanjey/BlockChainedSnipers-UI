@@ -47,11 +47,12 @@ const CoursesGrid01 = ({ courses = [] }) => {
                         href="/courses/[id]"
                         as={`/courses/${course.id}`}
                         className="d-block image"
+                        legacyBehavior
                       >
                         <img src={course.profilePhoto} alt={course.title} />
                       </Link>
 
-                      <Link href="#" className="fav">
+                      <Link href="#" className="fav" legacyBehavior>
                         <i className="flaticon-heart"></i>
                       </Link>
 
@@ -73,7 +74,11 @@ const CoursesGrid01 = ({ courses = [] }) => {
                       </div>
 
                       <h3 title={course.title}>
-                        <Link href="/courses/[id]" as={`/courses/${course.id}`}>
+                        <Link
+                          href="/courses/[id]"
+                          as={`/courses/${course.id}`}
+                          legacyBehavior
+                        >
                           {course.title.slice(0, 20)}...
                         </Link>
                       </h3>

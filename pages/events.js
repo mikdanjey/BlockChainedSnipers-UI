@@ -20,7 +20,11 @@ const Events = () => {
               <div className="col-lg-4 col-sm-6 col-md-6">
                 <div className="single-events-box">
                   <div className="image">
-                    <Link href="/single-events" className="d-block">
+                    <Link
+                      href="/single-events"
+                      className="d-block"
+                      legacyBehavior
+                    >
                       <img src="/images/events/events1.jpg" alt="image" />
                     </Link>
                     <span className="date">Wed, 20 May, 2020</span>
@@ -42,7 +46,11 @@ const Events = () => {
               <div className="col-lg-4 col-sm-6 col-md-6">
                 <div className="single-events-box">
                   <div className="image">
-                    <Link href="/single-events" className="d-block">
+                    <Link
+                      href="/single-events"
+                      className="d-block"
+                      legacyBehavior
+                    >
                       <img src="/images/events/events2.jpg" alt="image" />
                     </Link>
                     <span className="date">Tue, 19 May, 2020</span>
@@ -64,7 +72,11 @@ const Events = () => {
               <div className="col-lg-4 col-sm-6 col-md-6">
                 <div className="single-events-box">
                   <div className="image">
-                    <Link href="/single-events" className="d-block">
+                    <Link
+                      href="/single-events"
+                      className="d-block"
+                      legacyBehavior
+                    >
                       <img src="/images/events/events3.jpg" alt="image" />
                     </Link>
                     <span className="date">Mon, 18 May, 2020</span>
@@ -86,7 +98,11 @@ const Events = () => {
               <div className="col-lg-4 col-sm-6 col-md-6">
                 <div className="single-events-box">
                   <div className="image">
-                    <Link href="/single-events" className="d-block">
+                    <Link
+                      href="/single-events"
+                      className="d-block"
+                      legacyBehavior
+                    >
                       <img src="/images/events/events4.jpg" alt="image" />
                     </Link>
                     <span className="date">Sun, 17 May, 2020</span>
@@ -108,7 +124,11 @@ const Events = () => {
               <div className="col-lg-4 col-sm-6 col-md-6">
                 <div className="single-events-box">
                   <div className="image">
-                    <Link href="/single-events" className="d-block">
+                    <Link
+                      href="/single-events"
+                      className="d-block"
+                      legacyBehavior
+                    >
                       <img src="/images/events/events5.jpg" alt="image" />
                     </Link>
                     <span className="date">Sat, 16 May, 2020</span>
@@ -130,7 +150,11 @@ const Events = () => {
               <div className="col-lg-4 col-sm-6 col-md-6">
                 <div className="single-events-box">
                   <div className="image">
-                    <Link href="/single-events" className="d-block">
+                    <Link
+                      href="/single-events"
+                      className="d-block"
+                      legacyBehavior
+                    >
                       <img src="/images/events/events6.jpg" alt="image" />
                     </Link>
                     <span className="date">Fri, 15 May, 2020</span>
@@ -152,7 +176,11 @@ const Events = () => {
               <div className="col-lg-4 col-sm-6 col-md-6">
                 <div className="single-events-box">
                   <div className="image">
-                    <Link href="/single-events" className="d-block">
+                    <Link
+                      href="/single-events"
+                      className="d-block"
+                      legacyBehavior
+                    >
                       <img src="/images/events/events7.jpg" alt="image" />
                     </Link>
                     <span className="date">Thu, 14 May, 2020</span>
@@ -174,7 +202,11 @@ const Events = () => {
               <div className="col-lg-4 col-sm-6 col-md-6">
                 <div className="single-events-box">
                   <div className="image">
-                    <Link href="/single-events" className="d-block">
+                    <Link
+                      href="/single-events"
+                      className="d-block"
+                      legacyBehavior
+                    >
                       <img src="/images/events/events8.jpg" alt="image" />
                     </Link>
                     <span className="date">Wed, 13 May, 2020</span>
@@ -196,7 +228,11 @@ const Events = () => {
               <div className="col-lg-4 col-sm-6 col-md-6">
                 <div className="single-events-box">
                   <div className="image">
-                    <Link href="/single-events" className="d-block">
+                    <Link
+                      href="/single-events"
+                      className="d-block"
+                      legacyBehavior
+                    >
                       <img src="/images/events/events9.jpg" alt="image" />
                     </Link>
                     <span className="date">Tue, 12 May, 2020</span>

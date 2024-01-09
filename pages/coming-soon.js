@@ -45,7 +45,7 @@ const ComingSoon = () => {
       <div className="d-table">
         <div className="d-table-cell">
           <div className="coming-soon-content">
-            <Link href="/" className="logo">
+            <Link href="/" className="logo" legacyBehavior>
               <img src="/images/logo.png" alt="image" />
             </Link>
 

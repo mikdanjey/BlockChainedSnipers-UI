@@ -16,10 +16,10 @@ const Custom404 = () => {
               </p>
 
               <div className="btn-box">
-                <Link href="/" className="default-btn">
+                <Link href="/" className="default-btn" legacyBehavior>
                   <i className="flaticon-history"></i>Go Back<span></span>
                 </Link>
-                <Link href="/" className="default-btn">
+                <Link href="/" className="default-btn" legacyBehavior>
                   <i className="flaticon-home"></i>Homepage<span></span>
                 </Link>
               </div>

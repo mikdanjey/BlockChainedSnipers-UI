@@ -34,6 +34,7 @@ const SingleCourses = ({ videos }) => {
                           e.preventDefault();
                           setVideoId(video.video_url);
                         }}
+                        legacyBehavior
                       >
                         <img
                           src={video.course.profilePhoto}

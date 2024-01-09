@@ -21,7 +21,11 @@ const Blog4 = () => {
                 <div className="col-lg-12 col-md-6">
                   <div className="single-blog-post">
                     <div className="post-image">
-                      <Link href="/single-blog-1" className="d-block">
+                      <Link
+                        href="/single-blog-1"
+                        className="d-block"
+                        legacyBehavior
+                      >
                         <img src="/images/blog/blog1.jpg" alt="image" />
                       </Link>
                     </div>
@@ -57,7 +61,11 @@ const Blog4 = () => {
                 <div className="col-lg-12 col-md-6">
                   <div className="single-blog-post">
                     <div className="post-image">
-                      <Link href="/single-blog-1" className="d-block">
+                      <Link
+                        href="/single-blog-1"
+                        className="d-block"
+                        legacyBehavior
+                      >
                         <img src="/images/blog/blog2.jpg" alt="image" />
                       </Link>
                     </div>
@@ -93,7 +101,11 @@ const Blog4 = () => {
                 <div className="col-lg-12 col-md-6">
                   <div className="single-blog-post">
                     <div className="post-image">
-                      <Link href="/single-blog-1" className="d-block">
+                      <Link
+                        href="/single-blog-1"
+                        className="d-block"
+                        legacyBehavior
+                      >
                         <img src="/images/blog/blog3.jpg" alt="image" />
                       </Link>
                     </div>
@@ -129,7 +141,11 @@ const Blog4 = () => {
                 <div className="col-lg-12 col-md-6">
                   <div className="single-blog-post">
                     <div className="post-image">
-                      <Link href="/single-blog-1" className="d-block">
+                      <Link
+                        href="/single-blog-1"
+                        className="d-block"
+                        legacyBehavior
+                      >
                         <img src="/images/blog/blog7.jpg" alt="image" />
                       </Link>
                     </div>
