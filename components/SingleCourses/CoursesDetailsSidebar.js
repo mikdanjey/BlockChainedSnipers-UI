@@ -1,107 +1,29 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import Link from "next/link";
 import dynamic from "next/dynamic";
-const ModalVideo = dynamic(import("react-modal-video"));
-import axios from "axios";
-import baseUrl from "@/utils/baseUrl";
-import { useRouter } from "next/router";
-import { useSelector, useDispatch } from "react-redux";
+const ModalVideo = dynamic(() => import("react-modal-video"), {
+  ssr: false,
+});
 
-const CoursesDetailsSidebar = ({
-  id,
-  price,
-  user,
-  profilePhoto,
-  lessons,
-  duration,
-  title,
-  loggedInUser,
-}) => {
-  // const cartItems = useSelector((state) => state.cart.cartItems);
-  const cartItems = [];
-  const [display, setDisplay] = useState(false);
-  const dispatch = useDispatch();
-  const [add, setAdd] = useState(false);
-  const [alreadyBuy, setAlreadyBuy] = useState(false);
-
-  const addToCart = (courseId, title, price, lessons, duration, image) => {
-    let courseObj = {};
-    courseObj["id"] = courseId;
-    courseObj["title"] = title;
-    courseObj["price"] = price;
-    courseObj["lessons"] = lessons;
-    courseObj["duration"] = duration;
-    courseObj["image"] = image;
-    courseObj["quantity"] = 1;
-    dispatch({
-      type: "ADD_TO_CART",
-      data: courseObj,
-    });
-  };
-
-  useEffect(() => {
-    const courseExist = cartItems.find((cart) => {
-      return id === cart.id;
-    });
-    courseExist && setAdd(true);
-    if (loggedInUser && id) {
-      const payload = {
-        params: { userId: loggedInUser.id, courseId: id },
-      };
-      const url = `${baseUrl}/api/v1/courses/course/exist`;
-      axios.get(url, payload).then((result) => {
-        setAlreadyBuy(result.data.enroll);
-      });
-    }
-  }, [cartItems, id]);
-
-  useEffect(() => {
-    setDisplay(true);
-  }, []);
-  // console.log(loggedInUser)
-  const { enroled_courses } = loggedInUser ? loggedInUser : "";
-  const router = useRouter();
+const CoursesDetailsSidebar = () => {
   // Popup Video
-  const [enrolled, setEnrolled] = React.useState(0);
   const [isOpen, setIsOpen] = React.useState(true);
   const openModal = () => {
     setIsOpen(!isOpen);
   };
-
-  useEffect(() => {
-    const countEnrolled = async () => {
-      const url = `${baseUrl}/api/v1/courses/enrolled/${id}`;
-      const response = await axios.get(url);
-      setEnrolled(response.data);
-    };
-    // setEnrolled(response.data.enrolled)
-    countEnrolled();
-  }, []);
-
-  const checkBoughtAlready = () => {
-    return (
-      enroled_courses.filter(function (val) {
-        return val.courseId === id;
-      }).length > 0
-    );
-  };
-
   return (
     <>
       {/* If you want to change the video need to update videoID */}
-      {display ? (
-        <ModalVideo
-          channel="youtube"
-          isOpen={!isOpen}
-          videoId="bk7McNUjWgw"
-          onClose={() => setIsOpen(!isOpen)}
-        />
-      ) : (
-        ""
-      )}
+      <ModalVideo
+        channel="youtube"
+        isOpen={!isOpen}
+        videoId="bk7McNUjWgw"
+        onClose={() => setIsOpen(!isOpen)}
+      />
 
       <div className="courses-details-info">
         <div className="image">
-          <img src={profilePhoto} alt={title} />
+          <img src="/images/courses/courses1.jpg" alt="image" />
 
           <div
             onClick={(e) => {
@@ -123,7 +45,7 @@ const CoursesDetailsSidebar = ({
               <span>
                 <i className="flaticon-tag"></i> Price
               </span>
-              ${price}
+              $49
             </div>
           </li>
           <li>
@@ -131,7 +53,7 @@ const CoursesDetailsSidebar = ({
               <span>
                 <i className="flaticon-teacher"></i> Instructor
               </span>
-              {user.name}
+              Sarah Taylor
             </div>
           </li>
           <li>
@@ -139,7 +61,7 @@ const CoursesDetailsSidebar = ({
               <span>
                 <i className="flaticon-time"></i> Duration
               </span>
-              {duration}
+              7 weeks
             </div>
           </li>
           <li>
@@ -147,7 +69,7 @@ const CoursesDetailsSidebar = ({
               <span>
                 <i className="flaticon-distance-learning"></i> Lessons
               </span>
-              {parseInt(lessons)}
+              25
             </div>
           </li>
           <li>
@@ -155,7 +77,7 @@ const CoursesDetailsSidebar = ({
               <span>
                 <i className="flaticon-web"></i> Enrolled
               </span>
-              {enrolled} students
+              255 students
             </div>
           </li>
           <li>
@@ -169,35 +91,17 @@ const CoursesDetailsSidebar = ({
         </ul>
 
         <div className="btn-box">
-          {alreadyBuy ? (
-            <button
-              onClick={() => router.push("/my-courses")}
-              className="default-btn"
-            >
-              <i className="flaticon-shopping-cart"></i> View My Courses
+          <Link href="#">
+            <a className="default-btn">
+              <i className="flaticon-shopping-cart"></i> Add to Cart{" "}
               <span></span>
-            </button>
-          ) : (
-            <>
-              {add ? (
-                <button
-                  className="default-btn"
-                  onClick={() => router.push("/cart")}
-                >
-                  <i className="flaticon-tag"></i> View Cart <span></span>
-                </button>
-              ) : (
-                <button
-                  className="default-btn"
-                  onClick={() =>
-                    addToCart(id, title, price, lessons, duration, profilePhoto)
-                  }
-                >
-                  <i className="flaticon-tag"></i> Add to cart <span></span>
-                </button>
-              )}
-            </>
-          )}
+            </a>
+          </Link>
+          <Link href="#">
+            <a className="default-btn">
+              <i className="flaticon-tag"></i> Buy Now <span></span>
+            </a>
+          </Link>
         </div>
 
         <div className="courses-share">

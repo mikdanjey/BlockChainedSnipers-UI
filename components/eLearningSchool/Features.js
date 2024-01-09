@@ -27,8 +27,8 @@ const Features = () => {
                 career.
               </p>
 
-              <Link href="/profile-authentication" className="link-btn">
-                Start Now!
+              <Link href="/profile-authentication">
+                <a className="link-btn">Start Now!</a>
               </Link>
             </div>
           </div>
@@ -44,8 +44,8 @@ const Features = () => {
                 gives a great result.
               </p>
 
-              <Link href="/profile-authentication" className="link-btn">
-                Start Now!
+              <Link href="/profile-authentication">
+                <a className="link-btn">Start Now!</a>
               </Link>
             </div>
           </div>
@@ -61,8 +61,8 @@ const Features = () => {
                 best approaches!
               </p>
 
-              <Link href="/profile-authentication" className="link-btn">
-                Start Now!
+              <Link href="/profile-authentication">
+                <a className="link-btn">Start Now!</a>
               </Link>
             </div>
           </div>
@@ -78,8 +78,8 @@ const Features = () => {
                 anywhere in the world.
               </p>
 
-              <Link href="/profile-authentication" className="link-btn">
-                Start Now!
+              <Link href="/profile-authentication">
+                <a className="link-btn">Start Now!</a>
               </Link>
             </div>
           </div>

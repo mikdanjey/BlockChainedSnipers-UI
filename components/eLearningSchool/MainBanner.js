@@ -1,8 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const MainBanner = ({ courses = [] }) => {
-  // console.log(courses)
+const MainBanner = () => {
   return (
     <div className="main-banner">
       <div className="container-fluid">
@@ -16,8 +15,10 @@ const MainBanner = ({ courses = [] }) => {
                 can offer you to enjoy the beauty of eLearning!
               </p>
 
-              <Link href="/profile-authentication" className="default-btn">
-                <i className="flaticon-user"></i>Join For Free<span></span>
+              <Link href="/profile-authentication">
+                <a className="default-btn">
+                  <i className="flaticon-user"></i> Join For Free <span></span>
+                </a>
               </Link>
             </div>
           </div>
@@ -25,64 +26,113 @@ const MainBanner = ({ courses = [] }) => {
           <div className="col-lg-6 col-md-12">
             <div className="main-banner-courses-list">
               <div className="row">
-                {courses.map((course) => (
-                  <div className="col-lg-6 col-md-6" key={course.id}>
-                    <div className="single-courses-box">
-                      <div className="courses-image">
-                        <Link
-                          href="/courses/[id]"
-                          as={`/courses/${course.id}`}
-                          className="d-block image"
-                        >
-                          <img src={course.profilePhoto} alt={course.title} />
-                        </Link>
+                <div className="col-lg-6 col-md-6">
+                  <div className="single-courses-box">
+                    <div className="courses-image">
+                      <Link href="/single-courses-1">
+                        <a className="d-block image">
+                          <img src="/images/courses/courses4.jpg" alt="image" />
+                        </a>
+                      </Link>
 
-                        <Link href="#" className="fav">
+                      <Link href="#">
+                        <a className="fav">
                           <i className="flaticon-heart"></i>
+                        </a>
+                      </Link>
+
+                      <div className="price shadow">$39</div>
+                    </div>
+
+                    <div className="courses-content">
+                      <div className="course-author d-flex align-items-center">
+                        <img
+                          src="/images/user6.jpg"
+                          className="rounded-circle"
+                          alt="image"
+                        />
+                        <span>Alex Morgan</span>
+                      </div>
+
+                      <h3>
+                        <Link href="/single-courses-1">
+                          <a>
+                            Python for Finance: Investment Fundamentals & Data
+                            Analytics
+                          </a>
                         </Link>
+                      </h3>
 
-                        <div className="price shadow">${course.price}</div>
-                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet, constetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore.
+                      </p>
 
-                      <div className="courses-content">
-                        <div className="course-author d-flex align-items-center">
-                          <img
-                            src={`${
-                              course.user.profilePhoto
-                                ? course.user.profilePhoto
-                                : "/images/user1.jpg"
-                            }`}
-                            className="rounded-circle"
-                            alt={course.user.name}
-                          />
-                          <span>{course.user.name}</span>
-                        </div>
-
-                        <h3>
-                          <Link
-                            href="/courses/[id]"
-                            as={`/courses/${course.id}`}
-                          >
-                            {course.title}
-                          </Link>
-                        </h3>
-
-                        <p>{course.overview.slice(0, 100)}</p>
-
-                        <ul className="courses-box-footer d-flex justify-content-between align-items-center">
-                          <li>
-                            <i className="flaticon-agenda"></i>{" "}
-                            {parseInt(course.lessons)} Lessons
-                          </li>
-                          <li>
-                            <i className="flaticon-people"></i>{" "}
-                            {course.enroled_courses.length} Students
-                          </li>
-                        </ul>
-                      </div>
+                      <ul className="courses-box-footer d-flex justify-content-between align-items-center">
+                        <li>
+                          <i className="flaticon-agenda"></i> 15 Lessons
+                        </li>
+                        <li>
+                          <i className="flaticon-people"></i> 145 Students
+                        </li>
+                      </ul>
                     </div>
                   </div>
-                ))}
+                </div>
+
+                <div className="col-lg-6 col-md-6">
+                  <div className="single-courses-box">
+                    <div className="courses-image">
+                      <Link href="/single-courses-1">
+                        <a className="d-block image">
+                          <img src="/images/courses/courses5.jpg" alt="image" />
+                        </a>
+                      </Link>
+
+                      <Link href="#">
+                        <a className="fav">
+                          <i className="flaticon-heart"></i>
+                        </a>
+                      </Link>
+
+                      <div className="price shadow">$49</div>
+                    </div>
+
+                    <div className="courses-content">
+                      <div className="course-author d-flex align-items-center">
+                        <img
+                          src="/images/user5.jpg"
+                          className="rounded-circle"
+                          alt="image"
+                        />
+                        <span>Sarah Taylor</span>
+                      </div>
+
+                      <h3>
+                        <Link href="/single-courses-1">
+                          <a>
+                            Machine Learning A-Z™: Hands-On Python & R In Data
+                            Science
+                          </a>
+                        </Link>
+                      </h3>
+
+                      <p>
+                        Lorem ipsum dolor sit amet, constetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore.
+                      </p>
+
+                      <ul className="courses-box-footer d-flex justify-content-between align-items-center">
+                        <li>
+                          <i className="flaticon-agenda"></i> 20 Lessons
+                        </li>
+                        <li>
+                          <i className="flaticon-people"></i> 100 Students
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
 
               <div className="banner-shape1">

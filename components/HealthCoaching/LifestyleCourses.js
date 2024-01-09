@@ -23,7 +23,9 @@ const LifestyleCourses = () => {
               </div>
 
               <h3 className="playfair-display-font">
-                <Link href="/courses-1">Nutrition Strategies</Link>
+                <Link href="/courses-1">
+                  <a>Nutrition Strategies</a>
+                </Link>
               </h3>
 
               <p>
@@ -31,8 +33,8 @@ const LifestyleCourses = () => {
                 eiusmod tempor incididunt ut labore et dolore.
               </p>
 
-              <Link href="/courses-1" className="link-btn">
-                Start Now
+              <Link href="/courses-1">
+                <a className="link-btn">Start Now</a>
               </Link>
             </div>
           </div>
@@ -44,7 +46,9 @@ const LifestyleCourses = () => {
               </div>
 
               <h3 className="playfair-display-font">
-                <Link href="/courses-1">Personal Program</Link>
+                <Link href="/courses-1">
+                  <a>Personal Program</a>
+                </Link>
               </h3>
 
               <p>
@@ -52,8 +56,8 @@ const LifestyleCourses = () => {
                 eiusmod tempor incididunt ut labore et dolore.
               </p>
 
-              <Link href="/courses-1" className="link-btn">
-                Start Now
+              <Link href="/courses-1">
+                <a className="link-btn">Start Now</a>
               </Link>
             </div>
           </div>
@@ -65,7 +69,9 @@ const LifestyleCourses = () => {
               </div>
 
               <h3 className="playfair-display-font">
-                <Link href="/courses-1">Find Your Balance</Link>
+                <Link href="/courses-1">
+                  <a>Find Your Balance</a>
+                </Link>
               </h3>
 
               <p>
@@ -73,8 +79,8 @@ const LifestyleCourses = () => {
                 eiusmod tempor incididunt ut labore et dolore.
               </p>
 
-              <Link href="/courses-1" className="link-btn">
-                Start Now
+              <Link href="/courses-1">
+                <a className="link-btn">Start Now</a>
               </Link>
             </div>
           </div>

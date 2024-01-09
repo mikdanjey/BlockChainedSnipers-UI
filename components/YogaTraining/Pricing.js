@@ -37,8 +37,10 @@ const Pricing = () => {
                 <span>Yoga Alliance Certified</span>
               </div>
 
-              <Link href="#" className="default-btn">
-                Book Now<span></span>
+              <Link href="#">
+                <a className="default-btn">
+                  Book Now<span></span>
+                </a>
               </Link>
 
               <div className="pricing-shape1">
@@ -72,8 +74,10 @@ const Pricing = () => {
                 <span>Yoga Alliance Certified</span>
               </div>
 
-              <Link href="#" className="default-btn">
-                Book Now<span></span>
+              <Link href="#">
+                <a className="default-btn">
+                  Book Now<span></span>
+                </a>
               </Link>
 
               <div className="pricing-shape1">
@@ -107,8 +111,10 @@ const Pricing = () => {
                 <span>Yoga Alliance Certified</span>
               </div>
 
-              <Link href="#" className="default-btn">
-                Book Now<span></span>
+              <Link href="#">
+                <a className="default-btn">
+                  Book Now<span></span>
+                </a>
               </Link>
 
               <div className="pricing-shape1">

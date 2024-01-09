@@ -1,19 +1,14 @@
-import React, { useState, useEffect } from "react";
-import Link from "@/utils/ActiveLink";
-import { useSelector } from "react-redux";
-import { handleLogout } from "@/utils/auth";
-import SearchForm from "./SearchForm";
+import React from "react";
+import Link from "../../utils/ActiveLink";
 
-const Navbar = ({ user }) => {
-  // const cartItems = useSelector((state) => state.cart.cartItems);
-  const cartItems = [];
-  const [menu, setMenu] = useState(true);
+const Navbar = () => {
+  const [menu, setMenu] = React.useState(true);
 
   const toggleNavbar = () => {
     setMenu(!menu);
   };
 
-  useEffect(() => {
+  React.useEffect(() => {
     let elementId = document.getElementById("navbar");
     document.addEventListener("scroll", () => {
       if (window.scrollY > 170) {
@@ -23,9 +18,6 @@ const Navbar = ({ user }) => {
       }
     });
   });
-
-  const isAdmin = user && user.role === "admin";
-  const isTeacher = user && user.role === "teacher";
 
   const classOne = menu
     ? "collapse navbar-collapse"
@@ -51,6 +43,8 @@ const Navbar = ({ user }) => {
                 className={classTwo}
                 type="button"
                 data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
@@ -60,11 +54,20 @@ const Navbar = ({ user }) => {
               </button>
 
               <div className={classOne} id="navbarSupportedContent">
-                <SearchForm />
+                <form className="search-box">
+                  <input
+                    type="text"
+                    className="input-search"
+                    placeholder="Search for anything"
+                  />
+                  <button type="submit">
+                    <i className="flaticon-search"></i>
+                  </button>
+                </form>
 
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <Link href="/" activeClassName="active">
+                    <Link href="#" activeClassName="active">
                       <a
                         onClick={(e) => e.preventDefault()}
                         className="nav-link"
@@ -76,14 +79,6 @@ const Navbar = ({ user }) => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link href="/" activeClassName="active">
-                          <a className="nav-link" onClick={toggleNavbar}>
-                            Learning Provider
-                          </a>
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link href="/elearning" activeClassName="active">
                           <a onClick={toggleNavbar} className="nav-link">
                             eLearning School
                           </a>
@@ -91,10 +86,7 @@ const Navbar = ({ user }) => {
                       </li>
 
                       <li className="nav-item">
-                        <Link
-                          href="/vendor-certification"
-                          activeClassName="active"
-                        >
+                        <Link href="/index-2" activeClassName="active">
                           <a onClick={toggleNavbar} className="nav-link">
                             Vendor Certification Training
                           </a>
@@ -102,7 +94,7 @@ const Navbar = ({ user }) => {
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/online-training" activeClassName="active">
+                        <Link href="/index-3" activeClassName="active">
                           <a onClick={toggleNavbar} className="nav-link">
                             Online Training School
                           </a>
@@ -110,10 +102,7 @@ const Navbar = ({ user }) => {
                       </li>
 
                       <li className="nav-item">
-                        <Link
-                          href="/distance-learning"
-                          activeClassName="active"
-                        >
+                        <Link href="/index-4" activeClassName="active">
                           <a onClick={toggleNavbar} className="nav-link">
                             Distance Learning
                           </a>
@@ -121,7 +110,7 @@ const Navbar = ({ user }) => {
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/language-school" activeClassName="active">
+                        <Link href="/index-5" activeClassName="active">
                           <a onClick={toggleNavbar} className="nav-link">
                             Language School
                           </a>
@@ -129,7 +118,7 @@ const Navbar = ({ user }) => {
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/modern-schooling" activeClassName="active">
+                        <Link href="/index-6" activeClassName="active">
                           <a onClick={toggleNavbar} className="nav-link">
                             Modern Schooling
                           </a>
@@ -137,7 +126,7 @@ const Navbar = ({ user }) => {
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/yoga-training" activeClassName="active">
+                        <Link href="/index-7" activeClassName="active">
                           <a onClick={toggleNavbar} className="nav-link">
                             Yoga Training
                           </a>
@@ -145,7 +134,7 @@ const Navbar = ({ user }) => {
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/health-coaching" activeClassName="active">
+                        <Link href="/index-8" activeClassName="active">
                           <a onClick={toggleNavbar} className="nav-link">
                             Health Coaching
                           </a>
@@ -153,7 +142,7 @@ const Navbar = ({ user }) => {
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/kindergaten" activeClassName="active">
+                        <Link href="/index-9" activeClassName="active">
                           <a onClick={toggleNavbar} className="nav-link">
                             Kindergaten
                           </a>
@@ -163,7 +152,7 @@ const Navbar = ({ user }) => {
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/">
+                    <Link href="#">
                       <a
                         onClick={(e) => e.preventDefault()}
                         className="nav-link"
@@ -174,7 +163,7 @@ const Navbar = ({ user }) => {
 
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/">
+                        <Link href="#">
                           <a
                             onClick={(e) => e.preventDefault()}
                             className="nav-link"
@@ -204,38 +193,6 @@ const Navbar = ({ user }) => {
                             <Link href="/about-3" activeClassName="active">
                               <a onClick={toggleNavbar} className="nav-link">
                                 About Us 03
-                              </a>
-                            </Link>
-                          </li>
-                        </ul>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link href="/">
-                          <a
-                            onClick={(e) => e.preventDefault()}
-                            className="nav-link"
-                          >
-                            Events <i className="bx bx-chevron-down"></i>
-                          </a>
-                        </Link>
-
-                        <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <Link href="/events" activeClassName="active">
-                              <a onClick={toggleNavbar} className="nav-link">
-                                Events
-                              </a>
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/single-events"
-                              activeClassName="active"
-                            >
-                              <a onClick={toggleNavbar} className="nav-link">
-                                Events Details
                               </a>
                             </Link>
                           </li>
@@ -283,10 +240,13 @@ const Navbar = ({ user }) => {
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/authentication" activeClassName="active">
-                          <div onClick={toggleNavbar} className="nav-link">
+                        <Link
+                          href="/profile-authentication"
+                          activeClassName="active"
+                        >
+                          <a onClick={toggleNavbar} className="nav-link">
                             Login/Register
-                          </div>
+                          </a>
                         </Link>
                       </li>
 
@@ -333,7 +293,7 @@ const Navbar = ({ user }) => {
                   </li>
 
                   <li className="nav-item megamenu">
-                    <Link href="/">
+                    <Link href="#">
                       <a
                         onClick={(e) => e.preventDefault()}
                         className="nav-link"
@@ -790,7 +750,36 @@ const Navbar = ({ user }) => {
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/">
+                    <Link href="#">
+                      <a
+                        onClick={(e) => e.preventDefault()}
+                        className="nav-link"
+                      >
+                        Events <i className="bx bx-chevron-down"></i>
+                      </a>
+                    </Link>
+
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link href="/events" activeClassName="active">
+                          <a onClick={toggleNavbar} className="nav-link">
+                            Events
+                          </a>
+                        </Link>
+                      </li>
+
+                      <li className="nav-item">
+                        <Link href="/single-events" activeClassName="active">
+                          <a onClick={toggleNavbar} className="nav-link">
+                            Events Details
+                          </a>
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link href="#">
                       <a
                         onClick={(e) => e.preventDefault()}
                         className="nav-link"
@@ -843,7 +832,7 @@ const Navbar = ({ user }) => {
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/">
+                    <Link href="#">
                       <a
                         onClick={(e) => e.preventDefault()}
                         className="nav-link"
@@ -886,7 +875,7 @@ const Navbar = ({ user }) => {
                       </li>
 
                       <li className="nav-item">
-                        <Link href="/">
+                        <Link href="#">
                           <a
                             onClick={(e) => e.preventDefault()}
                             className="nav-link"
@@ -932,33 +921,6 @@ const Navbar = ({ user }) => {
                       </li>
                     </ul>
                   </li>
-
-                  <li className="nav-item">
-                    <Link href="/become-a-teacher">
-                      <a className="nav-link" onClick={toggleNavbar}>
-                        Become A Teacher
-                      </a>
-                    </Link>
-                  </li>
-
-                  {((user && isTeacher) || (user && isAdmin)) && (
-                    <li className="nav-item">
-                      <Link href="/teacher/dashboard">
-                        <a className="nav-link" onClick={toggleNavbar}>
-                          Teacher Dashboard
-                        </a>
-                      </Link>
-                    </li>
-                  )}
-                  {user && isAdmin && (
-                    <li className="nav-item">
-                      <Link href="/admin/dashboard">
-                        <a className="nav-link" onClick={toggleNavbar}>
-                          Dashboard
-                        </a>
-                      </Link>
-                    </li>
-                  )}
                 </ul>
 
                 <div className="others-option d-flex align-items-center">
@@ -967,90 +929,19 @@ const Navbar = ({ user }) => {
                       <Link href="/cart">
                         <a>
                           <i className="flaticon-shopping-cart"></i>{" "}
-                          <span>{cartItems.length}</span>
+                          <span>3</span>
                         </a>
                       </Link>
                     </div>
                   </div>
 
                   <div className="option-item">
-                    {user ? (
-                      <div className="user-dropdown">
-                        <Link href="/">
-                          <a
-                            onClick={(e) => e.preventDefault()}
-                            className="default-btn"
-                          >
-                            <i className="flaticon-user"></i> {user.name}{" "}
-                            <span></span>
-                          </a>
-                        </Link>
-
-                        <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <Link href="/my-courses" activeClassName="active">
-                              <a onClick={toggleNavbar} className="nav-link">
-                                My Courses
-                              </a>
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/user/my-profile"
-                              activeClassName="active"
-                            >
-                              <a onClick={toggleNavbar} className="nav-link">
-                                My Profile
-                              </a>
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/user/edit-profile"
-                              activeClassName="active"
-                            >
-                              <a onClick={toggleNavbar} className="nav-link">
-                                Edit Profile
-                              </a>
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/user/edit-password"
-                              activeClassName="active"
-                            >
-                              <a onClick={toggleNavbar} className="nav-link">
-                                Edit Password
-                              </a>
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link href="/">
-                              <div
-                                className="nav-link"
-                                onClick={(e) => {
-                                  e.preventDefault();
-                                  handleLogout();
-                                }}
-                              >
-                                Logout
-                              </div>
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                    ) : (
-                      <Link href="/authentication">
-                        <div className="default-btn">
-                          <i className="flaticon-user"></i> Login/Register{" "}
-                          <span></span>
-                        </div>
-                      </Link>
-                    )}
+                    <Link href="/profile-authentication">
+                      <a className="default-btn">
+                        <i className="flaticon-user"></i> Login/Register{" "}
+                        <span></span>
+                      </a>
+                    </Link>
                   </div>
                 </div>
               </div>

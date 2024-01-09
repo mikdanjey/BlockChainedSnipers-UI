@@ -15,11 +15,13 @@ const RelatedProducts = () => {
             <div className="single-products-box">
               <div className="products-image">
                 <Link href="/single-products">
-                  <img
-                    src="/images/products/product4.jpg"
-                    className="main-image"
-                    alt="image"
-                  />
+                  <a>
+                    <img
+                      src="/images/products/product4.jpg"
+                      className="main-image"
+                      alt="image"
+                    />
+                  </a>
                 </Link>
 
                 <div className="products-button">
@@ -38,7 +40,9 @@ const RelatedProducts = () => {
 
               <div className="products-content">
                 <h3>
-                  <Link href="/single-products">Stop and Take a Second</Link>
+                  <Link href="/single-products">
+                    <a>Stop and Take a Second</a>
+                  </Link>
                 </h3>
                 <div className="price">
                   <span className="new-price">$150</span>
@@ -61,11 +65,13 @@ const RelatedProducts = () => {
             <div className="single-products-box">
               <div className="products-image">
                 <Link href="/single-products">
-                  <img
-                    src="/images/products/product5.jpg"
-                    className="main-image"
-                    alt="image"
-                  />
+                  <a>
+                    <img
+                      src="/images/products/product5.jpg"
+                      className="main-image"
+                      alt="image"
+                    />
+                  </a>
                 </Link>
 
                 <div className="products-button">
@@ -84,7 +90,9 @@ const RelatedProducts = () => {
 
               <div className="products-content">
                 <h3>
-                  <Link href="/single-products">Real Life Fairytale</Link>
+                  <Link href="/single-products">
+                    <a>Real Life Fairytale</a>
+                  </Link>
                 </h3>
                 <div className="price">
                   <span className="new-price">$240</span>
@@ -107,11 +115,13 @@ const RelatedProducts = () => {
             <div className="single-products-box">
               <div className="products-image">
                 <Link href="/single-products">
-                  <img
-                    src="/images/products/product6.jpg"
-                    className="main-image"
-                    alt="image"
-                  />
+                  <a>
+                    <img
+                      src="/images/products/product6.jpg"
+                      className="main-image"
+                      alt="image"
+                    />
+                  </a>
                 </Link>
 
                 <div className="products-button">
@@ -132,7 +142,9 @@ const RelatedProducts = () => {
 
               <div className="products-content">
                 <h3>
-                  <Link href="/single-products">Running From Me</Link>
+                  <Link href="/single-products">
+                    <a>Running From Me</a>
+                  </Link>
                 </h3>
                 <div className="price">
                   <span className="old-price">$150</span>

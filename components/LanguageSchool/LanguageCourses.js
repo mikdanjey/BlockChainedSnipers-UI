@@ -27,8 +27,10 @@ const LanguageCourses = () => {
                 eiusmod tempor incididunt ut labore et dolore.
               </p>
 
-              <Link href="/courses-1" className="default-btn">
-                <i className="flaticon-right"></i>View More<span></span>
+              <Link href="/courses-1">
+                <a className="default-btn">
+                  <i className="flaticon-right"></i> View More <span></span>
+                </a>
               </Link>
             </div>
           </div>
@@ -45,8 +47,10 @@ const LanguageCourses = () => {
                 eiusmod tempor incididunt ut labore et dolore.
               </p>
 
-              <Link href="/courses-1" className="default-btn">
-                <i className="flaticon-right"></i>View More<span></span>
+              <Link href="/courses-1">
+                <a className="default-btn">
+                  <i className="flaticon-right"></i> View More <span></span>
+                </a>
               </Link>
             </div>
           </div>
@@ -63,8 +67,10 @@ const LanguageCourses = () => {
                 eiusmod tempor incididunt ut labore et dolore.
               </p>
 
-              <Link href="/courses-1" className="default-btn">
-                <i className="flaticon-right"></i>View More<span></span>
+              <Link href="/courses-1">
+                <a className="default-btn">
+                  <i className="flaticon-right"></i> View More <span></span>
+                </a>
               </Link>
             </div>
           </div>

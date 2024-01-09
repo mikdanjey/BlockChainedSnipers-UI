@@ -67,7 +67,9 @@ const EventParticipants = () => {
 
                 <div className="advisor-content">
                   <h3>
-                    <Link href="#">James Andy</Link>
+                    <Link href="#">
+                      <a>James Andy</a>
+                    </Link>
                   </h3>
                   <span>Project Management Expert</span>
                 </div>
@@ -105,7 +107,9 @@ const EventParticipants = () => {
 
                 <div className="advisor-content">
                   <h3>
-                    <Link href="#">Jassica Hische</Link>
+                    <Link href="#">
+                      <a>Jassica Hische</a>
+                    </Link>
                   </h3>
                   <span>Illustrator Expert</span>
                 </div>
@@ -143,7 +147,9 @@ const EventParticipants = () => {
 
                 <div className="advisor-content">
                   <h3>
-                    <Link href="#">Alister Cock</Link>
+                    <Link href="#">
+                      <a>Alister Cock</a>
+                    </Link>
                   </h3>
                   <span>QA Project Expert</span>
                 </div>
@@ -181,7 +187,9 @@ const EventParticipants = () => {
 
                 <div className="advisor-content">
                   <h3>
-                    <Link href="#">Lina Ninja</Link>
+                    <Link href="#">
+                      <a>Lina Ninja</a>
+                    </Link>
                   </h3>
                   <span>QA Project Expert</span>
                 </div>

@@ -25,14 +25,16 @@ const BlogSidebar = () => {
         <h3 className="widget-title">Popular Posts</h3>
 
         <div className="item">
-          <Link href="#" className="thumb">
-            <span className="fullimage cover bg1" role="img"></span>
+          <Link href="#">
+            <a className="thumb">
+              <span className="fullimage cover bg1" role="img"></span>
+            </a>
           </Link>
           <div className="info">
             <span>June 10, 2020</span>
             <h4 className="title usmall">
               <Link href="#">
-                Ultimate Bali Guide + Where to stay in Bali 2020
+                <a>Ultimate Bali Guide + Where to stay in Bali 2020</a>
               </Link>
             </h4>
           </div>
@@ -41,14 +43,16 @@ const BlogSidebar = () => {
         </div>
 
         <div className="item">
-          <Link href="#" className="thumb">
-            <span className="fullimage cover bg2" role="img"></span>
+          <Link href="#">
+            <a className="thumb">
+              <span className="fullimage cover bg2" role="img"></span>
+            </a>
           </Link>
           <div className="info">
             <span>June 21, 2020</span>
             <h4 className="title usmall">
               <Link href="#">
-                Live the Island life: 20 unique Islands to visit in 2020
+                <a>Live the Island life: 20 unique Islands to visit in 2020</a>
               </Link>
             </h4>
           </div>
@@ -57,14 +61,16 @@ const BlogSidebar = () => {
         </div>
 
         <div className="item">
-          <Link href="#" className="thumb">
-            <span className="fullimage cover bg3" role="img"></span>
+          <Link href="#">
+            <a className="thumb">
+              <span className="fullimage cover bg3" role="img"></span>
+            </a>
           </Link>
           <div className="info">
             <span>June 30, 2020</span>
             <h4 className="title usmall">
               <Link href="#">
-                Best Places to Visit in Europe this Autumn & Winter
+                <a>Best Places to Visit in Europe this Autumn & Winter</a>
               </Link>
             </h4>
           </div>
@@ -79,27 +85,37 @@ const BlogSidebar = () => {
         <ul>
           <li>
             <Link href="#">
-              Design<span className="post-count">(03)</span>
+              <a>
+                Design <span className="post-count">(03)</span>
+              </a>
             </Link>
           </li>
           <li>
             <Link href="#">
-              Lifestyle<span className="post-count">(05)</span>
+              <a>
+                Lifestyle <span className="post-count">(05)</span>
+              </a>
             </Link>
           </li>
           <li>
             <Link href="#">
-              Script<span className="post-count">(10)</span>
+              <a>
+                Script <span className="post-count">(10)</span>
+              </a>
             </Link>
           </li>
           <li>
             <Link href="#">
-              Device<span className="post-count">(08)</span>
+              <a>
+                Device <span className="post-count">(08)</span>
+              </a>
             </Link>
           </li>
           <li>
             <Link href="#">
-              Tips<span className="post-count">(01)</span>
+              <a>
+                Tips <span className="post-count">(01)</span>
+              </a>
             </Link>
           </li>
         </ul>
@@ -110,35 +126,51 @@ const BlogSidebar = () => {
 
         <div className="tagcloud">
           <Link href="#">
-            Business<span className="tag-link-count"> (3)</span>
+            <a>
+              Business <span className="tag-link-count"> (3)</span>
+            </a>
           </Link>
 
           <Link href="#">
-            Design<span className="tag-link-count"> (3)</span>
+            <a>
+              Design <span className="tag-link-count"> (3)</span>
+            </a>
           </Link>
 
           <Link href="#">
-            Braike<span className="tag-link-count"> (2)</span>
+            <a>
+              Braike <span className="tag-link-count"> (2)</span>
+            </a>
           </Link>
 
           <Link href="#">
-            Fashion<span className="tag-link-count"> (2)</span>
+            <a>
+              Fashion <span className="tag-link-count"> (2)</span>
+            </a>
           </Link>
 
           <Link href="#">
-            Travel<span className="tag-link-count"> (1)</span>
+            <a>
+              Travel <span className="tag-link-count"> (1)</span>
+            </a>
           </Link>
 
           <Link href="#">
-            Smart<span className="tag-link-count"> (1)</span>
+            <a>
+              Smart <span className="tag-link-count"> (1)</span>
+            </a>
           </Link>
 
           <Link href="#">
-            Marketing<span className="tag-link-count"> (1)</span>
+            <a>
+              Marketing <span className="tag-link-count"> (1)</span>
+            </a>
           </Link>
 
           <Link href="#">
-            Tips<span className="tag-link-count"> (2)</span>
+            <a>
+              Tips <span className="tag-link-count"> (2)</span>
+            </a>
           </Link>
         </div>
       </div>

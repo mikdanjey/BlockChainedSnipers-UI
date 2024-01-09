@@ -73,8 +73,11 @@ const AboutUs = () => {
                 </li>
               </ul>
 
-              <Link href="/courses-1" className="default-btn">
-                <i className="flaticon-user"></i>View All Courses <span></span>
+              <Link href="/courses-1">
+                <a className="default-btn">
+                  <i className="flaticon-user"></i> View All Courses{" "}
+                  <span></span>
+                </a>
               </Link>
             </div>
           </div>

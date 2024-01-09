@@ -1,15 +1,11 @@
 import React from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-const ModalVideo = dynamic(import("react-modal-video"));
+const ModalVideo = dynamic(() => import("react-modal-video"), {
+  ssr: false,
+});
 
 const AboutArea = () => {
-  const [display, setDisplay] = React.useState(false);
-
-  React.useEffect(() => {
-    setDisplay(true);
-  }, []);
-
   // Popup Video
   const [isOpen, setIsOpen] = React.useState(true);
   const openModal = () => {
@@ -38,8 +34,8 @@ const AboutArea = () => {
                   </strong>
                 </p>
 
-                <Link href="/contact" className="link-btn">
-                  Explore Learning
+                <Link href="/contact">
+                  <a className="link-btn">Explore Learning</a>
                 </Link>
               </div>
             </div>
@@ -50,7 +46,13 @@ const AboutArea = () => {
                   <img src="/images/about-img6.jpg" alt="image" />
                 </div>
 
-                <div onClick={() => openModal()} className="video-btn">
+                <div
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openModal();
+                  }}
+                  className="video-btn"
+                >
                   <i className="flaticon-play"></i>
                 </div>
 
@@ -74,16 +76,12 @@ const AboutArea = () => {
       </div>
 
       {/* If you want to change the video need to update videoID */}
-      {display ? (
-        <ModalVideo
-          channel="youtube"
-          isOpen={!isOpen}
-          videoId="bk7McNUjWgw"
-          onClose={() => setIsOpen(!isOpen)}
-        />
-      ) : (
-        ""
-      )}
+      <ModalVideo
+        channel="youtube"
+        isOpen={!isOpen}
+        videoId="bk7McNUjWgw"
+        onClose={() => setIsOpen(!isOpen)}
+      />
     </>
   );
 };

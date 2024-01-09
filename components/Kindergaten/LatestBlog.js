@@ -18,19 +18,23 @@ const LatestBlog = () => {
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="single-blog-item">
               <div className="post-image">
-                <Link href="/single-blog-1" className="d-block">
-                  <img src="/images/blog/kindergarten-img1.jpg" alt="image" />
+                <Link href="/single-blog-1">
+                  <a className="d-block">
+                    <img src="/images/blog/kindergarten-img1.jpg" alt="image" />
+                  </a>
                 </Link>
-                <Link href="#" className="link-btn"></Link>
+                <Link href="#">
+                  <a className="link-btn"></a>
+                </Link>
               </div>
 
               <div className="post-content">
-                <Link href="#" className="category">
-                  Preschool
+                <Link href="#">
+                  <a className="category">Preschool</a>
                 </Link>
                 <h3 className="font-weight-black">
                   <Link href="/single-blog-1">
-                    Why Play Is Important in Preschool and Early
+                    <a>Why Play Is Important in Preschool and Early</a>
                   </Link>
                 </h3>
               </div>
@@ -40,11 +44,15 @@ const LatestBlog = () => {
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="single-blog-item">
               <div className="post-image">
-                <Link href="/single-blog-1" className="d-block">
-                  <img src="/images/blog/kindergarten-img2.jpg" alt="image" />
+                <Link href="/single-blog-1">
+                  <a className="d-block">
+                    <img src="/images/blog/kindergarten-img2.jpg" alt="image" />
+                  </a>
                 </Link>
 
-                <Link href="#" className="link-btn"></Link>
+                <Link href="#">
+                  <a className="link-btn"></a>
+                </Link>
               </div>
 
               <div className="post-content">
@@ -53,7 +61,7 @@ const LatestBlog = () => {
                 </a>
                 <h3 className="font-weight-black">
                   <Link href="/single-blog-1">
-                    Best Three Billy Goats Gruff Books for Preschool
+                    <a>Best Three Billy Goats Gruff Books for Preschool</a>
                   </Link>
                 </h3>
               </div>
@@ -63,11 +71,15 @@ const LatestBlog = () => {
           <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
             <div className="single-blog-item">
               <div className="post-image">
-                <Link href="/single-blog-1" className="d-block">
-                  <img src="/images/blog/kindergarten-img3.jpg" alt="image" />
+                <Link href="/single-blog-1">
+                  <a className="d-block">
+                    <img src="/images/blog/kindergarten-img3.jpg" alt="image" />
+                  </a>
                 </Link>
 
-                <Link href="#" className="link-btn"></Link>
+                <Link href="#">
+                  <a className="link-btn"></a>
+                </Link>
               </div>
 
               <div className="post-content">
@@ -76,7 +88,7 @@ const LatestBlog = () => {
                 </a>
                 <h3 className="font-weight-black">
                   <Link href="/single-blog-1">
-                    Flashlight Literacy Activity for Your Camping Theme
+                    <a>Flashlight Literacy Activity for Your Camping Theme</a>
                   </Link>
                 </h3>
               </div>

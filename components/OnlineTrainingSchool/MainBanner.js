@@ -31,16 +31,24 @@ const MainBanner = () => {
                   <span>Popular:</span>
                 </li>
                 <li>
-                  <Link href="#">Development</Link>
+                  <Link href="#">
+                    <a>Development</a>
+                  </Link>
                 </li>
                 <li>
-                  <Link href="#">Marketing</Link>
+                  <Link href="#">
+                    <a>Marketing</a>
+                  </Link>
                 </li>
                 <li>
-                  <Link href="#">Illustration</Link>
+                  <Link href="#">
+                    <a>Illustration</a>
+                  </Link>
                 </li>
                 <li>
-                  <Link href="#">UX/UI</Link>
+                  <Link href="#">
+                    <a>UX/UI</a>
+                  </Link>
                 </li>
               </ul>
             </div>

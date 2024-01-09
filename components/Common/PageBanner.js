@@ -13,7 +13,9 @@ const PageBanner = ({
         <div className="page-title-content">
           <ul>
             <li>
-              <Link href={homePageUrl}>{homePageText}</Link>
+              <Link href={homePageUrl}>
+                <a>{homePageText}</a>
+              </Link>
             </li>
             <li className="active">{activePageText}</li>
           </ul>

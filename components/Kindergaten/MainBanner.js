@@ -20,11 +20,10 @@ const MainBanner = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
 
-              <Link
-                href="/profile-authentication"
-                className="default-btn-style-two"
-              >
-                <i className="flaticon-user"></i>Join For Free
+              <Link href="/profile-authentication">
+                <a className="default-btn-style-two">
+                  <i className="flaticon-user"></i> Join For Free
+                </a>
               </Link>
 
               <div className="circle-shape">

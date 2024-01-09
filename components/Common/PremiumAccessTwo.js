@@ -13,8 +13,11 @@ const PremiumAccessTwo = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
 
-          <Link href="/membership-levels" className="default-btn">
-            <i className="flaticon-user"></i>Give Premium Access <span></span>
+          <Link href="/membership-levels">
+            <a className="default-btn">
+              <i className="flaticon-user"></i> Give Premium Access{" "}
+              <span></span>
+            </a>
           </Link>
         </div>
       </div>

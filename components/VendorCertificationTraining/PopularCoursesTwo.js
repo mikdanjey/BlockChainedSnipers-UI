@@ -18,17 +18,23 @@ const PopularCoursesTwo = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box bg-color">
               <div className="courses-image">
-                <Link href="/single-courses-2" className="d-block image">
-                  <img src="/images/courses/courses6.jpg" alt="image" />
+                <Link href="/single-courses-2">
+                  <a className="d-block image">
+                    <img src="/images/courses/courses6.jpg" alt="image" />
+                  </a>
                 </Link>
-                <Link href="#" className="fav">
-                  <i className="flaticon-heart"></i>
+                <Link href="#">
+                  <a className="fav">
+                    <i className="flaticon-heart"></i>
+                  </a>
                 </Link>
                 <div className="price shadow">$39</div>
               </div>
               <div className="courses-content">
                 <h3>
-                  <Link href="/single-courses-2">PMP® Plus</Link>
+                  <Link href="/single-courses-2">
+                    <a>PMP® Plus</a>
+                  </Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -49,17 +55,23 @@ const PopularCoursesTwo = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box bg-color">
               <div className="courses-image">
-                <Link href="/single-courses-2" className="d-block image">
-                  <img src="/images/courses/courses7.jpg" alt="image" />
+                <Link href="/single-courses-2">
+                  <a className="d-block image">
+                    <img src="/images/courses/courses7.jpg" alt="image" />
+                  </a>
                 </Link>
-                <Link href="#" className="fav">
-                  <i className="flaticon-heart"></i>
+                <Link href="#">
+                  <a className="fav">
+                    <i className="flaticon-heart"></i>
+                  </a>
                 </Link>
                 <div className="price shadow">$49</div>
               </div>
               <div className="courses-content">
                 <h3>
-                  <Link href="/single-courses-2">PMP® Renewal Pack</Link>
+                  <Link href="/single-courses-2">
+                    <a>PMP® Renewal Pack</a>
+                  </Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -80,17 +92,23 @@ const PopularCoursesTwo = () => {
           <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
             <div className="single-courses-box bg-color">
               <div className="courses-image">
-                <Link href="/single-courses-2" className="d-block image">
-                  <img src="/images/courses/courses8.jpg" alt="image" />
+                <Link href="/single-courses-2">
+                  <a className="d-block image">
+                    <img src="/images/courses/courses8.jpg" alt="image" />
+                  </a>
                 </Link>
-                <Link href="#" className="fav">
-                  <i className="flaticon-heart"></i>
+                <Link href="#">
+                  <a className="fav">
+                    <i className="flaticon-heart"></i>
+                  </a>
                 </Link>
                 <div className="price shadow">$59</div>
               </div>
               <div className="courses-content">
                 <h3>
-                  <Link href="/single-courses-2">Digital Project Manager</Link>
+                  <Link href="/single-courses-2">
+                    <a>Digital Project Manager</a>
+                  </Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

@@ -20,8 +20,11 @@ const ChooseProgram = () => {
                 ways of learning skills.
               </p>
 
-              <Link href="/profile-authentication" className="default-btn">
-                <i className="flaticon-user"></i>Get Started Now <span></span>
+              <Link href="/profile-authentication">
+                <a className="default-btn">
+                  <i className="flaticon-user"></i> Get Started Now{" "}
+                  <span></span>
+                </a>
               </Link>
             </div>
           </div>
@@ -40,7 +43,9 @@ const ChooseProgram = () => {
                     </div>
 
                     <h3 className="playfair-display-font">
-                      <Link href="/about-1">Certification Courses</Link>
+                      <Link href="/about-1">
+                        <a>Certification Courses</a>
+                      </Link>
                     </h3>
 
                     <p>
@@ -49,8 +54,8 @@ const ChooseProgram = () => {
                       aliqua.
                     </p>
 
-                    <Link href="#" className="link-btn">
-                      Read More
+                    <Link href="#">
+                      <a className="link-btn">Read More</a>
                     </Link>
                   </div>
 
@@ -64,7 +69,9 @@ const ChooseProgram = () => {
                     </div>
 
                     <h3 className="playfair-display-font">
-                      <Link href="/about-1">Mens’s Coaching</Link>
+                      <Link href="/about-1">
+                        <a>Mens’s Coaching</a>
+                      </Link>
                     </h3>
 
                     <p>
@@ -73,8 +80,8 @@ const ChooseProgram = () => {
                       aliqua.
                     </p>
 
-                    <Link href="#" className="link-btn">
-                      Read More
+                    <Link href="#">
+                      <a className="link-btn">Read More</a>
                     </Link>
                   </div>
                 </div>
@@ -90,7 +97,9 @@ const ChooseProgram = () => {
                     </div>
 
                     <h3 className="playfair-display-font">
-                      <Link href="/about-1">Women’s Coaching</Link>
+                      <Link href="/about-1">
+                        <a>Women’s Coaching</a>
+                      </Link>
                     </h3>
 
                     <p>
@@ -99,8 +108,8 @@ const ChooseProgram = () => {
                       aliqua.
                     </p>
 
-                    <Link href="#" className="link-btn">
-                      Read More
+                    <Link href="#">
+                      <a className="link-btn">Read More</a>
                     </Link>
                   </div>
                 </div>

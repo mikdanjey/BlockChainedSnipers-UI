@@ -19,8 +19,10 @@ const ViewAllCourses = () => {
                 ways of learning skills.
               </p>
 
-              <Link href="/courses-1" className="default-btn">
-                <i className="flaticon-agenda"></i>View Courses<span></span>
+              <Link href="/courses-1">
+                <a className="default-btn">
+                  <i className="flaticon-agenda"></i> View Courses <span></span>
+                </a>
               </Link>
             </div>
           </div>

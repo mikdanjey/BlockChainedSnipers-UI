@@ -22,8 +22,10 @@ const MainBanner = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
 
-            <Link href="/profile-authentication" className="default-btn">
-              <i className="flaticon-user"></i>Join For Free<span></span>
+            <Link href="/profile-authentication">
+              <a className="default-btn">
+                <i className="flaticon-user"></i> Join For Free <span></span>
+              </a>
             </Link>
 
             <br />

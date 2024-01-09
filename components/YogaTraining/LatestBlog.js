@@ -18,17 +18,21 @@ const LatestBlog = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-blog-post-box">
               <div className="post-image">
-                <Link href="#" className="d-block">
-                  <img src="/images/yoga-blog-img1.jpg" alt="image" />
+                <Link href="#">
+                  <a className="d-block">
+                    <img src="/images/yoga-blog-img1.jpg" alt="image" />
+                  </a>
                 </Link>
               </div>
               <div className="post-content">
-                <Link href="#" className="category">
-                  Yoga
+                <Link href="#">
+                  <a className="category">Yoga</a>
                 </Link>
                 <h3 className="playfair-display-font">
                   <Link href="#">
-                    Surprising SUP Yoga Poses You’ll Want to Try This Summer
+                    <a>
+                      Surprising SUP Yoga Poses You’ll Want to Try This Summer
+                    </a>
                   </Link>
                 </h3>
                 <ul className="post-content-footer d-flex justify-content-between align-items-center">
@@ -53,17 +57,22 @@ const LatestBlog = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-blog-post-box">
               <div className="post-image">
-                <Link href="#" className="d-block">
-                  <img src="/images/yoga-blog-img2.jpg" alt="image" />
+                <Link href="#">
+                  <a className="d-block">
+                    <img src="/images/yoga-blog-img2.jpg" alt="image" />
+                  </a>
                 </Link>
               </div>
               <div className="post-content">
-                <Link href="#" className="category">
-                  YTT
+                <Link href="#">
+                  <a className="category">YTT</a>
                 </Link>
                 <h3 className="playfair-display-font">
                   <Link href="#">
-                    7 Things I Learned From Doing One of Those Social Media Yoga
+                    <a>
+                      7 Things I Learned From Doing One of Those Social Media
+                      Yoga
+                    </a>
                   </Link>
                 </h3>
                 <ul className="post-content-footer d-flex justify-content-between align-items-center">
@@ -88,8 +97,10 @@ const LatestBlog = () => {
           <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
             <div className="single-blog-post-box">
               <div className="post-image">
-                <Link href="#" className="d-block">
-                  <img src="/images/yoga-blog-img3.jpg" alt="image" />
+                <Link href="#">
+                  <a className="d-block">
+                    <img src="/images/yoga-blog-img3.jpg" alt="image" />
+                  </a>
                 </Link>
               </div>
               <div className="post-content">
@@ -98,7 +109,9 @@ const LatestBlog = () => {
                 </a>
                 <h3 className="playfair-display-font">
                   <Link href="#">
-                    10 Ways to Get Real About Your Body’s Limitations & Avoid
+                    <a>
+                      10 Ways to Get Real About Your Body’s Limitations & Avoid
+                    </a>
                   </Link>
                 </h3>
                 <ul className="post-content-footer d-flex justify-content-between align-items-center">

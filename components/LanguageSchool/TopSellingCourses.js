@@ -18,8 +18,10 @@ const TopSellingCourses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box">
               <div className="courses-image">
-                <Link href="/single-courses-1" className="d-block image">
-                  <img src="/images/courses/courses1.jpg" alt="image" />
+                <Link href="/single-courses-1">
+                  <a className="d-block image">
+                    <img src="/images/courses/courses1.jpg" alt="image" />
+                  </a>
                 </Link>
                 <a href="#" className="fav">
                   <i className="flaticon-heart"></i>
@@ -37,7 +39,7 @@ const TopSellingCourses = () => {
                 </div>
                 <h3>
                   <Link href="/single-courses-1">
-                    Online Course For Korean Level 1
+                    <a>Online Course For Korean Level 1</a>
                   </Link>
                 </h3>
                 <p>
@@ -59,8 +61,10 @@ const TopSellingCourses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box">
               <div className="courses-image">
-                <Link href="/single-courses-1" className="d-block image">
-                  <img src="/images/courses/courses2.jpg" alt="image" />
+                <Link href="/single-courses-1">
+                  <a className="d-block image">
+                    <img src="/images/courses/courses2.jpg" alt="image" />
+                  </a>
                 </Link>
                 <a href="#" className="fav">
                   <i className="flaticon-heart"></i>
@@ -78,7 +82,7 @@ const TopSellingCourses = () => {
                 </div>
                 <h3>
                   <Link href="/single-courses-1">
-                    Online Course For Marathi Level 2
+                    <a>Online Course For Marathi Level 2</a>
                   </Link>
                 </h3>
                 <p>
@@ -100,8 +104,10 @@ const TopSellingCourses = () => {
           <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
             <div className="single-courses-box">
               <div className="courses-image">
-                <Link href="/single-courses-1" className="d-block image">
-                  <img src="/images/courses/courses3.jpg" alt="image" />
+                <Link href="/single-courses-1">
+                  <a className="d-block image">
+                    <img src="/images/courses/courses3.jpg" alt="image" />
+                  </a>
                 </Link>
                 <a href="#" className="fav">
                   <i className="flaticon-heart"></i>
@@ -119,7 +125,7 @@ const TopSellingCourses = () => {
                 </div>
                 <h3>
                   <Link href="/single-courses-1">
-                    Online Course For French Level 3
+                    <a>Online Course For French Level 3</a>
                   </Link>
                 </h3>
                 <p>
@@ -143,7 +149,10 @@ const TopSellingCourses = () => {
               <p>
                 Get the most dedicated consultation for your life-changing
                 course. Earn a certification for your effort and passion{" "}
-                <Link href="/profile-authentication">Join Free Now</Link>.
+                <Link href="/profile-authentication">
+                  <a>Join Free Now</a>
+                </Link>
+                .
               </p>
             </div>
           </div>

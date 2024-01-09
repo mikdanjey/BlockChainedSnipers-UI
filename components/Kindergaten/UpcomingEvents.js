@@ -34,7 +34,9 @@ const UpcomingEvents = () => {
                       <span>Wed, 03 June, 2020</span>
                     </div>
                     <h3 className="font-weight-black">
-                      <Link href="#">Music Conference</Link>
+                      <Link href="#">
+                        <a>Music Conference</a>
+                      </Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -68,7 +70,9 @@ const UpcomingEvents = () => {
                       <span>Thu, 04 June, 2020</span>
                     </div>
                     <h3 className="font-weight-black">
-                      <Link href="#">Paper Plates Art</Link>
+                      <Link href="#">
+                        <a>Paper Plates Art</a>
+                      </Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -102,7 +106,9 @@ const UpcomingEvents = () => {
                       <span>Fri, 05 June, 2020</span>
                     </div>
                     <h3 className="font-weight-black">
-                      <Link href="#">Imagination classNamees</Link>
+                      <Link href="#">
+                        <a>Imagination classNamees</a>
+                      </Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -136,7 +142,9 @@ const UpcomingEvents = () => {
                       <span>Sat, 06 June, 2020</span>
                     </div>
                     <h3 className="font-weight-black">
-                      <Link href="#">Number Matching</Link>
+                      <Link href="#">
+                        <a>Number Matching</a>
+                      </Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,

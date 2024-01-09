@@ -9,8 +9,10 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link href="/single-courses-1" className="d-block image">
-                <img src="/images/courses/courses1.jpg" alt="image" />
+              <Link href="/single-courses-1">
+                <a className="d-block image">
+                  <img src="/images/courses/courses1.jpg" alt="image" />
+                </a>
               </Link>
               <a href="#" className="fav">
                 <i className="flaticon-heart"></i>
@@ -30,7 +32,9 @@ const ProfileCourses = () => {
 
               <h3>
                 <Link href="/single-courses-1">
-                  The Data Science Course 2020: Complete Data Science Bootcamp
+                  <a>
+                    The Data Science Course 2020: Complete Data Science Bootcamp
+                  </a>
                 </Link>
               </h3>
 
@@ -53,8 +57,10 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link href="/single-courses-1" className="d-block image">
-                <img src="/images/courses/courses2.jpg" alt="image" />
+              <Link href="/single-courses-1">
+                <a className="d-block image">
+                  <img src="/images/courses/courses2.jpg" alt="image" />
+                </a>
               </Link>
               <a href="#" className="fav">
                 <i className="flaticon-heart"></i>
@@ -73,7 +79,9 @@ const ProfileCourses = () => {
 
               <h3>
                 <Link href="/single-courses-1">
-                  Java Programming MasterclassName for Software Developers
+                  <a>
+                    Java Programming MasterclassName for Software Developers
+                  </a>
                 </Link>
               </h3>
 
@@ -96,8 +104,10 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link href="/single-courses-1" className="d-block image">
-                <img src="/images/courses/courses3.jpg" alt="image" />
+              <Link href="/single-courses-1">
+                <a className="d-block image">
+                  <img src="/images/courses/courses3.jpg" alt="image" />
+                </a>
               </Link>
               <a href="#" className="fav">
                 <i className="flaticon-heart"></i>
@@ -116,7 +126,9 @@ const ProfileCourses = () => {
 
               <h3>
                 <Link href="/single-courses-1">
-                  Deep Learning A-Z™: Hands-On Artificial Neural Networks
+                  <a>
+                    Deep Learning A-Z™: Hands-On Artificial Neural Networks
+                  </a>
                 </Link>
               </h3>
 
@@ -139,8 +151,10 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link href="/single-courses-1" className="d-block image">
-                <img src="/images/courses/courses4.jpg" alt="image" />
+              <Link href="/single-courses-1">
+                <a className="d-block image">
+                  <img src="/images/courses/courses4.jpg" alt="image" />
+                </a>
               </Link>
               <a href="#" className="fav">
                 <i className="flaticon-heart"></i>
@@ -159,7 +173,9 @@ const ProfileCourses = () => {
 
               <h3>
                 <Link href="/single-courses-1">
-                  Python for Finance: Investment Fundamentals & Data Analytics
+                  <a>
+                    Python for Finance: Investment Fundamentals & Data Analytics
+                  </a>
                 </Link>
               </h3>
 
@@ -182,8 +198,10 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link href="/single-courses-1" className="d-block image">
-                <img src="/images/courses/courses5.jpg" alt="image" />
+              <Link href="/single-courses-1">
+                <a className="d-block image">
+                  <img src="/images/courses/courses5.jpg" alt="image" />
+                </a>
               </Link>
               <a href="#" className="fav">
                 <i className="flaticon-heart"></i>
@@ -202,7 +220,9 @@ const ProfileCourses = () => {
 
               <h3>
                 <Link href="/single-courses-1">
-                  Machine Learning A-Z™: Hands-On Python & R In Data Science
+                  <a>
+                    Machine Learning A-Z™: Hands-On Python & R In Data Science
+                  </a>
                 </Link>
               </h3>
 
@@ -225,8 +245,10 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link href="/single-courses-1" className="d-block image">
-                <img src="/images/courses/courses6.jpg" alt="image" />
+              <Link href="/single-courses-1">
+                <a className="d-block image">
+                  <img src="/images/courses/courses6.jpg" alt="image" />
+                </a>
               </Link>
               <a href="#" className="fav">
                 <i className="flaticon-heart"></i>
@@ -245,7 +267,9 @@ const ProfileCourses = () => {
 
               <h3>
                 <Link href="/single-courses-1">
-                  R Programming A-Z™: R For Data Science With Real Exercises!
+                  <a>
+                    R Programming A-Z™: R For Data Science With Real Exercises!
+                  </a>
                 </Link>
               </h3>
 
@@ -268,8 +292,10 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link href="/single-courses-1" className="d-block image">
-                <img src="/images/courses/courses10.jpg" alt="image" />
+              <Link href="/single-courses-1">
+                <a className="d-block image">
+                  <img src="/images/courses/courses10.jpg" alt="image" />
+                </a>
               </Link>
               <a href="#" className="fav">
                 <i className="flaticon-heart"></i>
@@ -288,7 +314,7 @@ const ProfileCourses = () => {
 
               <h3>
                 <Link href="/single-courses-1">
-                  Deep Learning The Numpy Stack in Python
+                  <a>Deep Learning The Numpy Stack in Python</a>
                 </Link>
               </h3>
 
@@ -311,8 +337,10 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link href="/single-courses-1" className="d-block image">
-                <img src="/images/courses/courses11.jpg" alt="image" />
+              <Link href="/single-courses-1">
+                <a className="d-block image">
+                  <img src="/images/courses/courses11.jpg" alt="image" />
+                </a>
               </Link>
               <a href="#" className="fav">
                 <i className="flaticon-heart"></i>
@@ -331,7 +359,7 @@ const ProfileCourses = () => {
 
               <h3>
                 <Link href="/single-courses-1">
-                  Statistics for Data Science and Business Analysis
+                  <a>Statistics for Data Science and Business Analysis</a>
                 </Link>
               </h3>
 
@@ -354,8 +382,10 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link href="/single-courses-1" className="d-block image">
-                <img src="/images/courses/courses12.jpg" alt="image" />
+              <Link href="/single-courses-1">
+                <a className="d-block image">
+                  <img src="/images/courses/courses12.jpg" alt="image" />
+                </a>
               </Link>
               <a href="#" className="fav">
                 <i className="flaticon-heart"></i>
@@ -374,7 +404,7 @@ const ProfileCourses = () => {
 
               <h3>
                 <Link href="/single-courses-1">
-                  Microsoft Excel - Excel from Beginner to Advanced
+                  <a>Microsoft Excel - Excel from Beginner to Advanced</a>
                 </Link>
               </h3>
 
@@ -397,8 +427,10 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link href="/single-courses-1" className="d-block image">
-                <img src="/images/courses/courses13.jpg" alt="image" />
+              <Link href="/single-courses-1">
+                <a className="d-block image">
+                  <img src="/images/courses/courses13.jpg" alt="image" />
+                </a>
               </Link>
               <a href="#" className="fav">
                 <i className="flaticon-heart"></i>
@@ -417,7 +449,7 @@ const ProfileCourses = () => {
 
               <h3>
                 <Link href="/single-courses-1">
-                  Python Django Web Development: To-Do App
+                  <a>Python Django Web Development: To-Do App</a>
                 </Link>
               </h3>
 
@@ -440,8 +472,10 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link href="/single-courses-1" className="d-block image">
-                <img src="/images/courses/courses14.jpg" alt="image" />
+              <Link href="/single-courses-1">
+                <a className="d-block image">
+                  <img src="/images/courses/courses14.jpg" alt="image" />
+                </a>
               </Link>
               <a href="#" className="fav">
                 <i className="flaticon-heart"></i>
@@ -460,7 +494,7 @@ const ProfileCourses = () => {
 
               <h3>
                 <Link href="/single-courses-1">
-                  Oracle SQL Developer : Essentials, Tips and Tricks
+                  <a>Oracle SQL Developer : Essentials, Tips and Tricks</a>
                 </Link>
               </h3>
 
@@ -483,8 +517,10 @@ const ProfileCourses = () => {
         <div className="col-lg-4 col-md-6">
           <div className="single-courses-box">
             <div className="courses-image">
-              <Link href="/single-courses-1" className="d-block image">
-                <img src="/images/courses/courses15.jpg" alt="image" />
+              <Link href="/single-courses-1">
+                <a className="d-block image">
+                  <img src="/images/courses/courses15.jpg" alt="image" />
+                </a>
               </Link>
               <a href="#" className="fav">
                 <i className="flaticon-heart"></i>
@@ -503,7 +539,7 @@ const ProfileCourses = () => {
 
               <h3>
                 <Link href="/single-courses-1">
-                  Learning A-Z™: Hands-On Python In Data Science
+                  <a>Learning A-Z™: Hands-On Python In Data Science</a>
                 </Link>
               </h3>
 

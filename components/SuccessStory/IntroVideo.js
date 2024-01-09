@@ -1,13 +1,10 @@
 import React from "react";
 import dynamic from "next/dynamic";
-const ModalVideo = dynamic(import("react-modal-video"));
+const ModalVideo = dynamic(() => import("react-modal-video"), {
+  ssr: false,
+});
 
 const IntroVideo = () => {
-  const [display, setDisplay] = React.useState(false);
-
-  React.useEffect(() => {
-    setDisplay(true);
-  }, []);
   // Popup Video
   const [isOpen, setIsOpen] = React.useState(true);
   const openModal = () => {
@@ -27,7 +24,10 @@ const IntroVideo = () => {
             </div>
 
             <div
-              onClick={() => openModal()}
+              onClick={(e) => {
+                e.preventDefault();
+                openModal();
+              }}
               className="video-btn popup-youtube"
             >
               <i className="flaticon-play"></i>
@@ -54,16 +54,12 @@ const IntroVideo = () => {
       </div>
 
       {/* If you want to change the video need to update videoID */}
-      {display ? (
-        <ModalVideo
-          channel="youtube"
-          isOpen={!isOpen}
-          videoId="bk7McNUjWgw"
-          onClose={() => setIsOpen(!isOpen)}
-        />
-      ) : (
-        ""
-      )}
+      <ModalVideo
+        channel="youtube"
+        isOpen={!isOpen}
+        videoId="bk7McNUjWgw"
+        onClose={() => setIsOpen(!isOpen)}
+      />
     </>
   );
 };
