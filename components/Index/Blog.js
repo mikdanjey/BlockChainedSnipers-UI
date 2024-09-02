@@ -16,17 +16,19 @@ const Blog = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-blog-post">
               <div className="post-image">
-                <Link href="/single-blog-1" className="d-block" legacyBehavior>
-                  <img src="/images/blog/img16.jpg" alt="image" />
+                <Link href="/single-blog-1">
+                  <a className="d-block">
+                    <img src="/images/blog/img16.jpg" alt="image" />
+                  </a>
                 </Link>
               </div>
               <div className="post-content">
-                <Link href="#" className="category">
-                  Education
+                <Link href="#">
+                  <a className="category">Education</a>
                 </Link>
                 <h3>
                   <Link href="/single-blog-1">
-                    University Admissions Could Face Emergency Controls
+                    <a>University Admissions Could Face Emergency Controls</a>
                   </Link>
                 </h3>
                 <ul className="post-content-footer d-flex justify-content-between align-items-center">
@@ -50,17 +52,21 @@ const Blog = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-blog-post">
               <div className="post-image">
-                <Link href="/single-blog-1" className="d-block" legacyBehavior>
-                  <img src="/images/blog/img17.jpg" alt="image" />
+                <Link href="/single-blog-1">
+                  <a className="d-block">
+                    <img src="/images/blog/img17.jpg" alt="image" />
+                  </a>
                 </Link>
               </div>
               <div className="post-content">
-                <Link href="#" className="category">
-                  Online
+                <Link href="#">
+                  <a className="category">Online</a>
                 </Link>
                 <h3>
                   <Link href="/single-blog-1">
-                    Online Learning Can Prepare Students For A Fast-Changing
+                    <a>
+                      Online Learning Can Prepare Students For A Fast-Changing
+                    </a>
                   </Link>
                 </h3>
                 <ul className="post-content-footer d-flex justify-content-between align-items-center">
@@ -84,17 +90,19 @@ const Blog = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-blog-post">
               <div className="post-image">
-                <Link href="/single-blog-1" className="d-block" legacyBehavior>
-                  <img src="/images/blog/img18.jpg" alt="image" />
+                <Link href="/single-blog-1">
+                  <a className="d-block">
+                    <img src="/images/blog/img18.jpg" alt="image" />
+                  </a>
                 </Link>
               </div>
               <div className="post-content">
-                <Link href="#" className="category">
-                  Learning
+                <Link href="#">
+                  <a className="category">Learning</a>
                 </Link>
                 <h3>
                   <Link href="/single-blog-1">
-                    As Learning Moves Online, Trigger Warnings Must Too
+                    <a>As Learning Moves Online, Trigger Warnings Must Too</a>
                   </Link>
                 </h3>
                 <ul className="post-content-footer d-flex justify-content-between align-items-center">
@@ -119,7 +127,9 @@ const Blog = () => {
             <div className="blog-post-info">
               <p>
                 Get into details now?​ {` `}
-                <Link href="/blog-1">View all posts</Link>
+                <Link href="/blog-1">
+                  <a>View all posts</a>
+                </Link>
               </p>
             </div>
           </div>

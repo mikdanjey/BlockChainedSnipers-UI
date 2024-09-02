@@ -1,5 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper";
 
 const PartnerStyleTwo = () => {
   return (
@@ -22,6 +23,12 @@ const PartnerStyleTwo = () => {
               slidesPerView: 5,
             },
           }}
+          autoplay={{
+            delay: 6500,
+            disableOnInteraction: true,
+            pauseOnMouseEnter: true,
+          }}
+          modules={[Autoplay]}
           className="partner-slides"
         >
           <SwiperSlide>

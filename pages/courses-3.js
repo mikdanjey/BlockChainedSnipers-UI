@@ -1,10 +1,14 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Link from "next/link";
+import Footer from "../components/_App/Footer";
 
 const CoursesGrid03 = () => {
   return (
     <>
+      <Navbar />
+
       <PageBanner
         pageTitle="Courses Grid 03"
         homePageUrl="/"
@@ -558,6 +562,8 @@ const CoursesGrid03 = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };

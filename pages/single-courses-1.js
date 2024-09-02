@@ -1,12 +1,16 @@
 import React from "react";
-import PageBanner from "@/components/SingleCourses/PageBanner";
-import StaticCoursesDetailsSidebar from "@/components/SingleCourses/StaticCoursesDetailsSidebar";
-import YouMightLikeTheCourses from "@/components/Courses/YouMightLikeTheCourses";
+import Navbar from "../components/_App/Navbar";
+import PageBanner from "../components/SingleCourses/PageBanner";
+import CoursesDetailsSidebar from "../components/SingleCourses/CoursesDetailsSidebar";
+import YouMightLikeTheCourses from "../components/Courses/YouMightLikeTheCourses";
+import Footer from "../components/_App/Footer";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 const SingleCourses = () => {
   return (
     <>
+      <Navbar />
+
       <PageBanner
         pageTitle="Python for Finance: Investment Fundamentals & Data Analytics"
         homePageUrl="/"
@@ -477,13 +481,15 @@ const SingleCourses = () => {
             </div>
 
             <div className="col-lg-4 col-md-12">
-              <StaticCoursesDetailsSidebar />
+              <CoursesDetailsSidebar />
             </div>
           </div>
         </div>
       </div>
 
       <YouMightLikeTheCourses />
+
+      <Footer />
     </>
   );
 };

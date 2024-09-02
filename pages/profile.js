@@ -1,11 +1,15 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
+import Footer from "../components/_App/Footer";
 import ProfileCourses from "../components/Profile/ProfileCourses";
 import Quizzes from "../components/Profile/Quizzes";
 
 const Profile = () => {
   return (
     <>
+      <Navbar />
+
       <PageBanner
         pageTitle="Profile"
         homePageUrl="/"
@@ -81,6 +85,8 @@ const Profile = () => {
           <Quizzes />
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };

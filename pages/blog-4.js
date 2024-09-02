@@ -1,11 +1,15 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Link from "next/link";
+import Footer from "../components/_App/Footer";
 import BlogSidebar from "../components/Blog/BlogSidebar";
 
 const Blog4 = () => {
   return (
     <>
+      <Navbar />
+
       <PageBanner
         pageTitle="Blog Right Sidebar"
         homePageUrl="/"
@@ -194,6 +198,8 @@ const Blog4 = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };

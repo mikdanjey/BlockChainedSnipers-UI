@@ -1,10 +1,14 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Link from "next/link";
+import Footer from "../components/_App/Footer";
 
 const Blog3 = () => {
   return (
     <>
+      <Navbar />
+
       <PageBanner
         pageTitle="Blog Grid (Full Width)"
         homePageUrl="/"
@@ -321,6 +325,8 @@ const Blog3 = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };

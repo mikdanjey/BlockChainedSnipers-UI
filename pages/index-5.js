@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import MainBanner from "../components/LanguageSchool/MainBanner";
 import LanguageCourses from "../components/LanguageSchool/LanguageCourses";
 import WhyChooseUs from "../components/LanguageSchool/WhyChooseUs";
@@ -10,10 +11,12 @@ import SignUpForm from "../components/LanguageSchool/SignUpForm";
 import UpcomingEvents from "../components/LanguageSchool/UpcomingEvents";
 import Partner from "../components/LanguageSchool/Partner";
 import SubscribeForm from "../components/Common/SubscribeForm";
+import Footer from "../components/_App/Footer";
 
-const LanguageSchool = () => {
+const Index5 = () => {
   return (
     <>
+      <Navbar />
       <MainBanner />
       <LanguageCourses />
       <WhyChooseUs />
@@ -25,8 +28,9 @@ const LanguageSchool = () => {
       <UpcomingEvents />
       <SubscribeForm />
       <Partner />
+      <Footer />
     </>
   );
 };
 
-export default LanguageSchool;
+export default Index5;

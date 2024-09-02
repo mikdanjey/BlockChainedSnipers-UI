@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import SubscribeForm from "../components/Common/SubscribeForm";
+import Footer from "../components/_App/Footer";
 import Lightbox from "react-18-image-lightbox";
 
 const images = [
@@ -30,6 +32,8 @@ export default class Gallery extends Component {
 
     return (
       <>
+        <Navbar />
+
         <PageBanner
           pageTitle="Gallery"
           homePageUrl="/"
@@ -181,6 +185,8 @@ export default class Gallery extends Component {
         </div>
 
         <SubscribeForm />
+
+        <Footer />
       </>
     );
   }

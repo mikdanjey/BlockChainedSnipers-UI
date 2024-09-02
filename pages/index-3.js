@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import MainBanner from "../components/OnlineTrainingSchool/MainBanner";
 import CoursesArea from "../components/OnlineTrainingSchool/CoursesArea";
 import Features from "../components/OnlineTrainingSchool/Features";
@@ -11,10 +12,12 @@ import PremiumAccess from "../components/OnlineTrainingSchool/PremiumAccess";
 import LatestNewsTwo from "../components/Common/LatestNewsTwo";
 import SubscribeForm from "../components/Common/SubscribeForm";
 import Partner from "../components/Common/Partner";
+import Footer from "../components/_App/Footer";
 
-const OnlineTraining = () => {
+const Index3 = () => {
   return (
     <>
+      <Navbar />
       <MainBanner />
       <CoursesArea />
       <Features />
@@ -27,8 +30,9 @@ const OnlineTraining = () => {
       <LatestNewsTwo />
       <SubscribeForm />
       <Partner />
+      <Footer />
     </>
   );
 };
 
-export default OnlineTraining;
+export default Index3;

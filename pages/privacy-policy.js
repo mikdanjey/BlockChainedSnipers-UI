@@ -1,10 +1,14 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Sidebar from "../components/TermsOfService/Sidebar";
+import Footer from "../components/_App/Footer";
 
 const PrivacyPolicy = () => {
   return (
     <>
+      <Navbar />
+
       <PageBanner
         pageTitle="Privacy Policy"
         homePageUrl="/"
@@ -124,6 +128,8 @@ const PrivacyPolicy = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };

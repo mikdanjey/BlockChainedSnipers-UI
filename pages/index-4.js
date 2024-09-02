@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import MainBanner from "../components/DistanceLearning/MainBanner";
 import Features from "../components/DistanceLearning/Features";
 import CoursesArea from "../components/DistanceLearning/CoursesArea";
@@ -11,10 +12,12 @@ import GetPremiumAccess from "../components/DistanceLearning/GetPremiumAccess";
 import PartnerStyleTwo from "../components/Common/PartnerStyleTwo";
 import LatestNews from "../components/DistanceLearning/LatestNews";
 import SubscribeForm from "../components/Common/SubscribeForm";
+import Footer from "../components/_App/Footer";
 
-const DistanceLearning = () => {
+const Index4 = () => {
   return (
     <>
+      <Navbar />
       <MainBanner />
       <Features />
       <CoursesArea />
@@ -27,8 +30,9 @@ const DistanceLearning = () => {
       <PartnerStyleTwo />
       <LatestNews />
       <SubscribeForm />
+      <Footer />
     </>
   );
 };
 
-export default DistanceLearning;
+export default Index4;

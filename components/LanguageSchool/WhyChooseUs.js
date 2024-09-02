@@ -46,11 +46,7 @@ const WhyChooseUs = () => {
                 </li>
               </ul>
 
-              <Link
-                href="/profile-authentication"
-                className="default-btn"
-                legacyBehavior
-              >
+              <Link href="/profile-authentication" className="default-btn">
                 <i className="flaticon-user"></i>Join For Free<span></span>
               </Link>
             </div>

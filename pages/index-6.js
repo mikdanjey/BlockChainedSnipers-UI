@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import MainBanner from "../components/ModernSchooling/MainBanner";
 import FeaturedCourses from "../components/ModernSchooling/FeaturedCourses";
 import AboutUs from "../components/ModernSchooling/AboutUs";
@@ -10,10 +11,12 @@ import DistanceLearning from "../components/ModernSchooling/DistanceLearning";
 import UpcomingEvents from "../components/ModernSchooling/UpcomingEvents";
 import SubscribeForm from "../components/ModernSchooling/SubscribeForm";
 import Partner from "../components/ModernSchooling/Partner";
+import Footer from "../components/_App/Footer";
 
-const ModernSchooling = () => {
+const Index6 = () => {
   return (
     <>
+      <Navbar />
       <MainBanner />
       <FeaturedCourses />
       <AboutUs />
@@ -25,8 +28,9 @@ const ModernSchooling = () => {
       <UpcomingEvents />
       <SubscribeForm />
       <Partner />
+      <Footer />
     </>
   );
 };
 
-export default ModernSchooling;
+export default Index6;

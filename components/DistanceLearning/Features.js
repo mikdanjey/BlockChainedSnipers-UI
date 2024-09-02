@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <div className="boxes-area bg-f5f7fa">
       <div className="container">
-        <div className="row justify-content-center">
+        <div className="row">
           <div className="col-lg-4 col-sm-6 col-md-6">
             <div className="single-box-item">
               <div className="icon">
@@ -42,7 +42,7 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 col-sm-6">
+          <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
             <div className="single-box-item">
               <div className="icon">
                 <i className="flaticon-shield-1"></i>

@@ -1,5 +1,7 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
+import Footer from "../components/_App/Footer";
 import {
   Accordion,
   AccordionItem,
@@ -13,6 +15,8 @@ import SubscribeForm from "../components/Common/SubscribeForm";
 const Faq = () => {
   return (
     <>
+      <Navbar />
+
       <PageBanner
         pageTitle="Frequently Asked Questions"
         homePageUrl="/"
@@ -505,6 +509,8 @@ const Faq = () => {
       </div>
 
       <SubscribeForm />
+
+      <Footer />
     </>
   );
 };

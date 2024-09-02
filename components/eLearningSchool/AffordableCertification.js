@@ -13,11 +13,7 @@ const AffordableCertification = () => {
             individuals to get their skill certificate easier than ever!
           </p>
 
-          <Link
-            href="/membership-levels"
-            className="default-btn"
-            legacyBehavior
-          >
+          <Link href="/membership-levels" className="default-btn">
             <i className="flaticon-user"></i>Get Started Now<span></span>
           </Link>
         </div>

@@ -1,10 +1,14 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Sidebar from "../components/TermsOfService/Sidebar";
+import Footer from "../components/_App/Footer";
 
 const TermsOfService = () => {
   return (
     <>
+      <Navbar />
+
       <PageBanner
         pageTitle="Terms Of Service"
         homePageUrl="/"
@@ -123,6 +127,8 @@ const TermsOfService = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };

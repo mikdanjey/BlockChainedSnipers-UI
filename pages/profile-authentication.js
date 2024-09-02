@@ -1,16 +1,20 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import LoginForm from "../components/Authentication/LoginForm";
-import RegisterForm from "../components/Authentication/RegisterForm";
+import LoginForm from "../components/ProfileAuthentication/LoginForm";
+import RegisterForm from "../components/ProfileAuthentication/RegisterForm";
+import Footer from "../components/_App/Footer";
 
-const Authentication = () => {
+const ProfileAuthentication = () => {
   return (
     <>
+      <Navbar />
+
       <PageBanner
-        pageTitle="Authentication"
+        pageTitle="Profile Authentication"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Authentication"
+        activePageText="Profile Authentication"
       />
 
       <div className="profile-authentication-area ptb-100">
@@ -26,8 +30,10 @@ const Authentication = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };
 
-export default Authentication;
+export default ProfileAuthentication;

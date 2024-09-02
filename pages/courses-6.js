@@ -1,11 +1,15 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Link from "next/link";
 import CoursesSidebar from "../components/Courses/CoursesSidebar";
+import Footer from "../components/_App/Footer";
 
 const CoursesRightSidebar = () => {
   return (
     <>
+      <Navbar />
+
       <PageBanner
         pageTitle="Courses Right Sidebar"
         homePageUrl="/"
@@ -334,6 +338,8 @@ const CoursesRightSidebar = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };

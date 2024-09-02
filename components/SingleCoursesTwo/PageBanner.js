@@ -15,14 +15,10 @@ const PageBanner = ({
         <div className="page-title-content">
           <ul>
             <li>
-              <Link href={homePageUrl} legacyBehavior>
-                {homePageText}
-              </Link>
+              <Link href={homePageUrl}>{homePageText}</Link>
             </li>
             <li>
-              <Link href={innerPageUrl} legacyBehavior>
-                {innerPageText}
-              </Link>
+              <Link href={innerPageUrl}>{innerPageText}</Link>
             </li>
             <li className="active">{activePageText}</li>
           </ul>

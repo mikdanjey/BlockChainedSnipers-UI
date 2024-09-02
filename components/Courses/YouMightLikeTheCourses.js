@@ -13,11 +13,7 @@ const YouMightLikeTheCourses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box">
               <div className="courses-image">
-                <Link
-                  href="/single-courses-1"
-                  className="d-block image"
-                  legacyBehavior
-                >
+                <Link href="/single-courses-1" className="d-block image">
                   <img src="/images/courses/courses1.jpg" alt="image" />
                 </Link>
                 <a href="#" className="fav">
@@ -58,11 +54,7 @@ const YouMightLikeTheCourses = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-courses-box">
               <div className="courses-image">
-                <Link
-                  href="/single-courses-1"
-                  className="d-block image"
-                  legacyBehavior
-                >
+                <Link href="/single-courses-1" className="d-block image">
                   <img src="/images/courses/courses2.jpg" alt="image" />
                 </Link>
                 <a href="#" className="fav">
@@ -103,11 +95,7 @@ const YouMightLikeTheCourses = () => {
           <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
             <div className="single-courses-box">
               <div className="courses-image">
-                <Link
-                  href="/single-courses-1"
-                  className="d-block image"
-                  legacyBehavior
-                >
+                <Link href="/single-courses-1" className="d-block image">
                   <img src="/images/courses/courses3.jpg" alt="image" />
                 </Link>
                 <a href="#" className="fav">

@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import MainBanner from "../components/VendorCertificationTraining/MainBanner";
 import Partner from "../components/VendorCertificationTraining/Partner";
 import SloganArea from "../components/VendorCertificationTraining/SloganArea";
@@ -12,10 +13,12 @@ import Testimonials from "../components/Common/Testimonials";
 import ViewAllCourses from "../components/VendorCertificationTraining/ViewAllCourses";
 import LatestNews from "../components/Common/LatestNews";
 import SubscribeForm from "../components/Common/SubscribeForm";
+import Footer from "../components/_App/Footer";
 
-const VendorCertification = () => {
+const Index2 = () => {
   return (
     <>
+      <Navbar />
       <MainBanner />
       <Partner />
       <SloganArea />
@@ -29,8 +32,9 @@ const VendorCertification = () => {
       <ViewAllCourses />
       <LatestNews />
       <SubscribeForm />
+      <Footer />
     </>
   );
 };
 
-export default VendorCertification;
+export default Index2;

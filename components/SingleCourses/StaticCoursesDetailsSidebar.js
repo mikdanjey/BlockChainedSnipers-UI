@@ -98,11 +98,16 @@ const StaticCoursesDetailsSidebar = () => {
         </ul>
 
         <div className="btn-box">
-          <Link href="#" className="default-btn" legacyBehavior>
-            <i className="flaticon-shopping-cart"></i>Add to Cart <span></span>
+          <Link href="#">
+            <a className="default-btn">
+              <i className="flaticon-shopping-cart"></i> Add to Cart{" "}
+              <span></span>
+            </a>
           </Link>
-          <Link href="#" className="default-btn" legacyBehavior>
-            <i className="flaticon-tag"></i>Buy Now<span></span>
+          <Link href="#">
+            <a className="default-btn">
+              <i className="flaticon-tag"></i> Buy Now <span></span>
+            </a>
           </Link>
         </div>
 

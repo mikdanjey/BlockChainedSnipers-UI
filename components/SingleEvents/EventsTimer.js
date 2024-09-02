@@ -14,7 +14,7 @@ const EventsTimer = () => {
   }, []);
 
   const commingSoonTime = () => {
-    let endTime = new Date("August 23, 2024 17:00:00 PDT");
+    let endTime = new Date("August 23, 2022 17:00:00 PDT");
     let endTimeParse = Date.parse(endTime) / 1000;
     let now = new Date();
     let nowParse = Date.parse(now) / 1000;

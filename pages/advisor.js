@@ -1,11 +1,15 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import PremiumAccessTwo from "../components/Common/PremiumAccessTwo";
+import Footer from "../components/_App/Footer";
 import Link from "next/link";
 
 const Advisor = () => {
   return (
     <>
+      <Navbar />
+
       <PageBanner
         pageTitle="Advisor"
         homePageUrl="/"
@@ -250,6 +254,8 @@ const Advisor = () => {
       <div className="pb-100">
         <PremiumAccessTwo />
       </div>
+
+      <Footer />
     </>
   );
 };

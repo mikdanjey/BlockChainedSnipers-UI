@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import useTranslation from "next-translate/useTranslation";
 
-const TopCourses = ({ courses = [] }) => {
+const TopCourses = ({ courses }) => {
   const { t } = useTranslation("distance-learning");
   return (
     <div className="courses-area ptb-100">
@@ -19,17 +19,16 @@ const TopCourses = ({ courses = [] }) => {
               <div className="col-lg-4 col-md-6" key={course.id}>
                 <div className="single-courses-box">
                   <div className="courses-image">
-                    <Link
-                      href="/courses/[id]"
-                      as={`/courses/${course.id}`}
-                      className="d-block image"
-                      legacyBehavior
-                    >
-                      <img src={course.profilePhoto} alt={course.title} />
+                    <Link href="/courses/[id]" as={`/courses/${course.id}`}>
+                      <a className="d-block image">
+                        <img src={course.profilePhoto} alt={course.title} />
+                      </a>
                     </Link>
 
-                    <Link href="#" className="fav" legacyBehavior>
-                      <i className="flaticon-heart"></i>
+                    <Link href="#">
+                      <a className="fav">
+                        <i className="flaticon-heart"></i>
+                      </a>
                     </Link>
 
                     <div className="price shadow">${course.price}</div>
@@ -50,12 +49,11 @@ const TopCourses = ({ courses = [] }) => {
                     </div>
 
                     <h3 title={course.title}>
-                      <Link
-                        href="/courses/[id]"
-                        as={`/courses/${course.id}`}
-                        legacyBehavior
-                      >
-                        {course.title.slice(0, 20)}...
+                      <Link href="/courses/[id]" as={`/courses/${course.id}`}>
+                        <a>
+                          {course.title.slice(0, 20)}
+                          ...
+                        </a>
                       </Link>
                     </h3>
 
@@ -83,8 +81,8 @@ const TopCourses = ({ courses = [] }) => {
             <div className="courses-info">
               <p>
                 {t("course-description2")}{" "}
-                <Link href="/authentication" legacyBehavior>
-                  {t("join-free-now")}
+                <Link href="/authentication">
+                  <a>{t("join-free-now")}</a>
                 </Link>
                 .
               </p>

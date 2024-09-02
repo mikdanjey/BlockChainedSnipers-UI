@@ -1,10 +1,14 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Link from "next/link";
+import Footer from "../components/_App/Footer";
 
 const Shop = () => {
   return (
     <>
+      <Navbar />
+
       <PageBanner
         pageTitle="Shop"
         homePageUrl="/"
@@ -357,6 +361,8 @@ const Shop = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };

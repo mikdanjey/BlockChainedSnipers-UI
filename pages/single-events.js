@@ -1,5 +1,7 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
+import Footer from "../components/_App/Footer";
 import EventsTimer from "../components/SingleEvents/EventsTimer";
 import EventsSidebar from "../components/SingleEvents/EventsSidebar";
 import EventParticipants from "../components/SingleEvents/EventParticipants";
@@ -7,6 +9,8 @@ import EventParticipants from "../components/SingleEvents/EventParticipants";
 const SingleEvents = () => {
   return (
     <>
+      <Navbar />
+
       <PageBanner
         pageTitle="Global Conference on Business Management and Economics"
         homePageUrl="/"
@@ -83,6 +87,8 @@ const SingleEvents = () => {
       </div>
 
       <EventParticipants />
+
+      <Footer />
     </>
   );
 };

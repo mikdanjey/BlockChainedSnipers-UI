@@ -18,7 +18,7 @@ const ViewAllCourses = () => {
                 relocate, you can continue to study wherever you go.
               </p>
 
-              <Link href="/courses-2" className="default-btn" legacyBehavior>
+              <Link href="/courses-2" className="default-btn">
                 <i className="flaticon-agenda"></i>View All Courses{" "}
                 <span></span>
               </Link>

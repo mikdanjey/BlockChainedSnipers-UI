@@ -1,11 +1,15 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Link from "next/link";
 import SubscribeForm from "../components/Common/SubscribeForm";
+import Footer from "../components/_App/Footer";
 
 const Categories = () => {
   return (
     <>
+      <Navbar />
+
       <PageBanner
         pageTitle="Categories"
         homePageUrl="/"
@@ -147,6 +151,8 @@ const Categories = () => {
       </div>
 
       <SubscribeForm />
+
+      <Footer />
     </>
   );
 };

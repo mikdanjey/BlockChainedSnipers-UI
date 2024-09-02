@@ -1,17 +1,13 @@
 import React from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-const ModalVideo = dynamic(import("react-modal-video"));
+const ModalVideo = dynamic(() => import("react-modal-video"), {
+  ssr: false,
+});
 
 const JoinOurYogaTraining = () => {
-  const [display, setDisplay] = React.useState(false);
-  const [isOpen, setIsOpen] = React.useState(true);
-
-  React.useEffect(() => {
-    setDisplay(true);
-  }, []);
   // Popup Video
-
+  const [isOpen, setIsOpen] = React.useState(true);
   const openModal = () => {
     setIsOpen(!isOpen);
   };
@@ -64,11 +60,7 @@ const JoinOurYogaTraining = () => {
                   </li>
                 </ul>
 
-                <Link
-                  href="/profile-authentication"
-                  className="default-btn"
-                  legacyBehavior
-                >
+                <Link href="/profile-authentication" className="default-btn">
                   <i className="flaticon-user"></i>Get Started Now <span></span>
                 </Link>
               </div>
@@ -78,7 +70,13 @@ const JoinOurYogaTraining = () => {
               <div className="experience-image">
                 <img src="/images/experience-img1.jpg" alt="image" />
 
-                <div onClick={() => openModal()} className="video-btn">
+                <div
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openModal();
+                  }}
+                  className="video-btn popup-youtube"
+                >
                   <i className="flaticon-play"></i>
                 </div>
 
@@ -92,16 +90,12 @@ const JoinOurYogaTraining = () => {
       </div>
 
       {/* If you want to change the video need to update videoID */}
-      {display ? (
-        <ModalVideo
-          channel="youtube"
-          isOpen={!isOpen}
-          videoId="bk7McNUjWgw"
-          onClose={() => setIsOpen(!isOpen)}
-        />
-      ) : (
-        ""
-      )}
+      <ModalVideo
+        channel="youtube"
+        isOpen={!isOpen}
+        videoId="bk7McNUjWgw"
+        onClose={() => setIsOpen(!isOpen)}
+      />
     </>
   );
 };

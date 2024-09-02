@@ -1,7 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Layout from "../components/_App/Layout";
-
 import "../styles/bootstrap.min.css";
 import "../styles/animate.min.css";
 import "../styles/boxicons.min.css";
@@ -21,6 +19,8 @@ import "../styles/responsive.css";
 // Global RTL Styles
 import "../styles/rtl.css";
 
+import Layout from "../components/_App/Layout";
+
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   const seoData = {
     title: "Developers City",
@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
     ogImage: "/images/logo.png",
     ogUrl: "https://developers.city",
     twitterHandle: "@YourDevToolsSite",
-    favicon: "/favicon.ico",
+    favicon: "/images/favicon.png",
     siteName: "YourSite - Developers Tools",
     keywords: "development tools, software development, coding resources",
     author: "Mikdan Tech Solutions",

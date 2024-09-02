@@ -20,11 +20,7 @@ const ChooseProgram = () => {
                 ways of learning skills.
               </p>
 
-              <Link
-                href="/profile-authentication"
-                className="default-btn"
-                legacyBehavior
-              >
+              <Link href="/profile-authentication" className="default-btn">
                 <i className="flaticon-user"></i>Get Started Now <span></span>
               </Link>
             </div>

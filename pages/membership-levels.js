@@ -1,10 +1,14 @@
 import React from "react";
+import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
+import Footer from "../components/_App/Footer";
 import Link from "next/link";
 
 const MembershipLevels = () => {
   return (
     <>
+      <Navbar />
+
       <PageBanner
         pageTitle="Membership Levels"
         homePageUrl="/"
@@ -365,6 +369,8 @@ const MembershipLevels = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };
