@@ -8,8 +8,8 @@ const SubscribeForm = () => {
           <span className="sub-title">Go At Your Own Pace</span>
           <h2>Subscribe To Our Newsletter</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Access our most popular features and more. Start your path to
+            becoming an aspiring trader today.
           </p>
 
           <form className="newsletter-form">

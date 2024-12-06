@@ -1,7 +1,7 @@
 {
   "manifest_package": "org.chromium.webapk.test",
-  "name": "eDemy",
-  "short_name": "eDemy",
+  "name": "Blockchained Snipers",
+  "short_name": "Blockchained Snipers",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#3056de",

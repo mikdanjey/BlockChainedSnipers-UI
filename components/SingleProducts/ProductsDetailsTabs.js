@@ -18,7 +18,7 @@ const ProductsDetailsTabs = () => {
             of a treasure buried near the Pyramids. Lorem ipsum dolor sit.
           </p>
           <ul>
-            <li>Instant eDemy bestseller</li>
+            <li>Instant Blockchained Snipers bestseller</li>
             <li>Translated into 18 languages</li>
             <li>#1 Most Recommended Book of the year.</li>
             <li>

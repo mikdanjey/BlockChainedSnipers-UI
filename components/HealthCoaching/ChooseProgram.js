@@ -12,12 +12,12 @@ const ChooseProgram = () => {
                 Choose Your Program Bellow to See How We Can Help
               </h2>
               <p>
-                eDemy training programs can bring you a super exciting
-                experience of learning through online! You never face any
-                negative experience while enjoying your classNamees virtually by
-                sitting in your comfort zone. Our flexible learning initiatives
-                will help you to learn better and quicker than the traditional
-                ways of learning skills.
+                Blockchained Snipers training programs can bring you a super
+                exciting experience of learning through online! You never face
+                any negative experience while enjoying your classNamees
+                virtually by sitting in your comfort zone. Our flexible learning
+                initiatives will help you to learn better and quicker than the
+                traditional ways of learning skills.
               </p>
 
               <Link href="/profile-authentication" className="default-btn">

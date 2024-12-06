@@ -89,7 +89,8 @@ const Faq = () => {
                     <AccordionItem uuid="c">
                       <AccordionItemHeading>
                         <AccordionItemButton>
-                          How do I find a study abroad program on eDemy.com?
+                          How do I find a study abroad program on Blockchained
+                          Snipers.com?
                         </AccordionItemButton>
                       </AccordionItemHeading>
                       <AccordionItemPanel>
@@ -180,7 +181,8 @@ const Faq = () => {
                     <AccordionItem uuid="c">
                       <AccordionItemHeading>
                         <AccordionItemButton>
-                          How do I find a study abroad program on eDemy.com?
+                          How do I find a study abroad program on Blockchained
+                          Snipers.com?
                         </AccordionItemButton>
                       </AccordionItemHeading>
                       <AccordionItemPanel>
@@ -237,7 +239,8 @@ const Faq = () => {
                     <AccordionItem uuid="a">
                       <AccordionItemHeading>
                         <AccordionItemButton>
-                          How do I find a study abroad program on eDemy.com?
+                          How do I find a study abroad program on Blockchained
+                          Snipers.com?
                         </AccordionItemButton>
                       </AccordionItemHeading>
                       <AccordionItemPanel>
@@ -379,7 +382,8 @@ const Faq = () => {
                     <AccordionItem uuid="d">
                       <AccordionItemHeading>
                         <AccordionItemButton>
-                          How do I find a study abroad program on eDemy.com?
+                          How do I find a study abroad program on Blockchained
+                          Snipers.com?
                         </AccordionItemButton>
                       </AccordionItemHeading>
                       <AccordionItemPanel>
@@ -453,7 +457,8 @@ const Faq = () => {
                     <AccordionItem uuid="c">
                       <AccordionItemHeading>
                         <AccordionItemButton>
-                          How do I find a study abroad program on eDemy.com?
+                          How do I find a study abroad program on Blockchained
+                          Snipers.com?
                         </AccordionItemButton>
                       </AccordionItemHeading>
                       <AccordionItemPanel>

@@ -18,11 +18,11 @@ const FeedbackSliderWithFunFacts = () => {
                   Flexible Study at Your Own Pace, According to Your Own Needs
                 </h2>
                 <p>
-                  With the eDemy, you can study whenever and wherever you
-                  choose. We have students in over 175 countries and a global
-                  reputation as a pioneer in the field of flexible learning. Our
-                  teaching also means, if you travel often or need to relocate,
-                  you can continue to study wherever you go.
+                  With the Blockchained Snipers, you can study whenever and
+                  wherever you choose. We have students in over 175 countries
+                  and a global reputation as a pioneer in the field of flexible
+                  learning. Our teaching also means, if you travel often or need
+                  to relocate, you can continue to study wherever you go.
                 </p>
 
                 <Swiper

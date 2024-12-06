@@ -26,24 +26,17 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>eDemy - React Next.js Education LMS Template</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <meta
-          name="description"
-          content="eDemy - React Next.js Education LMS Template"
-        />
+        <meta name="description" content="Home | Block Chained Snipers" />
         <meta
           name="og:title"
           property="og:title"
-          content="eDemy - React Next.js Education LMS Template"
+          content="Home | Block Chained Snipers"
         ></meta>
-        <meta
-          name="twitter:card"
-          content="eDemy - React Next.js Education LMS Template"
-        ></meta>
+        <meta name="twitter:card" content="Home | Block Chained Snipers"></meta>
         <link rel="canonical" href="https://mikdantech.local"></link>
       </Head>
 

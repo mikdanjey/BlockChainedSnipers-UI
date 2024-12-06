@@ -7,19 +7,20 @@ const DistanceLearning = () => {
       <div className="container">
         <div className="overview-box">
           <div className="overview-content">
-            <span className="sub-title">Distance Learning</span>
-            <h2>Feel Like You Are Attending Your classNamees Physically!</h2>
+            <span className="sub-title">Online Learning</span>
+            <h2>New to trading? Find out if trading suits you</h2>
             <p>
-              eCademy training programs can bring you a super exciting
-              experience of learning through online! You never face any negative
-              experience while enjoying your classNamees virtually by sitting in
-              your comfort zone. Our flexible learning initiatives will help you
-              to learn better and quicker than the traditional ways of learning
-              skills.
+              Our courses have been designed so you can step in at any level of
+              experience. If you are a beginner, we will take you from the most
+              basic principles all the way up to the strategies used by 1000ths
+              of profitable traders. You’ll have strong support along the way
+              from our team of professional traders and your fellow community
+              members.
             </p>
 
             <Link href="#" className="default-btn">
-              <i className="flaticon-user"></i>Get Started Now<span></span>
+              <i className="flaticon-user"></i>Learn more about trading
+              <span></span>
             </Link>
           </div>
 
@@ -34,27 +35,37 @@ const DistanceLearning = () => {
           </div>
 
           <div className="overview-content">
-            <span className="sub-title">eCademy Mobile App</span>
-            <h2>Access From Your Mobile, Learn Any Time Any Where</h2>
-            <p>
-              eCademy training programs can bring you a super exciting
-              experience of learning through online! You never face any negative
-              experience while enjoying your classNamees virtually by sitting in
-              your comfort zone. Our flexible learning initiatives will help you
-              to learn better and quicker than the traditional ways of learning
-              skills.
-            </p>
+            <span className="sub-title">Social Media</span>
+            <h2>Get Updates From Your Mobile Any Where</h2>
+            <p>Full time trader crypto and stock trader</p>
 
             <div className="btn-box">
-              <Link href="#" className="playstore-btn">
-                <img src="/images/playstore.png" alt="image" />
-                GET IT ON<span>Google Play</span>
-              </Link>
+              <a
+                href="https://instagram.com/blockchainedbb"
+                target="_blank"
+                className="playstore-btn"
+              >
+                <img src="/images/instagram.png" alt="image" />
+                Follow on<span>Instagram</span>
+              </a>
 
-              <Link href="#" className="applestore-btn">
-                <img src="/images/applestore.png" alt="image" />
-                GET IT ON<span>Apple Store</span>
-              </Link>
+              <a
+                href="https://x.com/blockchainedbb"
+                target="_blank"
+                className="applestore-btn"
+              >
+                <img src="/images/twitter.png" alt="image" />
+                Follow on<span>Twitter</span>
+              </a>
+
+              <a
+                href="https://tiktok.com/@blockchainedbb_vivian"
+                target="_blank"
+                className="applestore-btn"
+              >
+                <img src="/images/tik-tok.png" alt="image" />
+                Follow on<span>Tittok</span>
+              </a>
             </div>
           </div>
         </div>

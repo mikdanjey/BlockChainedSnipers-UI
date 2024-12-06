@@ -9,7 +9,7 @@ const SuccessfulStudents = () => {
           <span className="sub-title">Education For Everyone</span>
           <h2>
             Start writing your own success story with a good beginning from
-            eDemy help
+            Blockchained Snipers help
           </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

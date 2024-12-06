@@ -14,11 +14,11 @@ const GetInstantCourses = () => {
                 </span>
                 <h2>Self Development Course</h2>
                 <p>
-                  eDemy Self Development Course can assist you in bringing the
-                  significant changes in personal understanding and reshaping
-                  the confidence to achieve the best from your career! We trust
-                  that learning should be enjoyable, and only that can make
-                  substantial changes to someone!
+                  Blockchained Snipers Self Development Course can assist you in
+                  bringing the significant changes in personal understanding and
+                  reshaping the confidence to achieve the best from your career!
+                  We trust that learning should be enjoyable, and only that can
+                  make substantial changes to someone!
                 </p>
 
                 <Link href="/profile-authentication" className="default-btn">

@@ -1,0 +1,230 @@
+html.dark body{
+    background-color: #171818;
+    color: #C6C6C6;
+
+}
+
+html.dark a {
+    color: #ffffff;
+}
+
+html.dark a:hover{
+    color: #fe4a55;
+}
+
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark h5 {
+ color: #C6C6C6;
+}
+
+html.dark .edemy-nav .navbar .navbar-nav .nav-item a {
+    color: #D3D4D4;
+}
+
+html.dark .edemy-nav .navbar .navbar-nav .nav-item a:hover{
+    color: #fe4a55;
+}
+
+html.dark .navbar-area {
+	background-color: #171818;
+	border-bottom: 1px solid #2E2F2F;
+}
+
+html.dark .navbar-area.is-sticky {
+    background-color: #1C1D1E !important;
+	border-bottom: 1px solid #2E2F2F;
+}
+
+html.dark .dropdown-menu {
+    background-color: #2D2D2D;
+}
+
+html.dark .dropdown-menu a,
+html.dark .dropdown-item{
+    color: #C6C6C6;
+}
+
+html.dark .dropdown-item:focus,
+html.dark .dropdown-item:hover {
+    background-color: #171818;
+}
+
+html.dark .footer-area {
+    background-color: #1C1D1E;
+	border-top: 1px solid #2E2F2F;
+}
+
+html.dark .modal-content  {
+    background-color: #2D2D2D;
+    color: #CBCBCB;
+}
+
+html.dark .main-content .container-fluid {
+    background-color: #171818;
+}
+
+html.dark .main-content-box {
+    color: #C6C6C6;
+}
+
+html.dark .main-content-box h2, 
+html.dark .main-content-box h3,
+html.dark .modal-content .h4,
+html.dark .main-content-box .table,
+html.dark .main-content-box .data-col{
+ color: #C6C6C6;
+}
+
+html.dark .side-nav-wrapper {
+    background-color: #1D1D1D;
+}
+
+html.dark .hero-banner-area {
+	background-color: #171818;
+	padding-bottom: 200px;
+}
+html.dark .hero-banner-area .container-fluid {
+    color: #fff;
+}
+
+html.dark .hero-banner-content h1,
+html.dark .hero-banner-content p,
+html.dark .video-sidebar .course-video-list ul li span{
+    color: #fff;
+}
+
+html.dark .default-btn:hover {
+    color: #fff;
+    background-color: none;
+    border-color: none;
+}
+
+html.dark .overview-area {
+    color: #fff;
+    background-color: #171818;
+}
+
+html.dark .overview-area h2{
+    color: #fff;   
+}
+
+html.dark .about-area {
+    background-color: #171818;
+}
+
+html.dark .about-area h2,
+html.dark .about-area h4 {
+	color: #fff;
+}
+
+html.dark .info-box-card,
+html.dark .cart-totals
+ {
+    background-color: #1D1D1D;
+
+}
+
+html.dark .info-box-card h1,
+html.dark .cart-totals h3,
+html.dark .single-courses-item p{
+    color: #fff;
+}
+
+html.dark .info-box-card p,
+html.dark .cart-totals li,
+html.dark .cart-totals p,
+html.dark .cart-totals span,
+html.dark .cart-totals ul li:last-child span {
+    font-weight: bold;
+    color: #979797;
+}
+
+html.dark .login-form,
+html.dark .faq-accordion .accordion .accordion__item,
+html.dark .faq-accordion .accordion .accordion__button,
+html.dark .single-courses-box,
+html.dark .single-courses-item,
+html.dark .basic-profile-information-form .card,
+html.dark .single-box-item {
+    background-color: #1D1D1D;
+    color: #979797;
+}
+
+html.dark .login-form form .form-group label,
+html.dark .register-form form .form-group label {
+    color: #979797;
+}
+
+html.dark .form-control:focus {
+    background-color: #ffffff;
+}
+
+html.dark .page-title-area {
+    background-color: #171818;
+}
+
+html.dark .page-title-content ul li {
+    color: #fe4a55;
+}
+
+html.dark .courses-details-desc .react-tabs__tab-list {
+    background-color: #1D1D1D;
+    color: #979797;
+}
+
+html.dark .courses-details-desc .react-tabs__tab-list .react-tabs__tab:hover,
+html.dark .courses-details-desc .react-tabs__tab-list .react-tabs__tab.react-tabs__tab--selected {
+    color: #fe4a55;
+}
+
+html.dark .video-area .container-fluid,
+html.dark .video-area::before {
+    background-color: #171818;
+}
+
+html.dark .drawer-menu .modal-content .modal-body ul li .nav-link {
+    color: #ffffff;
+}
+html.dark .drawer-menu .modal-content .modal-body ul li .nav-link.active,
+html.dark .drawer-menu .modal-content .modal-body ul li .nav-link:hover {
+    color: #fe4a55;
+}
+html.dark .navbar-toggler .icon-bar {
+	background: #fe4a55;
+}
+html.dark .video-sidebar .course-video-list ul li:hover {
+    background-color: #171818;
+}
+html.dark .video-sidebar .video-icon {
+    font-weight: 400;
+}
+html.dark .video-sidebar .video-title {
+    font-weight: 400;
+}
+html.dark .success-story-area::before {
+    background-color: #171818;
+}
+
+html.dark .default-btn,
+html.dark .default-btn:not(:first-child),
+html.dark .default-btn:not(:first-child):hover {	
+    border-radius: 5px;
+	border: 1px solid #ffffff;
+}
+
+html.dark .ag-row-even div,
+html.dark .ag-row-odd div,
+html.dark .ag-center-cols-viewport,
+html.dark .ag-header-viewport,
+html.dark .ag-header-viewport span,
+html.dark .ag-filter {
+    background-color: #1D1D1D;
+    color: #ffffff;
+}
+
+html.dark .ag-wrapper{
+    color: #171818;
+}

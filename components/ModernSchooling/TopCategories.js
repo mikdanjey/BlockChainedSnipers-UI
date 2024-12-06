@@ -20,7 +20,7 @@ const TopCategories = () => {
               <img src="/images/categories/categorie1.jpg" alt="image" />
 
               <div className="content">
-                <h3>Development</h3>
+                <h3>Stocks</h3>
                 <span>10 Courses</span>
               </div>
 
@@ -33,7 +33,7 @@ const TopCategories = () => {
               <img src="/images/categories/categorie2.jpg" alt="image" />
 
               <div className="content">
-                <h3>Business</h3>
+                <h3>Crypto</h3>
                 <span>20 Courses</span>
               </div>
 
@@ -46,7 +46,7 @@ const TopCategories = () => {
               <img src="/images/categories/categorie3.jpg" alt="image" />
 
               <div className="content">
-                <h3>IT & Software</h3>
+                <h3>Options & Futures</h3>
                 <span>15 Courses</span>
               </div>
 
@@ -59,7 +59,7 @@ const TopCategories = () => {
               <img src="/images/categories/categorie4.jpg" alt="image" />
 
               <div className="content">
-                <h3>Design</h3>
+                <h3>NFT</h3>
                 <span>11 Courses</span>
               </div>
 
@@ -67,7 +67,7 @@ const TopCategories = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-sm-6 col-md-6">
+          {/* <div className="col-lg-3 col-sm-6 col-md-6">
             <div className="single-categories-box">
               <img src="/images/categories/categorie5.jpg" alt="image" />
 
@@ -117,7 +117,7 @@ const TopCategories = () => {
 
               <Link href="/courses-1" className="link-btn"></Link>
             </div>
-          </div>
+          </div> */}
 
           <div className="col-lg-12 col-sm-12 col-md-12">
             <div className="categories-btn-box">

@@ -11,35 +11,54 @@ const Footer = () => {
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="single-footer-widget">
               <Link href="/" className="logo">
-                <img src="/images/logo2.png" alt="logo" />
+                {/* <img src="/images/logo2.png" alt="logo" /> */}
+                <span
+                  style={{ color: "white" }}
+                  className="custom-navbar-brand"
+                >
+                  BlockChainedSnipers
+                </span>
               </Link>
 
               <p>
                 Working to bring significant changes in online-based learning by
-                doing extensive research for course curriculum preparation,
-                student engagements, and looking forward to the flexible
-                education!
+                doing extensive research for trading curriculum preparation,
+                traders engagements, and looking forward to the flexible
+                trading!
               </p>
 
               <ul className="social-link">
                 <li>
-                  <a href="#" className="d-block" target="_blank">
-                    <i className="bx bxl-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="d-block" target="_blank">
-                    <i className="bx bxl-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="d-block" target="_blank">
+                  <a
+                    href="https://instagram.com/blockchainedbb"
+                    className="d-block"
+                    target="_blank"
+                  >
                     <i className="bx bxl-instagram"></i>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#" className="d-block" target="_blank">
-                    <i className="bx bxl-linkedin"></i>
+                    <i className="bx bxl-facebook"></i>
+                  </a>
+                </li> */}
+                <li>
+                  <a
+                    href="https://x.com/blockchainedbb"
+                    className="d-block"
+                    target="_blank"
+                  >
+                    <i className="bx bxl-twitter"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.youtube.com/channel/UCItYfMrbngJt2lKLjHZNrIQ"
+                    className="d-block"
+                    target="_blank"
+                  >
+                    <i className="bx bxl-youtube"></i>
                   </a>
                 </li>
               </ul>
@@ -54,21 +73,15 @@ const Footer = () => {
                   <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="/about-1">About</Link>
+                  <Link href="/follow-us">Follow</Link>
                 </li>
                 <li>
-                  <Link href="/courses-1">Courses</Link>
-                </li>
-                <li>
-                  <Link href="/events">Events</Link>
-                </li>
-                <li>
-                  <Link href="/contact">Contact</Link>
+                  <Link href="/deals">Deals</Link>
                 </li>
               </ul>
             </div>
           </div>
-
+          {/* 
           <div className="col-lg-2 col-md-6 col-sm-6">
             <div className="single-footer-widget">
               <h3>Resources</h3>
@@ -91,11 +104,12 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-
+*/}
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="single-footer-widget">
-              <h3>Address</h3>
+              <h3>Contact</h3>
               <ul className="footer-contact-info">
+                {/* 
                 <li>
                   <i className="bx bx-map"></i>
                   2750 Quadra Street Golden Victoria Road, New York, USA
@@ -105,12 +119,15 @@ const Footer = () => {
                   <a href="tel:+44587154756">+1 (123) 456 7890</a>
                 </li>
                 <li>
-                  <i className="bx bx-envelope"></i>
-                  <a href="mailto:hello@edemy.com">hello@edemy.com</a>
-                </li>
-                <li>
                   <i className="bx bxs-inbox"></i>
                   <a href="tel:+557854578964">+55 785 4578964</a>
+                </li>
+                */}
+                <li>
+                  <i className="bx bx-envelope"></i>
+                  <a href="mailto://support@blockchainedsnipers.com">
+                    support@blockchainedsnipers.com
+                  </a>
                 </li>
               </ul>
             </div>
@@ -121,14 +138,11 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
               <p>
-                <i className="bx bx-copyright"></i>
-                {currentYear} eDemy is Proudly Powered by{" "}
-                <a target="_blank" href="https://envytheme.com/">
-                  EnvyTheme
-                </a>
+                <i className="bx bx-copyright"></i> {currentYear}{" "}
+                BlockChainedSnipers, All Rights Reserved
               </p>
             </div>
-
+            {/*
             <div className="col-lg-6 col-md-6">
               <ul>
                 <li>
@@ -139,6 +153,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
+              */}
           </div>
         </div>
       </div>

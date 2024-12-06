@@ -22,7 +22,7 @@ const SloganArea = () => {
                 projects.
               </p>
               <h3>William James</h3>
-              <span className="sub-title">CEO at eDemy</span>
+              <span className="sub-title">CEO at Blockchained Snipers</span>
             </div>
           </div>
         </div>

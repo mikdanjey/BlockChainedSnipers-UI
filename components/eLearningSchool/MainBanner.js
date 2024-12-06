@@ -11,8 +11,9 @@ const MainBanner = () => {
               <h1>The World’s Leading Distance Learning Provider</h1>
               <p>
                 Flexible easy to access learning opportunities can bring a
-                significant change in how individuals prefer to learn! The eDemy
-                can offer you to enjoy the beauty of eLearning!
+                significant change in how individuals prefer to learn! The
+                Blockchained Snipers can offer you to enjoy the beauty of
+                eLearning!
               </p>
 
               <Link href="/profile-authentication" className="default-btn">

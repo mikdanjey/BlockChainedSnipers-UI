@@ -34,9 +34,9 @@ const PrivacyPolicy = () => {
                     We collect certain data from you directly, like information
                     you enter yourself, data about your participation in
                     courses, and data from third-party platforms you connect
-                    with eDemy. We also collect some data automatically, like
-                    information about your device and what parts of our Services
-                    you interact with or spend time using.
+                    with Blockchained Snipers. We also collect some data
+                    automatically, like information about your device and what
+                    parts of our Services you interact with or spend time using.
                   </p>
                 </blockquote>
 

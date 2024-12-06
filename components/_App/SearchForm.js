@@ -7,8 +7,6 @@ const SearchForm = () => {
   const handleOnChange = (e) => {
     const { name, value } = e.target;
     setSearch((prevState) => ({ ...prevState, [name]: value }));
-
-    // console.log("dsddsd")
   };
 
   const handleSearch = (e) => {

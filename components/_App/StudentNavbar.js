@@ -22,8 +22,8 @@ const StudentNavbar = ({ user }) => {
     });
   });
 
-  const isAdmin = user && user.role === "admin";
-  const isTeacher = user && user.role === "teacher";
+  const isAdmin = user && user.userType === "ADMIN";
+  const isTeacher = user && user.userType === "EMPLOYEE";
 
   const classOne = menu
     ? "collapse navbar-collapse"
